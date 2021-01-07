@@ -6,6 +6,7 @@
 * hd - hierarchical deterministic 按照一定格式展示账号
 * accounts - 账号（地址和或URL）、钱包（实现指定接口）、后端（指定钱包，及订阅通道）
 * usbwallet - USB 硬件钱包
+* scwallet - smartcard 智能卡钱包
 
 
 
