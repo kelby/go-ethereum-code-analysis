@@ -48,7 +48,7 @@
 * [ethdb](ethdb.md)
 * [ethstats](ethstats.md)
 * [event](event.md)
-* graphql
+* [graphql](graphql.md)
 * internal
 * les
 * light
