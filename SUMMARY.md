@@ -6,4 +6,5 @@
 * [cmd](cmd.md)
 * [common](common.md)
 * [consensus](consensus.md)
+* [console](console.md)
 
