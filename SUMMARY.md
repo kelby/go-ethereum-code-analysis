@@ -44,7 +44,7 @@
   * [gasprice](eth/gasprice.md)
   * [protocols](eth/protocols.md)
   * [tracers](eth/tracers.md)
-* ethclient
+* [ethclient](ethclient.md)
 * [ethdb](ethdb.md)
 * [ethstats](ethstats.md)
 * event
