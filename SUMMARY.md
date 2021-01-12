@@ -12,7 +12,7 @@
   * bloombits
   * forkid
   * rawdb
-  * state
+  * [state](core/state.md)
   * types
   * [vm](core/vm.md)
   * TxPool
