@@ -50,9 +50,9 @@
   * enr
   * nat
   * netutil
-  * nodestate
+  * [nodestate](p2p/nodestate.md)
   * rlpx
-  * simulations
+  * [simulations](p2p/simulations.md)
 * [params](params.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
