@@ -17,4 +17,11 @@
   * vm
   * TxPool
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
+* [crypto](crypto.md)
+  * [blake2b](crypto/blake2b.md)
+  * [bls12381](crypto/bls12381.md)
+  * [bn256](crypto/bn256.md)
+  * [ecies](crypto/ecies.md)
+  * [secp256k1](crypto/secp256k1.md)
+  * [signify](crypto/signify.md)
 
