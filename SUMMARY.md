@@ -15,5 +15,6 @@
   * state
   * types
   * vm
+  * TxPool
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 
