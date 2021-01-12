@@ -32,8 +32,8 @@
   * [protocols](eth/protocols.md)
   * [tracers](eth/tracers.md)
 * ethclient
-* ethdb
-* ethstats
+* [ethdb](ethdb.md)
+* [ethstats](ethstats.md)
 * event
 * graphql
 * internal
@@ -43,10 +43,9 @@
 * mobile
 * node
 * p2p
-* params
+* [params](params.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
-* signer
-* swarm
+* [signer](signer.md)
 * [trie](trie.md)
 
