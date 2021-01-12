@@ -39,7 +39,7 @@
 * internal
 * les
 * light
-* miner
+* [miner](miner.md)
 * mobile
 * node
 * p2p
