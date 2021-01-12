@@ -15,7 +15,7 @@
   * faucet
   * geth
   * p2psim
-  * puppeth
+  * [puppeth](cmd/puppeth.md)
   * [rlpdump](cmd/rlpdump.md)
 * [common](common.md)
 * [consensus](consensus.md)
