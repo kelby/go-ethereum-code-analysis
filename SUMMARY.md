@@ -14,7 +14,7 @@
   * rawdb
   * state
   * types
-  * vm
+  * [vm](core/vm.md)
   * TxPool
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
