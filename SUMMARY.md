@@ -45,7 +45,7 @@
 * p2p
 * params
 * [rlp](rlp.md)
-* rpc
+* [rpc](rpc.md)
 * signer
 * swarm
 * [trie](trie.md)
