@@ -8,7 +8,7 @@
 
 ｜-state\_object.go 通过state object操作账户值，并将修改后的storage trie写入数据库。表示正在修改的以太坊帐户。
 
-｜-statedb.go，以太坊整个的状态
+｜-statedb.go，以太坊整个的状态。用来存储以太坊中关于merkle trie的所有内容。 StateDB负责缓存和存储嵌套状态。
 
 ｜-sync.go，用来和downloader结合起来同步state
 
