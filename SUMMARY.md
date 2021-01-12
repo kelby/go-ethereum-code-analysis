@@ -40,7 +40,7 @@
 * les
 * light
 * [miner](miner.md)
-* mobile
+* [mobile](mobile.md)
 * [node](node.md)
 * [p2p](p2p.md)
   * [discover](p2p/discover.md)
