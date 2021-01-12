@@ -44,7 +44,7 @@
 * node
 * p2p
 * params
-* rlp
+* [rlp](rlp.md)
 * rpc
 * signer
 * swarm
