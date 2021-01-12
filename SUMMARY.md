@@ -16,7 +16,7 @@
   * geth
   * p2psim
   * puppeth
-  * rlpdump
+  * [rlpdump](cmd/rlpdump.md)
 * [common](common.md)
 * [consensus](consensus.md)
 * [console](console.md)
