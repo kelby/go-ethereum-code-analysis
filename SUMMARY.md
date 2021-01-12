@@ -4,6 +4,19 @@
 * [First Chapter](chapter1.md)
 * [accounts](accounts.md)
 * [cmd](cmd.md)
+  * abidump
+  * abigen
+  * bootnode
+  * checkpoint-admin
+  * clef
+  * devp2p
+  * ethkey
+  * evm
+  * faucet
+  * geth
+  * p2psim
+  * puppeth
+  * rlpdump
 * [common](common.md)
 * [consensus](consensus.md)
 * [console](console.md)
