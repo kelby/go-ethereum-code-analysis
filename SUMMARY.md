@@ -41,7 +41,7 @@
 * light
 * [miner](miner.md)
 * mobile
-* node
+* [node](node.md)
 * p2p
 * [params](params.md)
 * [rlp](rlp.md)
