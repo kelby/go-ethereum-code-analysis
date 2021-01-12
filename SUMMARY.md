@@ -31,4 +31,22 @@
   * [gasprice](eth/gasprice.md)
   * [protocols](eth/protocols.md)
   * [tracers](eth/tracers.md)
+* ethclient
+* ethdb
+* ethstats
+* event
+* graphql
+* internal
+* les
+* light
+* miner
+* mobile
+* node
+* p2p
+* params
+* rlp
+* rpc
+* signer
+* swarm
+* trie
 
