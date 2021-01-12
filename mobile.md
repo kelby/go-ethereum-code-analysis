@@ -1,6 +1,6 @@
 simplified mobile APIs
 
-* 账号和地址
+* 账号\(Account/Accounts\)和地址\(Address/Addresses\)
 * 区块
 * 合约、收据
 * 合约调用
