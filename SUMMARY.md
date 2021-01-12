@@ -51,7 +51,7 @@
 * [graphql](graphql.md)
 * internal
 * les
-* light
+* [light](light.md)
 * [miner](miner.md)
 * [mobile](mobile.md)
 * [node](node.md)
