@@ -48,5 +48,5 @@
 * rpc
 * signer
 * swarm
-* trie
+* [trie](trie.md)
 
