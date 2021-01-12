@@ -4,3 +4,5 @@
 
 clique目录下的代码实现的是PoA\(权威证明，Proof of Authority\)共识；在ethash目录下实现的是PoW\(工作量证明，Proof of Work\)共识。
 
+clique仅在测试网络里使用，真实的以太坊主网还是使用PoW算法（ethash模块实现）
+
