@@ -42,7 +42,17 @@
 * [miner](miner.md)
 * mobile
 * [node](node.md)
-* p2p
+* [p2p](p2p.md)
+  * [discover](p2p/discover.md)
+  * discv5
+  * dnsdisc
+  * enode
+  * enr
+  * nat
+  * netutil
+  * nodestate
+  * rlpx
+  * simulations
 * [params](params.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
