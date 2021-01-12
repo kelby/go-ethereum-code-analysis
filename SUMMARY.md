@@ -5,4 +5,5 @@
 * [accounts](accounts.md)
 * [cmd](cmd.md)
 * [common](common.md)
+* [consensus](consensus.md)
 
