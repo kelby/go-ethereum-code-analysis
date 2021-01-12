@@ -6,14 +6,14 @@
 * [cmd](cmd.md)
   * abidump
   * abigen
-  * bootnode
+  * [bootnode](cmd/bootnode.md)
   * checkpoint-admin
   * clef
   * devp2p
   * ethkey
-  * evm
-  * faucet
-  * geth
+  * [evm](cmd/evm.md)
+  * [faucet](cmd/faucet.md)
+  * [geth](cmd/geth.md)
   * [p2psim](cmd/p2psim.md)
   * [puppeth](cmd/puppeth.md)
   * [rlpdump](cmd/rlpdump.md)
