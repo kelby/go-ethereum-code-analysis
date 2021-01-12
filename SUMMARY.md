@@ -47,7 +47,7 @@
 * [ethclient](ethclient.md)
 * [ethdb](ethdb.md)
 * [ethstats](ethstats.md)
-* event
+* [event](event.md)
 * graphql
 * internal
 * les
