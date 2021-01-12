@@ -24,4 +24,11 @@
   * [ecies](crypto/ecies.md)
   * [secp256k1](crypto/secp256k1.md)
   * [signify](crypto/signify.md)
+* [eth](eth.md)
+  * [downloader](eth/downloader.md)
+  * [fetcher](eth/fetcher.md)
+  * [filters](eth/filters.md)
+  * [gasprice](eth/gasprice.md)
+  * [protocols](eth/protocols.md)
+  * [tracers](eth/tracers.md)
 
