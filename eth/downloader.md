@@ -6,15 +6,13 @@ downloader主要负责区块链最开始的同步工作，当前的同步有两�
 
 downloader.go ：实现了区块同步逻辑
 
-
-
 peer.go ：对区块各个阶段的组装，下面的各个FetchXXX 就是很依赖这个模块。
-
-
 
 queue.go ：对eth/peer.go的封装
 
-
-
 statesync.go ：同步state对象
+
+fetcher 模块和 downloader 模块所承担的任务是不同的：
+
+downloader 功能比较重，用来保证自己的区块链和其它节点之间不会有太多差距。
 

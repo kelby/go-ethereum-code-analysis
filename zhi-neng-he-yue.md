@@ -13,6 +13,7 @@
 * 送入解释器执行 - EVM是基于栈的虚拟机。分别对Stack、Memory或者StateDB进行读写操作。
 
 * 调用合约函数
+
 * 合约调用合约
 * 创建合约
 * 油费计算
@@ -21,10 +22,10 @@
 
 手动布署合约：
 
-* 编写合约
-* 编译合约
-* 提交合约
-* 调用合约
+* 编写合约 - solidity
+* 编译合约 - bin/asm
+* 提交合约 - rpc eth\_sendTransaction, eth\_getTransactionReceipt
+* 调用合约 - eth\_call/eth\_sendTransaction
 
 
 
