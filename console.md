@@ -14,8 +14,6 @@
 
 * 将RPC调用结果输出到命令行
 
-
-
 涉及到很多模块。这些模块都被包含在Console的数据结构之中：
 
 ```go
@@ -23,15 +21,29 @@
 // JavaScript console attached to a running node via an external or in-process RPC
 // client.
 type Console struct {
-	client   *rpc.Client         // RPC client to execute Ethereum requests through
-	jsre     *jsre.JSRE          // JavaScript runtime environment running the interpreter
-	prompt   string              // Input prompt prefix string
-	prompter prompt.UserPrompter // Input prompter to allow interactive user feedback
-	histPath string              // Absolute path to the console scrollback history
-	history  []string            // Scroll history maintained by the console
-	printer  io.Writer           // Output writer to serialize any display strings to
+    client   *rpc.Client         // RPC client to execute Ethereum requests through
+    jsre     *jsre.JSRE          // JavaScript runtime environment running the interpreter
+    prompt   string              // Input prompt prefix string
+    prompter prompt.UserPrompter // Input prompter to allow interactive user feedback
+    histPath string              // Absolute path to the console scrollback history
+    history  []string            // Scroll history maintained by the console
+    printer  io.Writer           // Output writer to serialize any display strings to
 }
 ```
+
+Liner：带历史记录的命令行编辑器
+
+Otto：JavaScript解释器
+
+JSRE：实现事件循环
+
+web3.js和bridge
+
+RPC Client
+
+RPC Server
+
+把所有知识串联到一起
 
 
 
