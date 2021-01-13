@@ -70,3 +70,5 @@ type Header struct {
 
 一个区块在数据库中被分为Header和Body两部分。
 
+
+

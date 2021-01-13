@@ -71,3 +71,19 @@ type BlockChain struct {
 
 blockchain.go中实现的BlockChain结构及方法是核心实现
 
+如何判断是否主链？
+
+新插入区块时会判断当前区块所在的分支是否已经成为主链了。判断的代码在BlockChain.writeBlockWithState中
+
+如何调整成为主链?
+
+调整主要通过BlockChain.reorg和BlockChain.insert实现的
+
+state的实现方式?
+
+以太坊的state对象是以太坊账户数据的“状态机”，记录着每一个区块下所有账户的相关信息。而state对象的底层实现是trie. 
+
+trie同时拥有默克尔树和字典树的功能，但本质上，trie就是一棵树，且trie的key就是以太坊的账户地址，而value而是账户地址对应的信息，也就是说账户地址的信息存储在树的叶子结节中。因此如果一个账户信息发生了改变，那么所有这个叶子到根结点这个路径上的结点都会发生改变。
+
+
+
