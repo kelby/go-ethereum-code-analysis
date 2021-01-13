@@ -86,6 +86,8 @@ bloom过滤器是用来快速的查找log的，那以太坊是如何用bloom过�
 
 想要要找某一条log，如果从区块链的头区块开始，根据区块头的hash依次开始查找的话是效率比较低的，每个区块写在本地数据库是散列存储的， 会增加很多io请求，io请求的速度很慢的。如何能快速的找到目的区块，这时候就要用到Chain\_Indexer。以太坊的BloomIndexer具体实现了Chain\_Indexer，可以认为是Chain\_Indexer的派生类。
 
+> 以太坊先创建topics的bloom，再创建logs的bloom，再创建收据的bloom，在创建header的bloom，最后创建block的bloom，一步一步构建上去。于此对应的，在查找日志的过程正好相反，先在block的bloom里面找，再在header的bloom里面找，再在收据的bloom里面找，直到找到最终的日志。
+
 
 
 
