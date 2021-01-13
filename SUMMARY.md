@@ -38,6 +38,9 @@
   * [vm](core/vm.md)
   * [TxPool](core/txpool.md)
   * [BlockChain](core/blockchain.md)
+  * GasPool
+  * Genesis
+  * HeaderChain
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
