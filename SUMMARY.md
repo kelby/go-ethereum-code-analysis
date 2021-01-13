@@ -26,7 +26,7 @@
   * forkid
   * [rawdb](core/rawdb.md)
   * [state](core/state.md)
-  * types
+  * [types](core/types.md)
   * [vm](core/vm.md)
   * [TxPool](core/txpool.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
