@@ -78,3 +78,15 @@ type Header struct {
 
 一个区块在数据库中被分为Header和Body两部分。
 
+通过源码我们可以看到Bloom数组就是从收据\(Receipt\)中的Logs字段生成的。具体的内容是Logs中的Address和Topics字段。
+
+区块头的Bloom字段其实就是根据一套算法（bloom9\)将合约Address和Topics生成了一个2048字节的数组。方便用户可以查看自己感兴趣的日志。
+
+bloom过滤器是用来快速的查找log的，那以太坊是如何用bloom过滤器来查找的呢？
+
+想要要找某一条log，如果从区块链的头区块开始，根据区块头的hash依次开始查找的话是效率比较低的，每个区块写在本地数据库是散列存储的， 会增加很多io请求，io请求的速度很慢的。如何能快速的找到目的区块，这时候就要用到Chain\_Indexer。以太坊的BloomIndexer具体实现了Chain\_Indexer，可以认为是Chain\_Indexer的派生类。
+
+
+
+
+
