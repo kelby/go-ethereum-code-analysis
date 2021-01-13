@@ -44,5 +44,45 @@ type TxPool struct {
 }
 ```
 
+交易提交到txpool中后，还需要广播出去，一方面通知EVM执行该交易，另一方面要把交易信息广播给其他结点。
+
+```go
+// promoteTx adds a transaction to the pending (processable) list of transactions
+// and returns whether it was inserted or an older was better.
+//
+// Note, this method assumes the pool lock is held!
+func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.Transaction) bool {
+	// Try to insert the transaction into the pending queue
+	if pool.pending[addr] == nil {
+		pool.pending[addr] = newTxList(true)
+	}
+	list := pool.pending[addr]
+
+	inserted, old := list.Add(tx, pool.config.PriceBump)
+	if !inserted {
+		// An older transaction was better, discard this
+		pool.all.Remove(hash)
+		pool.priced.Removed(1)
+		pendingDiscardMeter.Mark(1)
+		return false
+	}
+	// Otherwise discard any previous transaction and mark this
+	if old != nil {
+		pool.all.Remove(old.Hash())
+		pool.priced.Removed(1)
+		pendingReplaceMeter.Mark(1)
+	} else {
+		// Nothing was replaced, bump the pending counter
+		pendingGauge.Inc(1)
+	}
+	// Set the potentially new pending nonce and notify any subsystems of the new tx
+	pool.pendingNonces.set(addr, tx.Nonce()+1)
+
+	// Successful promotion, bump the heartbeat
+	pool.beats[addr] = time.Now()
+	return true
+}
+```
+
 
 
