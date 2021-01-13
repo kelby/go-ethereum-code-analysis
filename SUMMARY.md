@@ -29,14 +29,15 @@
   * [ethash](consensus/ethash.md)
 * [console](console.md)
 * [core](core.md)
-  * asm
-  * bloombits
-  * forkid
+  * [asm](core/asm.md)
+  * [bloombits](core/bloombits.md)
+  * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
   * [state](core/state.md)
   * [types](core/types.md)
   * [vm](core/vm.md)
   * [TxPool](core/txpool.md)
+  * [BlockChain](core/blockchain.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
