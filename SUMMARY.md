@@ -17,6 +17,7 @@
   * [p2psim](cmd/p2psim.md)
   * [puppeth](cmd/puppeth.md)
   * [rlpdump](cmd/rlpdump.md)
+  * [ABI](cmd/abi.md)
 * [common](common.md)
 * [consensus](consensus.md)
 * [console](console.md)
