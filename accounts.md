@@ -12,7 +12,9 @@
 
 accounts 模块是以太坊的账户管理模块，其实也是一个命令行的钱包。它可以使用本地文件存储加密的私钥信息；也可以连接硬件钱包实现对私钥的创建与管理。
 
-在 accounts 中总共支持两大类共4种钱包类型。三大类包括 keystore 和 usbwallet 以及 smartcard；其中keystore中的私钥存储可以分为加密的和不加密的；usbwallet支持ledger和trenzer两种硬件钱包。
+在 accounts 中总共支持两大类共4种钱包类型。
+
+三大类包括 keystore 和 usbwallet 以及 smartcard；其中keystore中的私钥存储可以分为加密的和不加密的；usbwallet支持ledger和trenzer两种硬件钱包。
 
 keystore类型的钱包其实是一个本地文件夹目录。在这个目录下可以存放多个文件，每个文件都存储着一个私钥信息。这些文件都是json格式
 
