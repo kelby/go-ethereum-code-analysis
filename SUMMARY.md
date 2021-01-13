@@ -4,11 +4,11 @@
 * [区块链要素](chapter1.md)
 * [accounts](accounts.md)
 * [cmd](cmd.md)
-  * abidump
-  * abigen
+  * [abidump](cmd/abidump.md)
+  * [abigen](cmd/abigen.md)
   * [bootnode](cmd/bootnode.md)
-  * checkpoint-admin
-  * clef
+  * [checkpoint-admin](cmd/checkpoint-admin.md)
+  * [clef](cmd/clef.md)
   * devp2p
   * ethkey
   * [evm](cmd/evm.md)
@@ -60,7 +60,7 @@
   * testlog
   * utesting
   * web3ext
-* les
+* [les](les.md)
 * [light](light.md)
 * [miner](miner.md)
 * [mobile](mobile.md)
