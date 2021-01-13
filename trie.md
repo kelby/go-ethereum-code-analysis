@@ -7,5 +7,5 @@
 * 同步 Sync
 * 树 Trie
 
-
+Merkle Patricia Tree（又称为Merkle Patricia Trie）是一种经过改良的、融合了Merkle tree和前缀树两种树结构优点的数据结构，是以太坊中用来组织管理账户数据、生成交易集合哈希的重要数据结构。
 
