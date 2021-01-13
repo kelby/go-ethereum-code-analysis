@@ -49,7 +49,17 @@
 * [ethstats](ethstats.md)
 * [event](event.md)
 * [graphql](graphql.md)
-* internal
+* [internal](internal.md)
+  * build
+  * cmdtest
+  * debug
+  * [ethapi](internal/ethapi.md)
+  * flags
+  * guide
+  * jsre
+  * testlog
+  * utesting
+  * web3ext
 * les
 * [light](light.md)
 * [miner](miner.md)
