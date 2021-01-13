@@ -10,6 +10,8 @@ implements the general Ethereum API functions.
 * 公开交易池API1 PublicTransactionPoolAPI
 * 公开交易池API2 PublicTxPoolAPI
 
+用户通过JSON RPC发起eth\_sendTransaction请求，最终会调用PublicTransactionPoolAPI
+
 发起交易，数据结构：
 
 ```go
