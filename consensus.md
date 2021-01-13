@@ -16,3 +16,5 @@ ethash.go 实现了cache结构体和dataset结构体及它们各自的方法、M
 
 sealer.go 实现了共识接口的Seal方法，和Ethash的内部方法mine。这些方法实现了ethash的挖矿功能。
 
+
+
