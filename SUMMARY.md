@@ -13,7 +13,7 @@
   * ethkey
   * [evm](cmd/evm.md)
   * [faucet](cmd/faucet.md)
-  * [geth](cmd/geth.md)
+  * [geth \*](cmd/geth.md)
   * [p2psim](cmd/p2psim.md)
   * [puppeth](cmd/puppeth.md)
   * [rlpdump](cmd/rlpdump.md)
