@@ -6,7 +6,7 @@ geth is the official command-line client for Ethereum.
 
 启动过程如下：
 
-以太坊启动主要做了3件事：创建结点makeFullNode、启动结点、结点进入等待状态
+以太坊启动主要做了3件事：创建结点 makeFullNode、启动结点 startNode、结点进入等待状态 Wait
 
 * 创建结点过程主要做了2件事：根据配置创建Node实例、注册eth Service
 
