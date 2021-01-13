@@ -69,5 +69,5 @@ type BlockChain struct {
 }
 ```
 
-
+blockchain.go中实现的BlockChain结构及方法是核心实现
 

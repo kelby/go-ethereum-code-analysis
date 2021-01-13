@@ -40,7 +40,7 @@
   * [BlockChain](core/blockchain.md)
   * GasPool
   * Genesis
-  * HeaderChain
+  * [HeaderChain](core/headerchain.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
