@@ -70,5 +70,9 @@
 * [rlp](rlp.md)
 * [rpc](rpc.md)
 * [signer](signer.md)
+  * core
+  * fourbyte
+  * rules
+  * [storage](signer/storage.md)
 * [trie](trie.md)
 
