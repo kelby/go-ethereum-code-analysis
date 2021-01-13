@@ -72,7 +72,7 @@
 * [signer](signer.md)
   * core
   * fourbyte
-  * rules
+  * [rules](signer/rules.md)
   * [storage](signer/storage.md)
 * [trie](trie.md)
 
