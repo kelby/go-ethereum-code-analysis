@@ -50,7 +50,7 @@
 * [event](event.md)
 * [graphql](graphql.md)
 * [internal](internal.md)
-  * build
+  * [build](internal/build.md)
   * cmdtest
   * debug
   * [ethapi](internal/ethapi.md)

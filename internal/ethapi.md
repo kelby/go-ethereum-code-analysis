@@ -1,5 +1,15 @@
 implements the general Ethereum API functions.
 
+* 私有账号API PrivateAccountAPI
+* 私有调试API PrivateDebugAPI
+* 公开账号API PublicAccountAPI
+* 公开区块链API PublicBlockChainAPI
+* 公开调试API PublicDebugAPI
+* 公开以太坊API PublicEthereumAPI
+* 公开网络API PublicNetAPI
+* 公开交易池API1 PublicTransactionPoolAPI
+* 公开交易池API2 PublicTxPoolAPI
+
 发起交易，数据结构：
 
 ```go
