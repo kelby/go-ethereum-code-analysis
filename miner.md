@@ -37,7 +37,5 @@ worker 内部包含了很多agent，同时负责构建区块和对象。
   * 发送ChainEvent事件
   * 启动下一次打包
 
-Miner 总监，Agent 包工头，worker 打工人。
-
-
+Miner 包工头，Agent 质检员，worker 打工人。
 
