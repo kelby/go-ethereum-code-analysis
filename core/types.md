@@ -1,3 +1,10 @@
+* 交易 Block
+* 过滤器 Bloom
+* 头部 Header
+* 消息 Message
+* 收据 Receipt
+* 交易 Transaction
+
 一个关键的数据结构：
 
 交易
@@ -69,6 +76,4 @@ type Header struct {
 ```
 
 一个区块在数据库中被分为Header和Body两部分。
-
-
 
