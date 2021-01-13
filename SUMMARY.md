@@ -25,6 +25,8 @@
   * [ABI](cmd/abi.md)
 * [common](common.md)
 * [consensus](consensus.md)
+  * [clique](consensus/clique.md)
+  * [ethash](consensus/ethash.md)
 * [console](console.md)
 * [core](core.md)
   * asm
