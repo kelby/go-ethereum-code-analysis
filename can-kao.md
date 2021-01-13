@@ -10,7 +10,11 @@ go-ethereum-code-analysis
 
 Ethereum Tutorial
 
-https://github.com/Billy1900/Ethereum-tutorial
+[https://github.com/Billy1900/Ethereum-tutorial](https://github.com/Billy1900/Ethereum-tutorial)
+
+以太坊源码深入分析
+
+https://www.jianshu.com/u/5821743d07b1
 
 
 
