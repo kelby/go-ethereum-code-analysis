@@ -71,7 +71,7 @@
 * [rpc](rpc.md)
 * [signer](signer.md)
   * core
-  * fourbyte
+  * [fourbyte](signer/fourbyte.md)
   * [rules](signer/rules.md)
   * [storage](signer/storage.md)
 * [trie](trie.md)
