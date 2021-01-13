@@ -11,3 +11,9 @@ rpc包提供这样一种能力，可以通过网络或者其他I/O连接，可�
 
 
 
+RPC Client是真正发起RPC调用的模块，对端的RPC Server会处理请求并返回执行结果。
+
+
+
+RPC Server是真正处理RPC请求的模块，内部通过ServerCodec对象完成具体的处理工作。
+
