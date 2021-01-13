@@ -14,8 +14,8 @@
   * [bootnode](cmd/bootnode.md)
   * [checkpoint-admin](cmd/checkpoint-admin.md)
   * [clef](cmd/clef.md)
-  * devp2p
-  * ethkey
+  * [devp2p](cmd/devp2p.md)
+  * [ethkey](cmd/ethkey.md)
   * [evm](cmd/evm.md)
   * [faucet](cmd/faucet.md)
   * [geth \*](cmd/geth.md)
