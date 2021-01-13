@@ -16,3 +16,5 @@ fetcher 模块和 downloader 模块所承担的任务是不同的：
 
 downloader 功能比较重，用来保证自己的区块链和其它节点之间不会有太多差距。
 
+在以太坊中，区块同步有三种同步模式：full、fast、light。
+
