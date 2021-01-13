@@ -79,14 +79,14 @@
 * [node](node.md)
 * [p2p](p2p.md)
   * [discover](p2p/discover.md)
-  * discv5
-  * dnsdisc
-  * enode
-  * enr
-  * nat
-  * netutil
+  * [discv5](p2p/discv5.md)
+  * [dnsdisc](p2p/dnsdisc.md)
+  * [enode](p2p/enode.md)
+  * [enr](p2p/enr.md)
+  * [nat](p2p/nat.md)
+  * [netutil](p2p/netutil.md)
   * [nodestate](p2p/nodestate.md)
-  * rlpx
+  * [rlpx](p2p/rlpx.md)
   * [simulations](p2p/simulations.md)
 * [params](params.md)
 * [rlp](rlp.md)
