@@ -1,6 +1,7 @@
 * 交易 Block
 * 过滤器 Bloom
 * 区块头 Header
+* 区块体 Body（区块数据结构里非区块头内容）
 * 消息 Message
 * 收据 Receipt
 * 交易 Transaction
