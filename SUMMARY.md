@@ -24,7 +24,7 @@
   * asm
   * bloombits
   * forkid
-  * rawdb
+  * [rawdb](core/rawdb.md)
   * [state](core/state.md)
   * types
   * [vm](core/vm.md)
