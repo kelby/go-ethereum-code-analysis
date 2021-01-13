@@ -24,5 +24,7 @@ keystore目录和目录内的文件是可以直接拷贝的。
 * 钱包 Wallet
 * 管理（Manager，这是重点）
 
-wallet、account、address这三者的区别和联系i：wallet中可能包含多个account，而每个account中包含一个address和账户所在路径（URL）。
+wallet、account、address这三者的区别和联系
+
+i：wallet中可能包含多个account，而每个account中包含一个address和账户所在路径（URL）。
 
