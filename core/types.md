@@ -1,6 +1,6 @@
 * 交易 Block
 * 过滤器 Bloom
-* 头部 Header
+* 区块头 Header
 * 消息 Message
 * 收据 Receipt
 * 交易 Transaction
