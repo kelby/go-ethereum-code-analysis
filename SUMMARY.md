@@ -40,7 +40,7 @@
   * [TxPool](core/txpool.md)
   * [BlockChain](core/blockchain.md)
   * [GasPool](core/gaspool.md)
-  * Genesis
+  * [Genesis](core/genesis.md)
   * [HeaderChain](core/headerchain.md)
   * [交易](core/jiao-yi.md)
   * [区块](core/qu-kuai.md)
@@ -78,7 +78,7 @@
   * [web3ext](internal/web3ext.md)
 * [les](les.md)
 * [light](light.md)
-* [miner](miner.md)
+* [miner \*](miner.md)
 * [mobile](mobile.md)
 * [node](node.md)
 * [p2p](p2p.md)
