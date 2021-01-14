@@ -1,0 +1,2 @@
+![](/assets/receipt.png)
+
