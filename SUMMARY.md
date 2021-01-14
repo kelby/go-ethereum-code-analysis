@@ -8,7 +8,7 @@
   * [keystore](accounts/keystore.md)
   * [scwallet](accounts/scwallet.md)
   * [usbwallet](accounts/usbwallet.md)
-  * [账户](accounts/zhang-hu.md)
+  * [账户 \*](accounts/zhang-hu.md)
 * [cmd](cmd.md)
   * [abidump](cmd/abidump.md)
   * [abigen](cmd/abigen.md)
@@ -34,12 +34,12 @@
   * [bloombits](core/bloombits.md)
   * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
-  * [state](core/state.md)
+  * [state \*](core/state.md)
   * [types](core/types.md)
   * [vm](core/vm.md)
   * [TxPool](core/txpool.md)
   * [BlockChain](core/blockchain.md)
-  * GasPool
+  * [GasPool](core/gaspool.md)
   * Genesis
   * [HeaderChain](core/headerchain.md)
   * [交易](core/jiao-yi.md)
@@ -51,7 +51,7 @@
   * [bls12381](crypto/bls12381.md)
   * [bn256](crypto/bn256.md)
   * [ecies](crypto/ecies.md)
-  * [secp256k1](crypto/secp256k1.md)
+  * [secp256k1 \*](crypto/secp256k1.md)
   * [signify](crypto/signify.md)
 * [eth](eth.md)
   * [downloader](eth/downloader.md)
@@ -73,9 +73,9 @@
   * flags
   * guide
   * jsre
-  * testlog
-  * utesting
-  * web3ext
+  * [testlog](internal/testlog.md)
+  * [utesting](internal/utesting.md)
+  * [web3ext](internal/web3ext.md)
 * [les](les.md)
 * [light](light.md)
 * [miner](miner.md)
