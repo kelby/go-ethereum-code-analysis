@@ -90,31 +90,31 @@ bloom过滤器是用来快速的查找log的，那以太坊是如何用bloom过�
 >
 > 于此对应的，在查找日志的过程正好相反，先在block的bloom里面找，再在header的bloom里面找，再在收据的bloom里面找，直到找到最终的日志。
 
-收据，数据结构：
+回执/收据，数据结构：
 
 ```go
 // Receipt represents the results of a transaction.
 type Receipt struct {
-	// Consensus fields: These fields are defined by the Yellow Paper
-	PostState         []byte `json:"root"`
-	Status            uint64 `json:"status"`
-	CumulativeGasUsed uint64 `json:"cumulativeGasUsed" gencodec:"required"`
-	Bloom             Bloom  `json:"logsBloom"         gencodec:"required"`
-	Logs              []*Log `json:"logs"              gencodec:"required"`
+    // Consensus fields: These fields are defined by the Yellow Paper
+    PostState         []byte `json:"root"`
+    Status            uint64 `json:"status"`
+    CumulativeGasUsed uint64 `json:"cumulativeGasUsed" gencodec:"required"`
+    Bloom             Bloom  `json:"logsBloom"         gencodec:"required"`
+    Logs              []*Log `json:"logs"              gencodec:"required"`
 
-	// Implementation fields: These fields are added by geth when processing a transaction.
-	// They are stored in the chain database.
-	TxHash          common.Hash    `json:"transactionHash" gencodec:"required"`
-	ContractAddress common.Address `json:"contractAddress"`
-	GasUsed         uint64         `json:"gasUsed" gencodec:"required"`
+    // Implementation fields: These fields are added by geth when processing a transaction.
+    // They are stored in the chain database.
+    TxHash          common.Hash    `json:"transactionHash" gencodec:"required"`
+    ContractAddress common.Address `json:"contractAddress"`
+    GasUsed         uint64         `json:"gasUsed" gencodec:"required"`
 
-	// Inclusion information: These fields provide information about the inclusion of the
-	// transaction corresponding to this receipt.
-	BlockHash        common.Hash `json:"blockHash,omitempty"`
-	BlockNumber      *big.Int    `json:"blockNumber,omitempty"`
-	TransactionIndex uint        `json:"transactionIndex"`
+    // Inclusion information: These fields provide information about the inclusion of the
+    // transaction corresponding to this receipt.
+    BlockHash        common.Hash `json:"blockHash,omitempty"`
+    BlockNumber      *big.Int    `json:"blockNumber,omitempty"`
+    TransactionIndex uint        `json:"transactionIndex"`
 }
 ```
 
-
+回执信息分为三部分：共识信息、交易信息、区块信息。
 
