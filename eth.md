@@ -10,7 +10,7 @@ ETH 全节点服务端。命令行客户端、轻客户端与它交互
 * 公开以太坊API - provides an API to access Ethereum full node-related information.
 * 公开矿工API
 * 配置信息，如 DefaultConfig
-* 联动p2p模块，广播：BroadcastBlock、BroadcastTransactions，minedBroadcastLoop、txBroadcastLoop
+* 联动p2p模块，广播：BroadcastBlock、BroadcastTransactions，minedBroadcastLoop、txBroadcastLoop；接收：AcceptTxs，handleHeaders、handleBodies、handleBlockAnnounces、handleBlockBroadcast
 
 
 
