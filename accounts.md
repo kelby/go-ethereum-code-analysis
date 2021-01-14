@@ -30,3 +30,5 @@ wallet、account、address这三者的区别和联系
 
 i：wallet中可能包含多个account，而每个account中包含一个address和账户所在路径（URL）。
 
+![](/assets/generator-accounts.png)
+
