@@ -43,6 +43,7 @@
   * Genesis
   * [HeaderChain](core/headerchain.md)
   * [交易](core/jiao-yi.md)
+  * [区块](core/qu-kuai.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
