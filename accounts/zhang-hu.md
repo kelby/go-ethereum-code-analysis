@@ -28,12 +28,12 @@
 // Account is the Ethereum consensus representation of accounts.
 // These objects are stored in the main account trie.
 type Account struct {
-	Nonce    uint64
-	Balance  *big.Int
-	Root     common.Hash // merkle root of the storage trie
-	CodeHash []byte
+    Nonce    uint64
+    Balance  *big.Int
+    Root     common.Hash // merkle root of the storage trie
+    CodeHash []byte
 }
 ```
 
-
+ 转移资产\(Transfer\)是在一个账户的Balance上计加，在另外一个账户计减。
 
