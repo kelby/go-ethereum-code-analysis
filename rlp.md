@@ -11,5 +11,5 @@ RLP是Recursive Length Prefix的简写。是以太坊中的序列化方法，以
 字符串 “Lorem ipsum dolor sit amet, consectetur adipisicing elit” = [ 0xb8, 0x38, ‘L’, ‘o’, ‘r’, ‘e’, ’m’, ‘ ‘, … , ‘e’, ‘l’, ‘i’, ’t’ ]
 ```
 
-
+序列化工具
 
