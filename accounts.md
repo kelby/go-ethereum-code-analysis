@@ -32,6 +32,14 @@ i：wallet中可能包含多个account，而每个account中包含一个address�
 
 ![](/assets/generator-accounts.png)对账号的操作，实质是对 keystore, scwallet, usbwallet 等软硬件存储设备进行操作。
 
+当前支持三大类设备，除最见的文件存储外，用到第三方库驱动：
+
+```go
+"github.com/status-im/keycard-go/derivationpath" //scwallet
+
+"github.com/karalabe/usb" //usbwallet
+```
+
 
 
 
