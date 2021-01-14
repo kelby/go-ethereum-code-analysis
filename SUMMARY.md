@@ -69,12 +69,12 @@
 * [graphql](graphql.md)
 * [internal](internal.md)
   * [build](internal/build.md)
-  * cmdtest
-  * debug
+  * [cmdtest](internal/cmdtest.md)
+  * [debug](internal/debug.md)
   * [ethapi](internal/ethapi.md)
-  * flags
-  * guide
-  * jsre
+  * [flags](internal/flags.md)
+  * [guide](internal/guide.md)
+  * [jsre](internal/jsre.md)
   * [testlog](internal/testlog.md)
   * [utesting](internal/utesting.md)
   * [web3ext](internal/web3ext.md)
