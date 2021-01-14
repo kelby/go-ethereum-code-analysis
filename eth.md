@@ -7,7 +7,7 @@ ETH 全节点服务端。命令行客户端、轻客户端与它交互
 * 私有调试API
 * 私有矿工API
 * 公开调试API
-* 公开以太坊API
+* 公开以太坊API - provides an API to access Ethereum full node-related information.
 * 公开矿工API
 
 
