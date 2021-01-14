@@ -98,7 +98,7 @@
 * [rlp](rlp.md)
 * [rpc](rpc.md)
 * [signer](signer.md)
-  * core
+  * [core](signer/core.md)
   * [fourbyte](signer/fourbyte.md)
   * [rules](signer/rules.md)
   * [storage](signer/storage.md)
