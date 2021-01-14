@@ -14,7 +14,11 @@ Ethereum Tutorial
 
 以太坊源码深入分析
 
-https://www.jianshu.com/u/5821743d07b1
+[https://www.jianshu.com/u/5821743d07b1](https://www.jianshu.com/u/5821743d07b1)
+
+以太坊设计与实现
+
+https://learnblockchain.cn/books/geth/
 
 
 
