@@ -38,6 +38,7 @@
   * [state \*](core/state.md)
   * [statedb](statedb.md)
   * [types](core/types.md)
+  * [Bloom-Filter](bloom-filter.md)
   * [vm](core/vm.md)
   * [EVM](evm.md)
   * [TxPool](core/txpool.md)
@@ -103,6 +104,5 @@
   * [storage](signer/storage.md)
 * [trie](trie.md)
 * [智能合约](zhi-neng-he-yue.md)
-* [Bloom-Filter](bloom-filter.md)
 * [参考](can-kao.md)
 
