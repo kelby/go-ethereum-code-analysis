@@ -11,3 +11,5 @@ Merkle Patricia Tree（又称为Merkle Patricia Trie）是一种经过改良的�
 
 MPT结合了Radix trie和Merkle两种树结构的特点与优势
 
+MPT 全称是 Merkle Patricia Trie 也叫 Merkle Patricia Tree，是 Merkle Tree 和 Patricia Tree 的混合物。 Merkle Tree\(默克尔树\) 用于保证数据安全，Patricia Tree\(基数树,也叫基数特里树或压缩前缀树\) 用于提升树的读写效率。
+
