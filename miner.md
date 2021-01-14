@@ -41,5 +41,7 @@ Miner 包工头，worker 打工人-半成品，Agent 包装员-成品。Work 产
 
 miner.start\(\)即可进开启实时挖矿。
 
+![](/assets/miner.png)
+
 
 
