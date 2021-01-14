@@ -1,4 +1,4 @@
-实现了一个高等级的以太坊账户管理。
+实现了一个高等级的以太坊账户管理。约等同于钱包管理！
 
 * url - URL格式账号，转换、解析
 * sort - 实现 sort 相关接口，方便排序
@@ -39,8 +39,6 @@ i：wallet中可能包含多个account，而每个account中包含一个address�
 
 "github.com/karalabe/usb" //usbwallet
 ```
-
-
 
 
 
