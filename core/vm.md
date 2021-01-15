@@ -9,5 +9,5 @@ contract 代表了eth state database里面的一个合约。
 
 contract 代表了以太坊 state database里面的一个合约。包含了合约代码，调用参数。
 
-
+![](/assets/evm.png)
 
