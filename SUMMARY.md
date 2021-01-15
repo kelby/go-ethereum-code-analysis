@@ -41,6 +41,7 @@
   * [vm](core/vm.md)
   * [evm补充](core/evmbu-chong.md)
   * [EVM](evm.md)
+  * [智能合约](zhi-neng-he-yue.md)
   * [TxPool](core/txpool.md)
   * [BlockChain](core/blockchain.md)
   * [GasPool](core/gaspool.md)
@@ -103,6 +104,5 @@
   * [rules](signer/rules.md)
   * [storage](signer/storage.md)
 * [trie](trie.md)
-* [智能合约](zhi-neng-he-yue.md)
 * [参考](can-kao.md)
 
