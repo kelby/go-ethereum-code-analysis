@@ -15,3 +15,11 @@ contract
 
 ![](/assets/contract.png)
 
+evm interpreter
+
+![](/assets/evm-interpreter.png)
+
+
+
+
+
