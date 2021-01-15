@@ -11,3 +11,7 @@ contract 代表了以太坊 state database里面的一个合约。包含了合�
 
 ![](/assets/evm.png)
 
+contract
+
+![](/assets/contract.png)
+
