@@ -7,7 +7,7 @@ contract 代表了eth state database里面的一个合约。
 * 堆栈 Stack
 * 上下方 BlockContext、CallContext、TxContext 等
 
-
+contract 代表了以太坊 state database里面的一个合约。包含了合约代码，调用参数。
 
 
 
