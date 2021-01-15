@@ -35,7 +35,7 @@
   * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
   * [state \*](core/state.md)
-  * [statedb](statedb.md)
+  * [StateDB](statedb.md)
   * [types](core/types.md)
   * [Bloom-Filter](bloom-filter.md)
   * [vm](core/vm.md)
