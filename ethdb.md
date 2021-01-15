@@ -20,3 +20,9 @@ Trie接口主要用于操作内存中的MPT，而Database接口主要用于操�
 
 StateDB中同时包含了这两种接口。
 
+以太坊数据库的读写过程：
+
+![](/assets/ethdb.png)
+
+
+
