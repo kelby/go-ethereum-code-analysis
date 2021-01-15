@@ -8,8 +8,6 @@
 
 StateDB 有多种用途：
 
-
-
 * 维护账户状态到世界状态的映射。
 
 * 支持修改、回滚、提交状态。
@@ -18,9 +16,26 @@ StateDB 有多种用途：
 
 * 是状态进出默克尔树的媒介。
 
-
-
 ![](/assets/statedb.png)
+
+区块的状态数据并非保存在链上，而是将这些状态维护在默克尔压缩前缀树中，在区块链上仅记录对应的Trie Root 值。使用LevelDB维护树的持久化内容，而这个用来维护映射的数据库叫做 StateDB。
+
+![](/assets/statedb-state.png)
+
+* 世界状态
+* 账户状态
+
+StateDB-&gt;Trie-&gt;Account-&gt;stateObject
+
+* Account - 存储的是账户状态信息。
+* StateObject - 表示一个状态对象，可以从中获取到账户状态信息。
+* StateDB - 用来存储状态对象。
+
+从 StateDB 中取出 Trie 根，根据地址从 Trie 树中获取账户的 rlp 编码数据，再进行解码成 Account，然后根据 Account 生成stateObject
+
+> Account 约等于 stateObject - 称之为账户状态
+>
+> StateDB 存储着所有 stateObject - 称之为世界状态
 
 
 
