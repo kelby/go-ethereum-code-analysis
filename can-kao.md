@@ -18,7 +18,11 @@ Ethereum Tutorial
 
 以太坊设计与实现
 
-https://learnblockchain.cn/books/geth/
+[https://learnblockchain.cn/books/geth/](https://learnblockchain.cn/books/geth/)
+
+死磕以太坊源码分析
+
+https://www.zhihu.com/people/forever-57-69/posts
 
 
 
