@@ -16,8 +16,6 @@ ApplyTransaction 创建了 Context 对象，这个对象中主要包含了一些
 
 最终调用了 StateTransition.TransitionDb 方法。
 
-
-
 **EVM 的创建：**
 
 * ctx: 提供访问当前区块链数据和挖矿环境的函数和数据
@@ -25,11 +23,19 @@ ApplyTransaction 创建了 Context 对象，这个对象中主要包含了一些
 * chainConfig: 当前节点的区块链配置信息
 * vmConfig: 虚拟机配置信息
 
+ApplyTransaction
 
-
-
-
-
+```go
+ApplyTransaction
+    AsMessage
+    NewEVMContext
+    NewEVM
+    ApplyMessage
+    Finalise or IntermediateRoot
+    NewReceipt
+    GetLogs
+    CreateBloom
+```
 
 
 
