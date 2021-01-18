@@ -7,3 +7,28 @@ ABI 全称是 Application Binary Interface，即：应用程序二进制接口�
 
 
 
+原生类型：
+
+```go
+// Type enumerator
+const (
+	IntTy byte = iota
+	UintTy
+	BoolTy
+	StringTy
+	SliceTy
+	ArrayTy
+	TupleTy
+	AddressTy
+	FixedBytesTy
+	BytesTy
+	HashTy
+	FixedPointTy
+	FunctionTy
+)
+```
+
+
+
+
+
