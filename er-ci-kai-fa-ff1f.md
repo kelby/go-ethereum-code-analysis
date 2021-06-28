@@ -14,5 +14,9 @@ consensus/ethash/consensus.go & consensus/ethash/difficulty.go
 
 不同版本，难度值计算方式不一样。
 
+consensus/ethash/consensus.go
+
+不同分叉，奖励值不一样。
+
 
 
