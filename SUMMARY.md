@@ -37,6 +37,7 @@
   * [state \*](core/state.md)
   * [StateDB](statedb.md)
   * [types](core/types.md)
+    * [LegacyTx](core/types/legacytx.md)
   * [Bloom-Filter](bloom-filter.md)
   * [vm \*](core/vm.md)
   * [evm补充](core/evmbu-chong.md)
