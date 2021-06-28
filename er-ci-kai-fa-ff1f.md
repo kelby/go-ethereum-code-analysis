@@ -18,5 +18,9 @@ consensus/ethash/consensus.go
 
 不同分叉，奖励值不一样。
 
+params/bootnodes.go
+
+修改启动节点。
+
 
 
