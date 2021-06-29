@@ -84,6 +84,8 @@
 * [les](les.md)
 * [light](light.md)
 * [miner \*](miner.md)
+  * [Miner](miner/miner.md)
+  * [worker](miner/worker.md)
 * [mobile](mobile.md)
 * [node](node.md)
 * [p2p](p2p.md)
