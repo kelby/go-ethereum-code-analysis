@@ -1,6 +1,8 @@
-bitutil
+工具类：
 
-compiler
+bitutil - implements fast bitwise operations.
+
+compiler - wraps the Solidity and Vyper compiler executables \(solc; vyper\).
 
 fdlimit
 
@@ -10,7 +12,7 @@ math
 
 mclock
 
-prque
+prque - Priority\(pr\) queue\(que\) data structure.
 
 
 
