@@ -13,3 +13,36 @@ geth函数，调用makeFullNode函数创建节点，调用startNode启动节点�
 
 Node中包括P2P服务、RPC服务、以太坊服务等。
 
+
+
+一些细节：
+
+makeConfigNode
+
+eth.DefaultConfig是geth的默认配置
+
+makeConfigNode方法中还有一个从配置文件加载配置的逻辑
+
+stack, err := node.New\(&cfg.Node\) 初始一个node实例
+
+fullNode, err := eth.New\(ctx, cfg\)，即创建一个ethereum实例
+
+ethereum服务会在node.start\(\)时同时执行ethereum.start方法
+
+s.protocolManager.Start\(maxPeers\)，启动协议管理实例
+
+把需要处理的消息放到channel中。然后由p.broadcast\(\)方法处理
+
+注册ethereum服务，除此之外还注册了whisper服务，统计服务，最后返回这个node实例
+
+设置serverconfig
+
+找出本节点支持的service
+
+循环所有支持的服务进行启动service.Start\(running\)
+
+* 启动 ethereum服务
+* 启动rpc服务，包括ipc/http/websocket
+
+
+
