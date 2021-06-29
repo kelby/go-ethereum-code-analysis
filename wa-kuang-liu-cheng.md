@@ -55,5 +55,9 @@ resultCh有区块数据，则成功挖出了块，到最后的成功出块我们
 
 > 通过 4 个Loop互相工作，从开启挖矿到生成新的挖矿任务到提交新的挖矿任务到最后的成功出块
 
-![](/assets/miner-worker.png)
+![](/assets/miner-worker.png)挖矿流程环节：
+
+* parent，now，num，header 设置新区块基本信息
+
+
 
