@@ -47,5 +47,11 @@ state.IntermediateRoot执行状态更改。组装成最终块意味着到这打�
 
 resultCh有区块数据，则成功挖出了块，到最后的成功出块我们还需要进行相应的验证判断。
 
+* 块为空或者链上已经有块或者pendingTasks不存在相关的sealhash,跳过处理
+* 更新receipts
+* WriteBlockWithState 提交块和状态到数据库
+* w.mux.Post 广播区块并宣布链插入事件
+* w.unconfirmed.Insert 等待规范确认本地挖出的块
+
 
 
