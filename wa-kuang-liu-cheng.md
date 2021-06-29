@@ -23,3 +23,16 @@ txsCh:接收交易池的Pending中新加入了交易事件的信号
 
 TaskLoop则是提交新的挖矿任务，而resultLoop则是成功出块之后做的一些处理。
 
+生成新的挖矿任务：
+
+* header := &types.Header 组装header
+* w.engine.Prepare\(w.chain, header\); 根据共识引擎吃初始化header的共识字段
+* w.makeCurrent\(parent, header\) 为当前挖矿新任务创建环境
+* 添加叔块
+* 填充交易到新区块中
+  * 提交交易
+  * 执行交易
+  * 执行交易获取收据
+
+
+
