@@ -28,9 +28,17 @@ params/bootnodes.go
 
 \[go-popcateum\]\([https://github.com/popcateum/go-popcateum\](https://github.com/popcateum/go-popcateum%29\)
 
-\[dpos-go-ethereum\]\([https://github.com/mingjingc/dpos-go-ethereum\](https://github.com/mingjingc/dpos-go-ethereum\)\)
+\[dpos-go-ethereum\]\([https://github.com/mingjingc/dpos-go-ethereum\](https://github.com/mingjingc/dpos-go-ethereum%29\)
 
-\[gttc\]\(https://github.com/TTCECO/gttc\)
+\[gttc\]\([https://github.com/TTCECO/gttc\](https://github.com/TTCECO/gttc\)\)
+
+\[go-ethereum\]\(https://github.com/jason-wj/go-ethereum\)
+
+\[ethereum-dpos-chinese\]\(https://github.com/linapex/ethereum-dpos-chinese\)
+
+\[go-ethereum-Hashchain\]\(https://github.com/evilmao/go-ethereum-Hashchain\)
+
+\[golang-Eos-dpos-Ethereum\]\(https://github.com/yinchengtsinghua/golang-Eos-dpos-Ethereum\)
 
 
 
