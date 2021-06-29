@@ -1,4 +1,6 @@
-ETH 全节点服务端。命令行客户端、轻客户端与它交互
+ETH 全节点服务端。
+
+命令行客户端、轻客户端与它交互
 
 * 过滤器 - implements a core.ChainIndexer, building up a rotated bloom bits index for the Ethereum header bloom filters, permitting blazing fast filtering.
 * 后端API - ethapi.Backend for full nodes
