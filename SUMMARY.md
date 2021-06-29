@@ -97,6 +97,7 @@
   * [nodestate](p2p/nodestate.md)
   * [rlpx](p2p/rlpx.md)
   * [simulations](p2p/simulations.md)
+  * [Server](p2p/server.md)
 * [params](params.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
