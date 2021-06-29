@@ -44,7 +44,7 @@ type Account struct {
 
     }
 
-交易进入mempool时的验证, validateTx，promoteExecutables
+交易进入mempool时的验证, validateTx，promoteExecutables，promoteTx
 
 ```
 // TxPool contains all currently known transactions. Transactions
