@@ -24,6 +24,20 @@ TxPool contains all currently known transactions.
 * StateProcessor
 * StateTransition
 
+账户数据结构：
+
+![](/assets/struct-account.png)
+
+交易数据结构：
+
+![](/assets/struct-tx.png)以太坊区块-BLOCK
+
+![](/assets/struct-block.png)
+
+交易回执-RECEIPT
+
+![](/assets/struct-receipt.png)
+
 
 
 
