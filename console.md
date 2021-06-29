@@ -45,5 +45,11 @@ RPC Server
 
 把所有知识串联到一起
 
+```
+// Console is a JavaScript interpreted runtime environment. It is a fully fledged
+// JavaScript console attached to a running node via an external or in-process RPC
+// client.
+```
+
 
 
