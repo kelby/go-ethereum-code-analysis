@@ -136,3 +136,9 @@ ApplyTransaction -&gt; ApplyMessage -&gt; NewStateTransition -&gt; TransitionDb
 
 evm.Create 根据参数创建智能合约， evm.Call 根据交易信息在虚拟机中执行这笔交易。
 
+**以太坊中一笔交易的执行流程大致为：**
+
+
+
+客户端构造交易 -&gt; 通过p2p网络广播交易 -&gt; 矿工节点收到交易 -&gt; 将交易反序列化为 Transaction 结构 -&gt; 将交易放到mempool -&gt; 矿工挖矿 -&gt; 在EVM中执行这笔交易 -&gt; 交易执行结果写入stateDB
+
