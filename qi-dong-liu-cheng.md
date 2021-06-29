@@ -13,8 +13,6 @@ geth函数，调用makeFullNode函数创建节点，调用startNode启动节点�
 
 Node中包括P2P服务、RPC服务、以太坊服务等。
 
-
-
 一些细节：
 
 makeConfigNode
@@ -43,6 +41,16 @@ s.protocolManager.Start\(maxPeers\)，启动协议管理实例
 
 * 启动 ethereum服务
 * 启动rpc服务，包括ipc/http/websocket
+
+go srv.run\(dialer\) 负责与初始的节点进行握手并启动节点的连接
+
+go srv.runPeer\(p\)即与p节点建立连接
+
+readLoop是读取连接发送来的数据
+
+读取消息后，进行处理 \(p \*Peer\) handle
+
+开始挖矿ethereum.StartMining\(threads\)
 
 
 
