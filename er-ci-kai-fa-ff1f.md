@@ -22,5 +22,11 @@ params/bootnodes.go
 
 修改启动节点。
 
+\[美图技术团队发布开源 ethereum dpos 实现\]\(https://zhuanlan.zhihu.com/p/38013479\)
+
+\[Ethereum DPOS源码分析\]\(https://segmentfault.com/a/1190000017505457\)
+
+\[go-popcateum\]\(https://github.com/popcateum/go-popcateum\)
+
 
 
