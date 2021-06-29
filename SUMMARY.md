@@ -109,4 +109,5 @@
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
 * [启动流程](qi-dong-liu-cheng.md)
+* [挖矿流程](wa-kuang-liu-cheng.md)
 
