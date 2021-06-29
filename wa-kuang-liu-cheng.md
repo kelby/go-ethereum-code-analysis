@@ -58,6 +58,9 @@ resultCh有区块数据，则成功挖出了块，到最后的成功出块我们
 ![](/assets/miner-worker.png)挖矿流程环节：
 
 * parent，now，num，header 设置新区块基本信息
+* w.makeCurrent 准备上下文环境
+* commitUncles, commitUncle 选择叔块
+* w.commitTransactions 提交交易
 
 
 
