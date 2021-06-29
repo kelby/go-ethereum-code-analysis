@@ -132,7 +132,7 @@ core/state\_processor.go中的 Process 函数。
 
 调用链：
 
-
-
 ApplyTransaction -&gt; ApplyMessage -&gt; NewStateTransition -&gt; TransitionDb
+
+evm.Create 根据参数创建智能合约， evm.Call 根据交易信息在虚拟机中执行这笔交易。
 
