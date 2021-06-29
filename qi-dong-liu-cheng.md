@@ -9,5 +9,11 @@ geth函数，调用makeFullNode函数创建节点，调用startNode启动节点�
 * startNode函数：启动node中的服务，主要流程是node将之前注册的所有service交给p2p.Server, 然后启动p2p.Server对象，然后逐个启动每个Service。解锁钱包中的账号。注册钱包事件。启动辅助服务，比如RPC服务，如果配置支持启动挖矿，则执行启动挖矿。
 * Node.Wait函数：主要是让geth的主go成进入阻塞状态，保持整个程序不退出，直到从channel中收到Stop消息， Stop消息一般是用户关闭以太坊客户端引起的。
 
+以太坊的启动过程其实就是创建一个Node对象， 接着向Node对象中添加各种服务，然后调用这些服务的Start方法启动他们。Node看起来就像一个容器，将各种模块扔进其中，然后将他们联系起来。
+
+
+
+Node中包括P2P服务、RPC服务、以太坊服务等
+
 
 
