@@ -128,5 +128,11 @@ func (tx *Transaction) AsMessage(s Signer) (Message, error) {
 }
 ```
 
-core/state\_processor.go中的 Process 函数
+core/state\_processor.go中的 Process 函数。
+
+调用链：
+
+
+
+ApplyTransaction -&gt; ApplyMessage -&gt; NewStateTransition -&gt; TransitionDb
 
