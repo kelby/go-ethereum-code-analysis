@@ -61,6 +61,8 @@ resultCh有区块数据，则成功挖出了块，到最后的成功出块我们
 * w.makeCurrent 准备上下文环境
 * commitUncles, commitUncle 选择叔块
 * w.commitTransactions 提交交易
+* block, err := w.engine.Finalize 提交区块
+* w.engine.SealHash, w.engine.Seal PoW计算寻找Nonce
 
 
 
