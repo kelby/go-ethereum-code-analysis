@@ -66,5 +66,9 @@ resultCh有区块数据，则成功挖出了块，到最后的成功出块我们
 * 等待挖矿结果 Nonce
 * w.chain.WriteBlockWithState, w.mux.Post\(core.NewMinedBlockEvent{Block: block}\) 存储与广播挖出的新块
 
-![](/assets/miner-start-to-broadcast.png)
+![](/assets/miner-start-to-broadcast.png)worker.go 挖矿细节
+
+![](/assets/miner-worker-detail.png)
+
+
 

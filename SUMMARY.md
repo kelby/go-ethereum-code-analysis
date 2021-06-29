@@ -49,7 +49,7 @@
   * [Genesis](core/genesis.md)
   * [区块](core/qu-kuai.md)
   * [回执](core/hui-zhi.md)
-  * types
+  * [types](core/types.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
@@ -110,4 +110,5 @@
 * [二次开发？](er-ci-kai-fa-ff1f.md)
 * [启动流程](qi-dong-liu-cheng.md)
 * [挖矿流程](wa-kuang-liu-cheng.md)
+* [交易池设计](jiao-yi-chi-she-ji.md)
 
