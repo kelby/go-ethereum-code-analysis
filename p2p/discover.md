@@ -18,13 +18,13 @@ findnode和neighbors是一对操作.
 
 findnode用于查找与某节点相距最近的节点,查找到后以neighbors类型消息回复查找发起者
 
+```
+server.Start() ==> discover.ListenUDP ==> newUDP()
 
-
-
-
-
-
-
+refreshLoop
+loop
+readLoop
+```
 
 
 
