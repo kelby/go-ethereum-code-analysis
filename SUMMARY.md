@@ -86,6 +86,8 @@
 * [miner \*](miner.md)
   * [Miner](miner/miner.md)
   * [worker](miner/worker.md)
+  * [ethash POW](miner/ethash-pow.md)
+  * [clique POA](miner/clique-poa.md)
 * [mobile](mobile.md)
 * [node](node.md)
 * [p2p](p2p.md)
