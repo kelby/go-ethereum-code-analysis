@@ -1,5 +1,7 @@
 simplified mobile APIs
 
+给移动端App使用的 API，可以通过 gomobile 编译。
+
 * 账号\(Account/Accounts\)和地址\(Address/Addresses\)
 * 区块（主要是获取区块数据）
 * 合约、收据（绑定、部署、调用，获取信息）
