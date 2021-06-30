@@ -32,13 +32,9 @@ params/bootnodes.go
 
 \[gttc\]\([https://github.com/TTCECO/gttc\](https://github.com/TTCECO/gttc%29\)
 
-\[go-ethereum\]\([https://github.com/jason-wj/go-ethereum\](https://github.com/jason-wj/go-ethereum\)\)
+\[go-ethereum\]\([https://github.com/jason-wj/go-ethereum\](https://github.com/jason-wj/go-ethereum%29\)
 
-\[ethereum-dpos-chinese\]\([https://github.com/linapex/ethereum-dpos-chinese\](https://github.com/linapex/ethereum-dpos-chinese\)\)
+\[go-ethereum-Hashchain\]\([https://github.com/evilmao/go-ethereum-Hashchain\](https://github.com/evilmao/go-ethereum-Hashchain%29\)
 
-\[go-ethereum-Hashchain\]\([https://github.com/evilmao/go-ethereum-Hashchain\](https://github.com/evilmao/go-ethereum-Hashchain\)\)
-
-\[golang-Eos-dpos-Ethereum\]\([https://github.com/yinchengtsinghua/golang-Eos-dpos-Ethereum\](https://github.com/yinchengtsinghua/golang-Eos-dpos-Ethereum\)\)
-
-
+\[golang-Eos-dpos-Ethereum\]\([https://github.com/yinchengtsinghua/golang-Eos-dpos-Ethereum\](https://github.com/yinchengtsinghua/golang-Eos-dpos-Ethereum%29\)
 
