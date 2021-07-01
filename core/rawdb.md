@@ -10,5 +10,12 @@
 
 看位置就知道了，ethdb 更偏向于底层，rawdb 更偏向于应用层。rawdb 封装了 ethdb.
 
+扩展：
+
+* 访问快照数据
+* 访问状态数据
+
+约定 database schema prefixing. 数据库表（名字的前缀）等。
+
 
 
