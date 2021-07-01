@@ -24,3 +24,15 @@ API 文件
 
 Snapshot 快照（算法补充）
 
+------------
+
+prepare 预处理当前区块的头信息（比如 挖矿难度）
+
+seal 开始做挖矿的事情，“解题”直到成功或者退出
+
+Finalize 做挖矿成功后最后善后的事情
+
+verifyHeader
+
+VerifySeal
+
