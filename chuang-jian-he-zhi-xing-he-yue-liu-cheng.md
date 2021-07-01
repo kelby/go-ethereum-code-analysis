@@ -12,21 +12,15 @@ stateObject
 
 交易开始
 
-
-
 ![](/assets/tx-to-message.png)
 
 生成 Contract 对象
 
 ![](/assets/message-to-contract.png)
 
-
-
 送入解释器执行
 
 ![](/assets/contract-and-input-to-evm.png)
-
-
 
 解释器中需要操作四大组件：
 
@@ -47,8 +41,6 @@ stateObject
 
 合约调用合约有下面 4 种方式：
 
-
-
 * CALL
 
 * CALLCODE
@@ -56,6 +48,20 @@ stateObject
 * DELEGATECALL
 
 * STATICCALL
+
+CALL![](/assets/contract-call.png)CALL vs. CALLCODE
+
+![](/assets/call-vs-callcode.png)
+
+
+
+CALLCODE vs. DELEGATECALL
+
+![](/assets/callcode-vs-delegatecall.png)
+
+
+
+
 
 
 
