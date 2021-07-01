@@ -28,6 +28,7 @@
   * [clique](consensus/clique.md)
   * [ethash](consensus/ethash.md)
   * [挖矿算法-共识](gong-shi.md)
+  * [定制DPOS共识](consensus/ding-zhi-dpos-gong-shi.md)
 * [console](console.md)
 * [core \*](core.md)
   * [asm](core/asm.md)
