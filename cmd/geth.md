@@ -28,5 +28,5 @@ geth is the official command-line client for Ethereum.
 
 * 最后结点进入等待状态，等待退出
 
-
+使用此命令可以使节点作为full node（默认），或者archive node（保留所有历史状态）或light node（检索数据实时）运行。
 
