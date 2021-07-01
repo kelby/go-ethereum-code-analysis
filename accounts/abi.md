@@ -5,30 +5,26 @@ ABI 全称是 Application Binary Interface，即：应用程序二进制接口�
 * 函数选择器
 * 参数编码
 
-
-
 原生类型：
 
 ```go
 // Type enumerator
 const (
-	IntTy byte = iota
-	UintTy
-	BoolTy
-	StringTy
-	SliceTy
-	ArrayTy
-	TupleTy
-	AddressTy
-	FixedBytesTy
-	BytesTy
-	HashTy
-	FixedPointTy
-	FunctionTy
+    IntTy byte = iota
+    UintTy
+    BoolTy
+    StringTy
+    SliceTy
+    ArrayTy
+    TupleTy
+    AddressTy
+    FixedBytesTy
+    BytesTy
+    HashTy
+    FixedPointTy
+    FunctionTy
 )
 ```
 
-
-
-
+ abi项目好像跟账户管理没有什么关系。
 
