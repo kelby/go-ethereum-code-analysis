@@ -1,3 +1,5 @@
+系统的一些关键数据结构在这里。
+
 * 交易 Block
 * 过滤器 Bloom
 * 区块头 Header
@@ -119,8 +121,6 @@ type Receipt struct {
 回执信息分为三部分：共识信息、交易信息、区块信息。
 
 > Receipts和Transactions在区块中被对应存储——即两者存储的内容相对应，顺序相同。
-
-
 
 
 
