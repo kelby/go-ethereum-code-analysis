@@ -17,7 +17,36 @@ a structure picture of ethereum RPC:
 
 ![](/assets/structure-of-rpc.png)
 
+调用流程
 
+先是 cmd/geth/main.go 里 geth
+
+调用了startNode, 传入context and 节点node.
+
+然后在startNode里调用了utils.StartNode\(stack\), stack是node
+
+start函数: startRPC
+
+startInProc, initializes an in-process RPC endpoint.
+
+handler := rpc.NewServer\(\)  // 初始化RPC的server了
+
+这个startPRC    开启了不同的远端service的API
+
+* startInProc
+* startIPC
+* startHTTP
+* startWS
+
+RPC使用举例
+
+远端调用, 走json rpc.
+
+startHttp, NewHTTPServer
+
+ServeHTTP
+
+serveRequest, Server的主要处理流程。从codec读取请求，找到对应的方法并调用，然后把回应写入codec。
 
 
 
