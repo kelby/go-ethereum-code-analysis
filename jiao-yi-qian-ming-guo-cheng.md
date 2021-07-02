@@ -34,5 +34,7 @@ ethClient.SendTransaction
 * 椭圆曲线secp256k1签名
 * 根据签名结果计算V,R,S
 
+由 Tx 生成签名的具体流程如下图：
 
+![](/assets/tx-sign-process.png)
 
