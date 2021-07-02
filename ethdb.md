@@ -24,5 +24,14 @@ StateDB中同时包含了这两种接口。
 
 ![](/assets/ethdb.png)
 
+```
+dbtest 测试
+
+leveldb 实际使用数据库
+memorydb 测试性质数据库
+```
+
+
+
 
 
