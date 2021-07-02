@@ -10,6 +10,10 @@ rawTx
 
 types.SignTx
 
+* 计算rlpHash
+* 私钥签名
+* 填充交易对象中的V,R,S字段
+
 四、发送交易
 
 ethClient.SendTransaction
