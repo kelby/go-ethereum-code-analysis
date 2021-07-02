@@ -20,5 +20,7 @@
 * 矿工，打包交易、挖矿、出块
 * 钱包端，转账
 
+ Block/Transaction/Receipt/Log 的数据结构关系
 
+![](/assets/block-tx-receipt-log.png)
 
