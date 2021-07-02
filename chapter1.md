@@ -1,6 +1,6 @@
 # 区块链
 
-* 核心（链、区块、交易，挖矿算法，共识）
+* 核心（链、区块、交易，挖矿算法、共识，启动流程、挖矿流程、交易流程）
 * 网络（服务、本地节点Node、远程节点Peer）
 * 存储（数据库）
 * 客户端/API（钱包、命令行、RPC接口等）
@@ -20,7 +20,7 @@
 * 矿工，打包交易、挖矿、出块
 * 钱包端，转账
 
- Block/Transaction/Receipt/Log 的数据结构关系
+  Block/Transaction/Receipt/Log 的数据结构关系
 
 ![](/assets/block-tx-receipt-log.png)
 
