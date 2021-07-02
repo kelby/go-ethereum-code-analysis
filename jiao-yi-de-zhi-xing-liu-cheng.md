@@ -142,5 +142,7 @@ evm.Create 根据参数创建智能合约， evm.Call 根据交易信息在虚�
 
 ![](/assets/tx-logic-process.png)
 
+一个新的关键的概念“StateTransition”。
+
 
 
