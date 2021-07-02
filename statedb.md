@@ -37,5 +37,17 @@ StateDB-&gt;Trie-&gt;Account-&gt;stateObject
 >
 > StateDB 存储着所有 stateObject - 称之为世界状态
 
+StateDB 是 Ethereum 中的账户存储『数据库』，所有账户在 Block 出块之后就确定下来，“固化”形成一棵 MPT 树，MPT 树根保存到 Block.Root 中，通过这个 Block.Root 可以恢复出在该区块点上时，整个 Ethereum 世界中所有账户的一个快照数据，包括：
 
+账户的余额；
+
+账户主动发起的交易次数；
+
+对于合约账号，还有下面属性：
+
+合约代码；
+
+合约代码的 Hash 値；
+
+合约中存储的数据的快照；
 
