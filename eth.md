@@ -16,5 +16,23 @@ ETH 全节点服务端。
 * 远程节点管理
 * 同步数据！
 
+type EthAPIBackend
+
+type Ethereum
+
+type PrivateAdminAPI
+
+type PrivateDebugAPI
+
+type PrivateMinerAPI
+
+type PublicDebugAPI
+
+type PublicEthereumAPI
+
+type PublicMinerAPI
+
+
+
 
 
