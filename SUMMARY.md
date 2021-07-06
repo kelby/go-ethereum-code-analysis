@@ -62,7 +62,7 @@
     * gen\_receipt\_json
     * hashing
     * [log](core/types/log.md)
-    * receipt
+    * [receipt](core/types/receipt.md)
     * transaction
     * transaction\_marshalling
     * transaction\_signing
