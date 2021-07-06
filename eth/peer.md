@@ -3,14 +3,25 @@ peer对象代表的是与之建立连接的对方节点，其主要功能有两�
 ```go
 // ethPeer is a wrapper around eth.Peer to maintain a few extra metadata.
 type ethPeer struct {
-	*eth.Peer
-	snapExt *snapPeer // Satellite `snap` connection
+    *eth.Peer
+    snapExt *snapPeer // Satellite `snap` connection
 
-	syncDrop *time.Timer   // Connection dropper if `eth` sync progress isn't validated in time
-	snapWait chan struct{} // Notification channel for snap connections
-	lock     sync.RWMutex  // Mutex protecting the internal fields
+    syncDrop *time.Timer   // Connection dropper if `eth` sync progress isn't validated in time
+    snapWait chan struct{} // Notification channel for snap connections
+    lock     sync.RWMutex  // Mutex protecting the internal fields
 }
 ```
+
+ethPeer 是对 eth.Peer 的简单封装。
+
+```go
+// snapPeer is a wrapper around snap.Peer to maintain a few extra metadata.
+type snapPeer struct {
+	*snap.Peer
+}
+```
+
+snapPeer 是对 snap.Peer 的简单封装。
 
 
 
