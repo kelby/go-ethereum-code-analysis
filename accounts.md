@@ -40,5 +40,13 @@ i：wallet中可能包含多个account，而每个account中包含一个address�
 "github.com/karalabe/usb" //usbwallet
 ```
 
+> keystore, account, manager 这些属于区块链核心内容之一；
+>
+> url, abi, hd 等属于相对比较独立的工具库；
+>
+> scwallet, usbwallet 属于钱包客户端范畴。
+>
+> 总体来说，也可以理解为它是区块链核心与钱包客户端的连接处。
+
 
 
