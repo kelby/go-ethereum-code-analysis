@@ -14,5 +14,19 @@ mclock
 
 prque - Priority\(pr\) queue\(que\) data structure.
 
+big
+
+bytes
+
+debug
+
+format
+
+path
+
+size
+
+types
+
 
 
