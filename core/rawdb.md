@@ -19,3 +19,7 @@
 
 约定 database schema prefixing. 数据库表（名字的前缀）等。
 
+> 区块链核心与 DB数据存储的连接。
+
+
+
