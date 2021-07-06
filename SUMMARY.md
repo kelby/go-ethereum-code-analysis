@@ -75,7 +75,7 @@
   * [handler](eth/handler.md)
   * [handler\_eth](eth/handlereth.md)
   * [handler\_snap](eth/handlersnap.md)
-  * peer
+  * [peer](eth/peer.md)
   * [peerset](eth/peerset.md)
   * [state\_accessor](eth/stateaccessor.md)
   * [sync](eth/sync.md)
