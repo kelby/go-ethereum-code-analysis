@@ -51,5 +51,11 @@ RPC Server
 // client.
 ```
 
+> 客户端/API，与区块链核心的连接。
+>
+> jsre.JSRE - 通向客户端；
+>
+> rpc.Client - 通向区块链核心。
+
 
 
