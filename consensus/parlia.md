@@ -25,5 +25,13 @@
 * ChapelGenesisHash - chapelNet 新测试网
 * RialtoGenesisHash - rialtoNet 旧测试网
 
+miner/worker.go
+
+params/config.go
+
+core/state\_transition.go
+
+
+
 
 
