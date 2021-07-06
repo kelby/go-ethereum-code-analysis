@@ -32,5 +32,9 @@ type PublicEthereumAPI
 
 type PublicMinerAPI
 
-网络模块的运行框架：![](/assets/eth-protocol-manager.png)
+网络模块的运行框架：![](/assets/eth-protocol-manager.png)这个框架主要由ProtocolManager对象实现。可以看到这个框架实现了消息处理、广播区块和交易、同步区块和交易等功能。
+
+
+
+
 
