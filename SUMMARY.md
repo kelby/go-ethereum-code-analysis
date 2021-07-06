@@ -60,7 +60,7 @@
   * [ecies](crypto/ecies.md)
   * [secp256k1 \*](crypto/secp256k1.md)
   * [signify](crypto/signify.md)
-* [eth](eth.md)
+* [eth Ethereum \*](eth.md)
   * [downloader](eth/downloader.md)
   * [fetcher](eth/fetcher.md)
   * [filters](eth/filters.md)
