@@ -79,6 +79,7 @@
   * [peerset](eth/peerset.md)
   * [state\_accessor](eth/stateaccessor.md)
   * [sync](eth/sync.md)
+  * [catalyst](eth/catalyst.md)
 * [ethclient \*](ethclient.md)
 * [ethdb](ethdb.md)
 * [ethstats](ethstats.md)
