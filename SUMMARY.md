@@ -54,6 +54,18 @@
   * [StateDB](statedb.md)
   * [types](core/types.md)
     * [LegacyTx](core/types/legacytx.md)
+    * [access\_list\_tx](core/types/accesslist-tx.md)
+    * block
+    * bloom9
+    * gen\_access\_tuple
+    * gen\_header\_json
+    * gen\_receipt\_json
+    * hashing
+    * log
+    * receipt
+    * transaction
+    * transaction\_marshalling
+    * transaction\_signing
   * [Bloom-Filter](bloom-filter.md)
   * [vm \*](core/vm.md)
   * [evm补充](core/evmbu-chong.md)
