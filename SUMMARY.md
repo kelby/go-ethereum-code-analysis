@@ -86,6 +86,8 @@
   * [catalyst](eth/catalyst.md)
 * [ethclient \*](ethclient.md)
 * [ethdb](ethdb.md)
+  * [leveldb](ethdb/leveldb.md)
+  * [memorydb](ethdb/memorydb.md)
 * [ethstats](ethstats.md)
 * [event](event.md)
 * [graphql](graphql.md)
