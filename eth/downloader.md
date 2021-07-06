@@ -4,13 +4,13 @@ downloader主要负责区块链最开始的同步工作，当前的同步有两�
 
 另一种模式就是 快速同步的fast sync模式， 这种模式有专门的文档来描述。请参考fast sync的文档。简单的说 fast sync的模式会下载区块头，区块体和收据， 插入的过程不会执行交易，然后在一个区块高度\(最高的区块高度 - 1024\)的时候同步所有的账户状态，后面的1024个区块会采用fullmode的方式来构建。 这种模式会加区块的插入时间，同时不会产生大量的历史的账户信息。会相对节约磁盘， 但是对于网络的消耗会更高。 因为需要下载收据和状态。
 
-downloader.go ：实现了区块同步逻辑
+* downloader.go ：实现了区块同步逻辑
 
-peer.go ：对区块各个阶段的组装，下面的各个FetchXXX 就是很依赖这个模块。
+* peer.go ：对区块各个阶段的组装，下面的各个FetchXXX 就是很依赖这个模块。
 
-queue.go ：对eth/peer.go的封装
+* queue.go ：对eth/peer.go的封装，可以理解为这是一个对区块的组装队列
 
-statesync.go ：同步state对象
+* statesync.go ：同步state对象
 
 fetcher 模块和 downloader 模块所承担的任务是不同的：
 
