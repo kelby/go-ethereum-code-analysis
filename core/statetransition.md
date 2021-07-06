@@ -1,0 +1,2 @@
+StateTransition是用来处理一个一个的交易的。
+
