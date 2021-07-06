@@ -20,3 +20,9 @@ downloader 功能比较重，用来保证自己的区块链和其它节点之间
 
 在一些消息处理代码中，会将收到的数据交给fetcher的filter方法处理，剩下的再交给downloader的Deliver方法处理。
 
+区块下载流程：
+
+![](/assets/block-download-example.png)
+
+
+
