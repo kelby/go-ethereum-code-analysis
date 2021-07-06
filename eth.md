@@ -32,7 +32,5 @@ type PublicEthereumAPI
 
 type PublicMinerAPI
 
-
-
-
+网络模块的运行框架：![](/assets/eth-protocol-manager.png)
 
