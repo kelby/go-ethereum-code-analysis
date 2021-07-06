@@ -38,7 +38,11 @@ params/bootnodes.go
 
 \[golang-Eos-dpos-Ethereum\]\([https://github.com/yinchengtsinghua/golang-Eos-dpos-Ethereum\](https://github.com/yinchengtsinghua/golang-Eos-dpos-Ethereum%29\)
 
-\[币安智能链\]\(https://github.com/binance-chain/whitepaper/blob/master/%E5%B8%81%E5%AE%89%E6%99%BA%E8%83%BD%E9%93%BE.md\)
+\[币安智能链\]\([https://github.com/binance-chain/whitepaper/blob/master/币安智能链.md\](https://github.com/binance-chain/whitepaper/blob/master/币安智能链.md\)\)
 
+-----------
 
+品牌、配置的修改
+
+新共识算法的引入
 
