@@ -40,6 +40,17 @@
   * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
   * [state \*](core/state.md)
+    * pruner
+    * snapshot
+    * access\_list
+    * database
+    * dump
+    * iterator
+    * journal
+    * [state\_object \*](core/state/stateobject.md)
+    * [statedb \*](core/state/statedb.md)
+    * sync
+    * trie\_prefetcher
   * [StateDB](statedb.md)
   * [types](core/types.md)
     * [LegacyTx](core/types/legacytx.md)
