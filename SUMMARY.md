@@ -61,7 +61,7 @@
     * gen\_header\_json
     * gen\_receipt\_json
     * hashing
-    * log
+    * [log](core/types/log.md)
     * receipt
     * transaction
     * transaction\_marshalling
