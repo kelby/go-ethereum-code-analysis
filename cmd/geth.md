@@ -30,3 +30,7 @@ geth is the official command-line client for Ethereum.
 
 使用此命令可以使节点作为full node（默认），或者archive node（保留所有历史状态）或light node（检索数据实时）运行。
 
+> 属于命令行客户端范畴。
+
+
+
