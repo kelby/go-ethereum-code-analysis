@@ -47,7 +47,7 @@ params/bootnodes.go
 新共识算法的引入：
 
 * consensus 下新共识算法
-* 系统合约
+* 系统合约的部署及后续升级
 
 
 
