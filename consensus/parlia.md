@@ -1,7 +1,5 @@
 币安智能链在用的共识算法 PoSA，可供参考。
 
-
-
 | 合约名字 | 合约地址 | ABI 文件 |
 | :--- | :--- | :--- |
 | ValidatorContract | 0x0000000000000000000000000000000000001000 | 略 |
@@ -14,6 +12,12 @@
 | GovHubContract | 0x0000000000000000000000000000000000001007 | 略 |
 | TokenManagerContract | 0x0000000000000000000000000000000000001008 | 略 |
 | CrossChainContract | 0x0000000000000000000000000000000000002000 | 略 |
+
+当前共升级过 3 个版本：
+
+* ramanujanUpgrade
+* nielsUpgrade
+* mirrorUpgrade
 
 
 
