@@ -19,5 +19,11 @@
 * nielsUpgrade
 * mirrorUpgrade
 
+创世与网络：
+
+* BSCGenesisHash - mainNet
+* ChapelGenesisHash - chapelNet
+* RialtoGenesisHash - rialtoNet
+
 
 
