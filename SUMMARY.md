@@ -95,7 +95,10 @@
   * [testlog](internal/testlog.md)
   * [utesting](internal/utesting.md)
   * [web3ext](internal/web3ext.md)
-* [les](les.md)
+* [les LightEthereum \*](les.md)
+  * [api](les/api.md)
+  * [api\_backend](les/apibackend.md)
+  * benchmark
 * [light](light.md)
 * [miner \*](miner.md)
   * [Miner](miner/miner.md)
