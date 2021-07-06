@@ -30,6 +30,7 @@
   * [挖矿算法-共识](gong-shi.md)
   * [定制DPOS共识](consensus/ding-zhi-dpos-gong-shi.md)
   * [engine](consensus/engine.md)
+  * [parlia](consensus/parlia.md)
 * [console](console.md)
 * [core \*](core.md)
   * [asm](core/asm.md)
