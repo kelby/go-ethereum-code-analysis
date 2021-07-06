@@ -63,7 +63,7 @@
     * hashing
     * [log](core/types/log.md)
     * [receipt](core/types/receipt.md)
-    * transaction
+    * [transaction](core/types/transaction.md)
     * transaction\_marshalling
     * transaction\_signing
   * [Bloom-Filter](bloom-filter.md)
