@@ -22,8 +22,8 @@
 创世与网络：
 
 * BSCGenesisHash - mainNet
-* ChapelGenesisHash - chapelNet
-* RialtoGenesisHash - rialtoNet
+* ChapelGenesisHash - chapelNet 新测试网
+* RialtoGenesisHash - rialtoNet 旧测试网
 
 
 
