@@ -4,3 +4,5 @@ fetcher 模块和 downloader 模块所承担的任务是不同的：
 
 fetcher 功能较轻，只会对矿工新产生的区块进行同步和广播。
 
+在一些消息处理代码中，会将收到的数据交给fetcher的filter方法处理，剩下的再交给downloader的Deliver方法处理。
+
