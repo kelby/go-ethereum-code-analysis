@@ -24,7 +24,7 @@ API 文件
 
 Snapshot 快照（算法补充）
 
-------------
+---
 
 prepare 预处理当前区块的头信息（比如 挖矿难度）
 
@@ -35,4 +35,8 @@ Finalize 做挖矿成功后最后善后的事情
 verifyHeader
 
 VerifySeal
+
+> 区块链核心内容之一。
+
+
 
