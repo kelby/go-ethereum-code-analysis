@@ -30,5 +30,11 @@ type SendTxArgs struct {
 }
 ```
 
+ethapi/api包分析，一共有三种api的命令：
+
+* admin相关的命令，这个是通过安全的RPC通道实现的。其结构体为PrivateAdminAPI
+* personal相关的命令，主要是负责账户管理相关命令，可以lock和unlock账户。其结构体为PrivateAccountAPI
+* eth相关的命令，主要是可以操作区块上的相关命令。其结构体为PublicBlockChainAPI
+
 
 
