@@ -40,7 +40,7 @@
   * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
   * [state \*](core/state.md)
-    * pruner
+    * [pruner](core/state/pruner.md)
     * snapshot
     * access\_list
     * database
