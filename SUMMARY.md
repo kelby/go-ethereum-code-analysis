@@ -193,6 +193,13 @@
 * [params](params.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
+  * [client \*](rpc/client.md)
+  * [endpoints](rpc/endpoints.md)
+  * handler \*
+  * http
+  * ipc
+  * [server \*](rpc/server.md)
+  * service
 * [signer](signer.md)
   * [core](signer/core.md)
   * [fourbyte](signer/fourbyte.md)
