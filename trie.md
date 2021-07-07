@@ -17,3 +17,9 @@ MPT 全称是 Merkle Patricia Trie 也叫 Merkle Patricia Tree，是 Merkle Tree
 
 ![](/assets/block-head-mpt.png)
 
+> 属于相对较独立的工具库。
+>
+> 但作用和DB存储相关。
+
+
+
