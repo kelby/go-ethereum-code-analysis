@@ -38,7 +38,7 @@ TxPool contains all currently known transactions.
 
 ![](/assets/struct-receipt.png)
 
-
+> 链、区块、交易、收据、日志，虚拟机、世界状态、账户状态，交易池，创世纪等核心内容。
 
 
 
