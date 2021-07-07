@@ -170,7 +170,7 @@
 * [mobile](mobile.md)
 * [node](node.md)
   * [api](node/api.md)
-  * config
+  * [config](node/config.md)
   * defaults
   * endpoints
   * lifecycle
