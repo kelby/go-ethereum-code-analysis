@@ -79,7 +79,6 @@
   * [回执](core/hui-zhi.md)
   * [types](core/types.md)
   * [Log](core/log.md)
-  * [StateProcessor](core/stateprocessor.md)
   * [StateTransition](core/statetransition.md)
   * [BlockValidator](core/blockvalidator.md)
   * [BloomIndexer](core/bloomindexer.md)
@@ -87,7 +86,7 @@
   * [BlockGen](core/blockgen.md)
   * [GenesisAccount](core/genesisaccount.md)
   * [HeaderChain](core/headerchain.md)
-  * statePrefetcher
+  * [statePrefetcher](core/stateprefetcher.md)
   * [StateProcessor](core/stateprocessor.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
