@@ -13,3 +13,7 @@ RLP是Recursive Length Prefix的简写。是以太坊中的序列化方法，以
 
 序列化工具
 
+> 属于相对较独立的工具库。
+
+
+

@@ -48,5 +48,9 @@ ServeHTTP
 
 serveRequest, Server的主要处理流程。从codec读取请求，找到对应的方法并调用，然后把回应写入codec。
 
+> 属于API客户端连接库范畴。
+
+
+
 
 
