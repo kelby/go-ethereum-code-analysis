@@ -171,7 +171,7 @@
 * [node](node.md)
   * [api](node/api.md)
   * [config](node/config.md)
-  * defaults
+  * [defaults](node/defaults.md)
   * endpoints
   * lifecycle
   * [node \*](node/node.md)
