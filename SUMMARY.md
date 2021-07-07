@@ -169,6 +169,13 @@
   * [clique POA](miner/clique-poa.md)
 * [mobile](mobile.md)
 * [node](node.md)
+  * [api](node/api.md)
+  * config
+  * defaults
+  * endpoints
+  * lifecycle
+  * node
+  * rpcstack
 * [p2p](p2p.md)
   * [discover](p2p/discover.md)
   * [discv5](p2p/discv5.md)
