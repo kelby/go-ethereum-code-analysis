@@ -174,7 +174,7 @@
   * defaults
   * endpoints
   * lifecycle
-  * node
+  * [node \*](node/node.md)
   * rpcstack
 * [p2p](p2p.md)
   * [discover](p2p/discover.md)
