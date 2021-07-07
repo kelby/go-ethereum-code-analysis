@@ -1,6 +1,6 @@
 deals with subscriptions to real-time events.
 
-工具/库
+> 相对比较独立的工具/库。
 
 
 
