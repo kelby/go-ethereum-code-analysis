@@ -10,7 +10,11 @@ Package node sets up multi-protocol Ethereum nodes.
 
 Node启动时会调用各Service的构造函数创建Service实例。Service是一个接口，要对外暴露RPC API的模块都需要实现该接口，比如Ethereum, Whisper, Swarm等等。
 
+既是客户端，又是服务端。既有 p2p，又有 rpc/http 协议，甚至是 websocket、GraphQL 等。
+
+这里翻译为“节点”，是服务节点，区别于网络节点。
+
+> 属于区块链核心范畴。
 
 
-既是客户端，又是服务端。既有 p2p，又有 rpc/http 协议。
 
