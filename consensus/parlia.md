@@ -19,14 +19,22 @@
 * nielsUpgrade
 * mirrorUpgrade
 
-网络代号（由创世纪决定）：
+BSC 网络代号（由创世纪决定）：
 
 * BSCGenesisHash - mainNet
 * ChapelGenesisHash - chapelNet 新测试网
 * RialtoGenesisHash - rialtoNet 旧测试网
 * Default - 默认网络（用不到）
 
-几次升级代号：
+ETH 网络代号：
+
+* mainNet
+* Ropsten
+* Rinkeby
+* Görli
+* Calaveras（YOLOv3x）
+
+BSC 几次升级代号：
 
 * Ramanujan
 * Niels
