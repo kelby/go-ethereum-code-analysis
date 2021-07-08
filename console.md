@@ -57,5 +57,63 @@ RPC Server
 >
 > rpc.Client - 通向区块链核心。
 
+常用命令有:
+
+```
+# 创建账户
+personal.newAccount()
+
+# 解锁账户
+personal.unlockAccount()
+# 解锁账户，指定解锁具体账户
+personal.unlockAccount(eth.accounts[0])
+
+# 列出系统中的账户
+eth.accounts
+
+# 1、查看账户余额,返回值的单位是 Wei (“ ”里面是自己管理的账户地址)
+eth.getBalance()
+# 2、查看账户余额,返回值的单位是 Wei (“ ”里面是自己管理的账户地址)
+eth.getBalance("写上账户地址")
+# 3、转换为单位ether,便于阅读
+web3.fromWei(eth.getBalance("写上账户地址"),'ether')
+# 4、如果是在里面创建的账户可以调用内部函数拿到地址，不用每次都复制地址。
+eth.getBalance(eth.accounts[0])
+web3.fromWei(eth.getBalance(eth.accounts[0]),'ether')
+
+#发起交易（发起方需要是自己管理的账户，其次需要先解锁账户），from：发起交易的地址；to:接受交易的地址
+eth.sendTransaction({from:eth.accounts[0],to:"接受交易的地址",value:100000})
+
+# 列出当前区块高度
+eth.blockNumber
+
+# 获取交易信息
+eth.getTransaction()
+
+# 获取区块信息
+eth.getBlock()
+
+# 开始挖矿
+miner.start()
+# 表示一直挖矿
+miner.start(1)
+# 查看
+eth.coinbase
+
+# 停止挖矿
+miner.stop()
+# 开始挖矿,当挖到一个块时就停止，
+miner.start(1);admin.sleepBlocks(1);miner.stop()
+ 
+# Wei 换算成以太币
+web3.fromWei()
+
+# 以太币换算成 Wei
+web3.toWei()
+
+# 交易池的状态
+bxpool.status
+```
+
 
 
