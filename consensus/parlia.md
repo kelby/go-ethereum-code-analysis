@@ -24,14 +24,11 @@
 * BSCGenesisHash - mainNet
 * ChapelGenesisHash - chapelNet 新测试网
 * RialtoGenesisHash - rialtoNet 旧测试网
+* Default - 默认网络（用不到）
 
 miner/worker.go
 
 params/config.go
 
 core/state\_transition.go
-
-
-
-
 
