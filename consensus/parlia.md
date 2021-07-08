@@ -37,7 +37,7 @@ ETH 网络代号：
 
 BSC 几次升级代号：
 
-* Ramanujan
+* Ramanujan（创世纪）
 * Niels
 * Mirror
 
