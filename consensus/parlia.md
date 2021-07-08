@@ -25,6 +25,7 @@ BSC 网络代号（由创世纪决定）：
 * ChapelGenesisHash - chapelNet 新测试网
 * RialtoGenesisHash - rialtoNet 旧测试网
 * Default - 默认网络（用不到）
+* YOLOv3
 
 ETH 网络代号：
 
@@ -32,7 +33,7 @@ ETH 网络代号：
 * Ropsten
 * Rinkeby
 * Görli
-* Calaveras（YOLOv3x）
+* Calaveras（YOLOv3）
 
 BSC 几次升级代号：
 
