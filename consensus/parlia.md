@@ -19,12 +19,18 @@
 * nielsUpgrade
 * mirrorUpgrade
 
-创世与网络：
+网络代号（由创世纪决定）：
 
 * BSCGenesisHash - mainNet
 * ChapelGenesisHash - chapelNet 新测试网
 * RialtoGenesisHash - rialtoNet 旧测试网
 * Default - 默认网络（用不到）
+
+几次升级代号：
+
+* Ramanujan
+* Niels
+* Mirror
 
 miner/worker.go
 
