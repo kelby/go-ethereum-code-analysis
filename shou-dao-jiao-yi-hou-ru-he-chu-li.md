@@ -20,11 +20,15 @@ Transaction Execution
 代码：
 
 ```go
+// state_accessor.go
 func (eth *Ethereum) stateAtTransaction(block *types.Block, txIndex int, reexec uint64) (core.Message, vm.BlockContext, *state.StateDB, error) {
     // ...
 }
 
 // stateAtBlock ...
+
+// state_processor.go
+// Process ...
 ```
 
 tx & msg -&gt; 数据、statedb -&gt; 数据库、txContext & context -&gt; 环境/上下文、vmenv -&gt; 虚拟机
