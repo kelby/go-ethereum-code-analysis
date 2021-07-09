@@ -27,5 +27,5 @@ func (eth *Ethereum) stateAtTransaction(block *types.Block, txIndex int, reexec 
 // stateAtBlock ...
 ```
 
-代码、tx & msg -&gt; 数据、statedb -&gt; 数据库、txContext & context -&gt; 环境、vmenv -&gt; 虚拟机
+tx & msg -&gt; 数据、statedb -&gt; 数据库、txContext & context -&gt; 环境/上下文、vmenv -&gt; 虚拟机
 
