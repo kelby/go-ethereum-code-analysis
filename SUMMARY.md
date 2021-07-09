@@ -218,4 +218,5 @@
 * [交易签名过程](jiao-yi-qian-ming-guo-cheng.md)
 * [ABI](abi.md)
 * [contracts/checkpointoracle](contractscheckpointoracle.md)
+* [收到交易后如何处理](shou-dao-jiao-yi-hou-ru-he-chu-li.md)
 
