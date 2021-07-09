@@ -23,6 +23,8 @@ Transaction Execution
 func (eth *Ethereum) stateAtTransaction(block *types.Block, txIndex int, reexec uint64) (core.Message, vm.BlockContext, *state.StateDB, error) {
     // ...
 }
+
+// stateAtTransaction ...
 ```
 
 
