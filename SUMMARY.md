@@ -208,6 +208,7 @@
 * [trie](trie.md)
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
+* [创世区块](chuang-shi-qu-kuai.md)
 * [启动流程](qi-dong-liu-cheng.md)
 * [geth启动流程（补充）](gethqi-dong-liu-cheng.md)
 * [挖矿流程](wa-kuang-liu-cheng.md)
@@ -217,5 +218,4 @@
 * [交易签名过程](jiao-yi-qian-ming-guo-cheng.md)
 * [ABI](abi.md)
 * [contracts/checkpointoracle](contractscheckpointoracle.md)
-* [创世区块](chuang-shi-qu-kuai.md)
 
