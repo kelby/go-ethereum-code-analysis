@@ -17,5 +17,13 @@ Transaction Execution
 * Refund any remaining gas to the sender.
 * Pay mining fees to the beneficiary account. The miner of the block that includes this transaction chooses the beneficiary account \(usually an account that belongs to the miner\).
 
+代码：
+
+```go
+func (eth *Ethereum) stateAtTransaction(block *types.Block, txIndex int, reexec uint64) (core.Message, vm.BlockContext, *state.StateDB, error) {
+    // ...
+}
+```
+
 
 
