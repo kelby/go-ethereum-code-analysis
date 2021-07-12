@@ -100,11 +100,14 @@ miner.start(1)
 # 查看
 eth.coinbase
 
+挖矿状态
+eth.mining
+
 # 停止挖矿
 miner.stop()
 # 开始挖矿,当挖到一个块时就停止，
 miner.start(1);admin.sleepBlocks(1);miner.stop()
- 
+
 # Wei 换算成以太币
 web3.fromWei()
 
