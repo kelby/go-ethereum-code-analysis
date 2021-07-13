@@ -28,3 +28,10 @@ const (
 
 abi项目跟账户管理没有什么关系。是合约的“头文件”。
 
+那么怎么获得函数对应的ABI 数据:
+
+* Solidity ABI 编码函数 - ABI Encoding and Decoding Functions
+* Web3 ABI 编码函数 - web3.eth.abi
+
+
+
