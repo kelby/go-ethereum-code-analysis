@@ -1,8 +1,8 @@
 Miner - 矿工。
 
-Clique - 共识方式一
+* Clique - 共识方式一
 
-Ethash - 共识方式二
+* Ethash - 共识方式二
 
 unconfirmed - 用来跟踪用户本地的挖矿信息的
 
@@ -42,6 +42,4 @@ Miner 包工头，worker 打工人-半成品，Agent 包装员-成品。Work 产
 miner.start\(\)即可进开启实时挖矿。
 
 ![](/assets/miner.png)
-
-
 
