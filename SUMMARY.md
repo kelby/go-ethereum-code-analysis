@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [区块链要素](chapter1.md)
-* [accounts](accounts.md)
+* [accounts \*](accounts.md)
   * [abi \*](accounts/abi.md)
   * [external](accounts/external.md)
   * [keystore \*](accounts/keystore.md)
