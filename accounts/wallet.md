@@ -8,5 +8,5 @@ type Wallet interface {
     }
 ```
 
-
+当前共有 5 套实现。
 

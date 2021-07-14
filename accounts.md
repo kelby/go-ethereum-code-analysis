@@ -48,5 +48,5 @@ i：wallet中可能包含多个account，而每个account中包含一个address�
 >
 > 总体来说，也可以理解为它是区块链核心与钱包客户端的连接处。
 
-
+关键是定义 Wallet 和 Backend 接口，当前共有 5 套实现！
 
