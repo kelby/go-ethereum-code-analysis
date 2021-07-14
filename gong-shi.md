@@ -27,9 +27,10 @@ Ethash算法主要分为以下几个步骤：
 * Prepare - commitNewWork
 
 * Seal - taskLoop
+
 * FinalizeAndAssemble - commit
 * Finalize - 无，上链时用到
 * SealHash - taskLoop, resultLoop, commit
 
-
+不严谨的说，顺序是 Prepare -&gt; FinalizeAndAssemble -&gt; Seal
 
