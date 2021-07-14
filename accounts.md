@@ -24,7 +24,7 @@ keystore目录和目录内的文件是可以直接拷贝的。
 
 * 账号 Account
 * 钱包 Wallet
-* 管理（Manager，这是重点）
+* 管理 Manager，本质也是实现 Backend 接口，只是它与设备无关，可以通用
 
 wallet、account、address这三者的区别和联系
 
