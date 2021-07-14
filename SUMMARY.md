@@ -18,7 +18,7 @@
   * [Backend](accounts/backend.md)
 * [cmd](cmd.md)
   * [abidump](cmd/abidump.md)
-  * [abigen](cmd/abigen.md)
+  * [abigen \*](cmd/abigen.md)
   * [ABI](cmd/abi.md)
   * [bootnode](cmd/bootnode.md)
   * [checkpoint-admin](cmd/checkpoint-admin.md)
