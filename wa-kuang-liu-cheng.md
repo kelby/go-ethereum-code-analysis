@@ -4,22 +4,24 @@
 
 四个循环：
 
-* newWorkLoop
-* mainLoop
-* TaskLoop
-* resultLoop
+* newWorkLoop - 监听 startCh, chainHeadCh, resubmitIntervalCh, resubmitAdjustCh
+* mainLoop - 监听 newWorkCh, chainSideCh, txsCh
+* TaskLoop - 监听 taskCh
+* resultLoop - 监听 resultCh
 
-startCh：接收startCh信号，开始挖矿
+信号通道或超时：
 
-chainHeadCh：表示接收到新区块，需要终止当前的挖矿工作，开始新的挖矿。
+* startCh：接收startCh信号，开始挖矿
 
-timer.C：默认每三秒检查一次是否有新交易需要处理。如果有则需要重新开始挖矿。以便将加高的交易优先打包到区块中。
+* chainHeadCh：表示接收到新区块，需要终止当前的挖矿工作，开始新的挖矿。
 
-newWorkCh:接收生成新的挖矿任务信号
+* timer.C：默认每三秒检查一次是否有新交易需要处理。如果有则需要重新开始挖矿。以便将加高的交易优先打包到区块中。
 
-chainSideCh:接收区块链中加入了一个新区块作为当前链头的旁支的信号
+* newWorkCh:接收生成新的挖矿任务信号
 
-txsCh:接收交易池的Pending中新加入了交易事件的信号
+* chainSideCh:接收区块链中加入了一个新区块作为当前链头的旁支的信号
+
+* txsCh:接收交易池的Pending中新加入了交易事件的信号
 
 TaskLoop则是提交新的挖矿任务，而resultLoop则是成功出块之后做的一些处理。
 
@@ -69,6 +71,4 @@ resultCh有区块数据，则成功挖出了块，到最后的成功出块我们
 ![](/assets/miner-start-to-broadcast.png)worker.go 挖矿细节
 
 ![](/assets/miner-worker-detail.png)
-
-
 
