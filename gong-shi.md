@@ -8,11 +8,9 @@ Engine接口定义了共识引擎需要实现的所有函数，实际上按功�
 
 另外，由于需要访问以前的区块链数据，抽象出了一个ChainReader接口，BlockChain和HeaderChain都实现了该接口以完成对数据的访问。
 
-----------
+---
 
 Ethash算法主要分为以下几个步骤：
-
-
 
 根据区块信息生成一个seed
 
@@ -23,6 +21,15 @@ Ethash算法主要分为以下几个步骤：
 矿工会从dataset中随机取出数据计算hash
 
 验证者会根据cache重新生成dataset中所需要的那部分数据，因此只需要存储cache就可以了
+
+主要方法及 worker 调用入口：
+
+* Prepare - commitNewWork
+
+* Seal - taskLoop
+* FinalizeAndAssemble - commit
+* Finalize - 无，上链时用到
+* SealHash - taskLoop, resultLoop, commit
 
 
 
