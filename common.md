@@ -16,7 +16,7 @@ prque - Priority\(pr\) queue\(que\) data structure.
 
 big
 
-bytes
+bytes - Hash，UnprefixedHash；Address，UnprefixedAddress，MixedcaseAddress
 
 debug
 
@@ -24,7 +24,7 @@ format
 
 path
 
-size
+size - StorageSize
 
 types
 
