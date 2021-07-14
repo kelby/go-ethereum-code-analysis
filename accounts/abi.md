@@ -33,5 +33,11 @@ abi项目跟账户管理没有什么关系。是合约的“头文件”。
 * Solidity ABI 编码函数 - ABI Encoding and Decoding Functions
 * Web3 ABI 编码函数 - web3.eth.abi
 
+其它：
+
+借助工具 solc 可以将 solidity 源文件转换得到 .abi 头文件，.bin 二进制文件；
+
+再用 abigen 结合 .abi + .bin 转换得到 .go 文件。
+
 
 
