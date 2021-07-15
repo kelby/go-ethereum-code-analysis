@@ -114,7 +114,7 @@
   * [tracers](eth/tracers.md)
   * [backend \*](eth/backend.md)
   * [api](eth/api.md)
-  * [api\_backend](eth/apibackend.md)
+  * [api\_backend \*](eth/apibackend.md)
   * [bloombits](eth/bloombits.md)
   * [discovery](eth/discovery.md)
   * [handler \*](eth/handler.md)
