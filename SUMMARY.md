@@ -73,6 +73,7 @@
     * [transaction\_marshalling](core/types/transactionmarshalling.md)
     * [transaction\_signing](core/types/transactionsigning.md)
     * [DynamicFeeTx](core/types/dynamicfeetx.md)
+    * [交易树和收据树](core/types/jiao-yi-shu-he-shou-ju-shu.md)
   * [Bloom-Filter](bloom-filter.md)
   * [vm \*](core/vm.md)
   * [evm补充](core/evmbu-chong.md)
