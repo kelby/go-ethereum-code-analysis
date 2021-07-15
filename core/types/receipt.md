@@ -30,5 +30,5 @@ type Receipt struct {
 type Receipts []*Receipt
 ```
 
-
+每个收据里都有一个Bloom Filter，记录了此交易的类型、地址等相关信息。
 
