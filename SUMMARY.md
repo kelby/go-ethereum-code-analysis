@@ -72,6 +72,7 @@
     * [transaction](core/types/transaction.md)
     * transaction\_marshalling
     * transaction\_signing
+    * [DynamicFeeTx](core/types/dynamicfeetx.md)
   * [Bloom-Filter](bloom-filter.md)
   * [vm \*](core/vm.md)
   * [evm补充](core/evmbu-chong.md)
