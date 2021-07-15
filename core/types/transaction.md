@@ -1,3 +1,5 @@
+区块链系统里的交易。
+
 ```go
 // Transaction is an Ethereum transaction.
 type Transaction struct {
@@ -15,6 +17,8 @@ type Transaction struct {
 // Transactions implements DerivableList for transactions.
 type Transactions []*Transaction
 ```
+
+概念的对应转换：当进入虚拟机时，交易会被转换成消息，进行后续处理。
 
 ```go
 // Message is a fully derived transaction and implements core.Message
@@ -40,22 +44,22 @@ type Message struct {
 //
 // This is implemented by LegacyTx and AccessListTx.
 type TxData interface {
-	txType() byte // returns the type ID
-	copy() TxData // creates a deep copy and initializes all fields
+    txType() byte // returns the type ID
+    copy() TxData // creates a deep copy and initializes all fields
 
-	chainID() *big.Int
-	accessList() AccessList
-	data() []byte
-	gas() uint64
-	gasPrice() *big.Int
-	tip() *big.Int
-	feeCap() *big.Int
-	value() *big.Int
-	nonce() uint64
-	to() *common.Address
+    chainID() *big.Int
+    accessList() AccessList
+    data() []byte
+    gas() uint64
+    gasPrice() *big.Int
+    tip() *big.Int
+    feeCap() *big.Int
+    value() *big.Int
+    nonce() uint64
+    to() *common.Address
 
-	rawSignatureValues() (v, r, s *big.Int)
-	setSignatureValues(chainID, v, r, s *big.Int)
+    rawSignatureValues() (v, r, s *big.Int)
+    setSignatureValues(chainID, v, r, s *big.Int)
 }
 ```
 
