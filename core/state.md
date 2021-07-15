@@ -135,5 +135,7 @@ type StateDB struct {
 }
 ```
 
+实现了 EVM 里的 StateDB 接口。
+
 状态关系：世界状态  -&gt; 个人账户/合约账户 -&gt; 账户状态
 
