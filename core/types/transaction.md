@@ -1,4 +1,4 @@
-区块链系统里的交易。
+区块链系统里的“交易”。
 
 ```go
 // Transaction is an Ethereum transaction.
@@ -18,7 +18,7 @@ type Transaction struct {
 type Transactions []*Transaction
 ```
 
-概念的对应转换：当进入虚拟机时，交易会被转换成消息，进行后续处理。
+概念的对应转换：当进入虚拟机，做为合约的一部分时，“交易”会被转换成“消息”，进行后续处理。
 
 ```go
 // Message is a fully derived transaction and implements core.Message
