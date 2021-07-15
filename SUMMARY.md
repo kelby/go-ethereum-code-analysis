@@ -136,7 +136,7 @@
   * [build](internal/build.md)
   * [cmdtest](internal/cmdtest.md)
   * [debug](internal/debug.md)
-  * [ethapi](internal/ethapi.md)
+  * [ethapi \*](internal/ethapi.md)
   * [flags](internal/flags.md)
   * [guide](internal/guide.md)
   * [jsre](internal/jsre.md)
