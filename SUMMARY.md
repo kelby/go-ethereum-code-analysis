@@ -96,6 +96,7 @@
   * [HeaderChain](core/headerchain.md)
   * [statePrefetcher](core/stateprefetcher.md)
   * [StateProcessor](core/stateprocessor.md)
+  * [events](core/events.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
