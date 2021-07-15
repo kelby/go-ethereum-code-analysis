@@ -61,7 +61,7 @@
   * [types](core/types.md)
     * [LegacyTx](core/types/legacytx.md)
     * [access\_list\_tx](core/types/accesslist-tx.md)
-    * [block](core/types/block.md)
+    * [block \*](core/types/block.md)
     * [bloom9](core/types/bloom9.md)
     * gen\_access\_tuple
     * gen\_header\_json
