@@ -1,5 +1,45 @@
 geth is the official command-line client for Ethereum.
 
+代码结构：
+
+* account
+  * walletCommand
+  * accountCommand
+* chain
+  * initCommand
+  * dumpGenesisCommand
+  * importCommand
+  * exportCommand
+  * importPreimagesCommand
+  * exportPreimagesCommand
+  * dumpCommand
+* console
+  * consoleCommand
+  * attachCommand
+  * javascriptCommand
+* db
+  * removedbCommand
+  * dbCommand
+  * dbInspectCmd
+  * dbStatCmd
+  * dbCompactCmd
+  * dbGetCmd
+  * dbDeleteCmd
+  * dbPutCmd
+  * dbGetSlotsCmd
+  * dbDumpFreezerIndex
+* snap
+  * snapshotCommand
+
+  misc
+  * VersionCheckUrlFlag
+  * VersionCheckVersionFlag
+  * makecacheCommand
+  * makedagCommand
+  * versionCommand
+  * versionCheckCommand
+  * licenseCommand
+
 以太坊入口代码位于cmd/geth/main.go
 
 初始化的工作是在init\(\)函数里完成。
