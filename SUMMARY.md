@@ -70,8 +70,8 @@
     * [log](core/types/log.md)
     * [receipt](core/types/receipt.md)
     * [transaction](core/types/transaction.md)
-    * transaction\_marshalling
-    * transaction\_signing
+    * [transaction\_marshalling](core/types/transactionmarshalling.md)
+    * [transaction\_signing](core/types/transactionsigning.md)
     * [DynamicFeeTx](core/types/dynamicfeetx.md)
   * [Bloom-Filter](bloom-filter.md)
   * [vm \*](core/vm.md)
