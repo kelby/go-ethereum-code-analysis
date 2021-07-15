@@ -65,5 +65,13 @@ type Block struct {
 }
 ```
 
+区块和里面所包含的“树”：
+
+![](/assets/block-and-trie.png)
+
+
+
+
+
 
 
