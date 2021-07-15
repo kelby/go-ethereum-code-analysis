@@ -28,10 +28,11 @@ type Header struct {
 }
 ```
 
+ParentHash表示父区块的哈希，UncleHash是叔父区块哈希，Coinbase是示矿工账户地址，Root是状态树的根哈希，TxHash是交易树的根哈希，ReceiptHash是收据树的根哈希，Bloom是块头的bloom filter，Difficulty是挖矿难度（可根据需要调整），GasLimit和GasUsed与汽油费相关，Time是区块大致产生时间，MixDigest与挖矿过程相关，从Nonce经过一些列计算而来，Nonce是挖矿的谜底随机数。
+
 区块体：
 
 ```go
-
 // Body is a simple (mutable, non-safe) data container for storing and moving
 // a block's data contents (transactions and uncles) together.
 type Body struct {

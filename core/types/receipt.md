@@ -32,3 +32,9 @@ type Receipts []*Receipt
 
 每个收据里都有一个Bloom Filter，记录了此交易的类型、地址等相关信息。
 
+收据树 receiptsRoot
+
+![](/assets/receipts-root.png)
+
+
+
