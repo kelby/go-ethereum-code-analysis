@@ -39,3 +39,7 @@ type Account struct {
 
 转移资产\(Transfer\)是在一个账户的Balance上计加，在另外一个账户计减。
 
+
+
+
+
