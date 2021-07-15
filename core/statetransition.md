@@ -1,5 +1,7 @@
 StateTransition是用来处理一个一个的交易的。
 
+状态转换。
+
 ```go
 /*
 The State Transitioning Model
@@ -19,15 +21,15 @@ The state transitioning model does all the necessary work to work out a valid ne
 6) Derive new state root
 */
 type StateTransition struct {
-	gp         *GasPool
-	msg        Message
-	gas        uint64
-	gasPrice   *big.Int
-	initialGas uint64
-	value      *big.Int
-	data       []byte
-	state      vm.StateDB
-	evm        *vm.EVM
+    gp         *GasPool
+    msg        Message
+    gas        uint64
+    gasPrice   *big.Int
+    initialGas uint64
+    value      *big.Int
+    data       []byte
+    state      vm.StateDB
+    evm        *vm.EVM
 }
 ```
 
