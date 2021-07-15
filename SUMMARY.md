@@ -68,8 +68,8 @@
     * gen\_receipt\_json
     * hashing
     * [log](core/types/log.md)
-    * [receipt](core/types/receipt.md)
-    * [transaction](core/types/transaction.md)
+    * [receipt \*](core/types/receipt.md)
+    * [transaction \*](core/types/transaction.md)
     * [transaction\_marshalling](core/types/transactionmarshalling.md)
     * [transaction\_signing](core/types/transactionsigning.md)
     * [DynamicFeeTx](core/types/dynamicfeetx.md)
