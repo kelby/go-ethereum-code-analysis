@@ -26,7 +26,5 @@ type AccessListTx struct {
 }
 ```
 
-对应需求 EIP-2930 访问列表。
-
-
+实现 TxData 接口，对应需求 EIP-2930 访问列表。
 
