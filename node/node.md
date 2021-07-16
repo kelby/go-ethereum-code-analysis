@@ -1,4 +1,4 @@
-服务节点。
+区块链概念上的“服务节点”。
 
 常见用法：
 
@@ -20,6 +20,4 @@ stack *node.Node
 * 启动RPC server: n.startRPC
 
 结点进入等待状态 Wait\(\)
-
-
 
