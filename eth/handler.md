@@ -74,3 +74,11 @@ type handler struct {
 
 通过调用 `peer.AsyncSend-*` 实现广播。
 
+启动时：
+
+* txBroadcastLoop - broadcast transactions
+* minedBroadcastLoop - broadcast mined blocks
+* txsyncLoop64 - start sync handlers
+
+
+
