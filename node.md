@@ -14,6 +14,8 @@ Node启动时会调用各Service的构造函数创建Service实例。Service是�
 
 这里翻译为“节点”，是服务节点，区别于网络节点。
 
+IPC or Inter-process Communications generally works on your local computers. 
+
 > 属于区块链核心范畴，但它只管启动、运行服务，不涉及具体业务，后续处理由其它模块执行。
 
 
