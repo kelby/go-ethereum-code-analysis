@@ -43,3 +43,11 @@ miner.start\(\)即可进开启实时挖矿。
 
 ![](/assets/miner.png)
 
+mainLoop, newWorkLoop 是前置工作，监听外部事件，准备区块头、区块体，完成区块组装。
+
+taskLoop 执行计算工作（最耗时部分）
+
+resultLoop 完成收尾工作。
+
+
+
