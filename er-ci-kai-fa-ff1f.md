@@ -1,6 +1,6 @@
-params/config.go
+**params/config.go**
 
-修改代号、硬分叉信息。
+修改代号、硬分叉信息，网络配置参数修改。
 
 consensus/ethash/consensus.go
 
@@ -18,9 +18,13 @@ consensus/ethash/consensus.go
 
 不同分叉，奖励值不一样。
 
-params/bootnodes.go
+**params/bootnodes.go**
 
 修改启动节点。
+
+**core/genesis.go**
+
+创世块参数修改。
 
 \[美图技术团队发布开源 ethereum dpos 实现\]\([https://zhuanlan.zhihu.com/p/38013479\](https://zhuanlan.zhihu.com/p/38013479%29\)
 
