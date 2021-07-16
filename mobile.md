@@ -14,10 +14,10 @@ simplified mobile APIs
 
 可以看到，除了密码学外，其它几个部分网络、存储、钱包、区块链核心都涉及到了。
 
-* 网络，获取网络信息
+* 网络，获取网络信息 - Enodes，NodeInfo，PeerInfo
 * 存储，数据存储在本地
-* 钱包，钱包、账号等信息及交互
-* 核心，区块、交易、合约等信息及交互
+* 钱包，钱包、账号等信息及交互 - EthereumClient，Account，Accounts，KeyStore
+* 核心，区块、交易、合约等信息及交互 - Node，Log，Nonce，Header，Block，Transaction，Receipt
 
 > 属于API客户端连接库。
 
