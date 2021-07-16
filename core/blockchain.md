@@ -103,7 +103,7 @@ blockchain的主要功能是维护区块链的状态, 包括区块的验证,插�
 
 * NewBlockChain 使用数据库里面的可用信息构造了一个初始化好的区块链. 同时初始化了以太坊默认的 验证器和处理器 \(Validator and Processor\)
   * loadLastState, 加载数据库里面的最新的我们知道的区块链状态. 
-* update 定时处理future blocks.
+  * update 定时处理future blocks.
 * Reset 方法 重置区块链.
 * SetHead将本地链回卷到新的头部。 在给定新header之上的所有内容都将被删除，新的header将被设置。
 * InsertChain,插入区块链, 插入区块链尝试把给定的区块插入到规范的链条,或者是创建一个分叉. 如果发生错误,那么会返回错误发生时候的index和具体的错误信息.
