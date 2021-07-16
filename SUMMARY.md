@@ -199,6 +199,7 @@
   * [Server](p2p/server.md)
   * [Peer](p2p/peer.md)
   * [Msg](p2p/msg.md)
+  * [dial](p2p/dial.md)
 * [params](params.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
