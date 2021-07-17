@@ -201,8 +201,8 @@
   * [Msg](p2p/msg.md)
   * [dial](p2p/dial.md)
 * [params \*](params.md)
-  * [bootnodes](params/bootnodes.md)
-  * config
+  * [bootnodes \*](params/bootnodes.md)
+  * [config \*](params/config.md)
   * [dao](params/dao.md)
   * [denomination](params/denomination.md)
   * [network\_params](params/networkparams.md)
