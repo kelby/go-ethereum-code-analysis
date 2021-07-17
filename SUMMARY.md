@@ -203,10 +203,10 @@
 * [params \*](params.md)
   * [bootnodes](params/bootnodes.md)
   * config
-  * dao
-  * denomination
-  * network\_params
-  * protocol\_params
+  * [dao](params/dao.md)
+  * [denomination](params/denomination.md)
+  * [network\_params](params/networkparams.md)
+  * [protocol\_params](params/protocolparams.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
   * [client \*](rpc/client.md)
