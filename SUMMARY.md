@@ -201,6 +201,12 @@
   * [Msg](p2p/msg.md)
   * [dial](p2p/dial.md)
 * [params \*](params.md)
+  * [bootnodes](params/bootnodes.md)
+  * config
+  * dao
+  * denomination
+  * network\_params
+  * protocol\_params
 * [rlp](rlp.md)
 * [rpc](rpc.md)
   * [client \*](rpc/client.md)
