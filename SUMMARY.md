@@ -58,22 +58,6 @@
     * sync
     * trie\_prefetcher
   * [StateDB](statedb.md)
-  * [types](core/types.md)
-    * [LegacyTx](core/types/legacytx.md)
-    * [access\_list\_tx](core/types/accesslist-tx.md)
-    * [block \*](core/types/block.md)
-    * [bloom9](core/types/bloom9.md)
-    * gen\_access\_tuple
-    * gen\_header\_json
-    * gen\_receipt\_json
-    * hashing
-    * [log](core/types/log.md)
-    * [receipt \*](core/types/receipt.md)
-    * [transaction \*](core/types/transaction.md)
-    * [transaction\_marshalling](core/types/transactionmarshalling.md)
-    * [transaction\_signing](core/types/transactionsigning.md)
-    * [DynamicFeeTx](core/types/dynamicfeetx.md)
-    * [交易树和收据树](core/types/jiao-yi-shu-he-shou-ju-shu.md)
   * [Bloom-Filter](bloom-filter.md)
   * [vm \*](core/vm.md)
   * [evm补充](core/evmbu-chong.md)
@@ -97,6 +81,22 @@
   * [StateProcessor](core/stateprocessor.md)
   * [StateTransition](core/statetransition.md)
   * [events](core/events.md)
+* [types](core/types.md)
+  * [LegacyTx](core/types/legacytx.md)
+  * [access\_list\_tx](core/types/accesslist-tx.md)
+  * [block \*](core/types/block.md)
+  * [bloom9](core/types/bloom9.md)
+  * gen\_access\_tuple
+  * gen\_header\_json
+  * gen\_receipt\_json
+  * hashing
+  * [log](core/types/log.md)
+  * [receipt \*](core/types/receipt.md)
+  * [transaction \*](core/types/transaction.md)
+  * [transaction\_marshalling](core/types/transactionmarshalling.md)
+  * [transaction\_signing](core/types/transactionsigning.md)
+  * [DynamicFeeTx](core/types/dynamicfeetx.md)
+  * [交易树和收据树](core/types/jiao-yi-shu-he-shou-ju-shu.md)
 * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
