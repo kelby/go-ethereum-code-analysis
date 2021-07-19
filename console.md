@@ -89,6 +89,8 @@ eth.blockNumber
 
 # 获取交易信息
 eth.getTransaction()
+# 获取交易收据
+eth.getTransactionReceipt()
 
 # 获取区块信息
 eth.getBlock()
