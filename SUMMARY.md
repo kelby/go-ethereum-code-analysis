@@ -85,7 +85,7 @@
   * [Genesis](core/genesis.md)
   * [区块](core/qu-kuai.md)
   * [回执](core/hui-zhi.md)
-  * [types](core/types.md)
+  * [types](core/types-file.md)
   * [Log](core/log.md)
   * [BlockValidator](core/blockvalidator.md)
   * [BloomIndexer](core/bloomindexer.md)
