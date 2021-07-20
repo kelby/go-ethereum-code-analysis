@@ -113,3 +113,17 @@ func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.T
 
 
 
+addTxs
+
+![](/assets/txpool-addtxs.png)
+
+promoteExecutables
+
+
+
+![](/assets/txpool-promote-executables.png)
+
+
+
+
+
