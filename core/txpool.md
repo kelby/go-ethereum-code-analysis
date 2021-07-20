@@ -52,37 +52,52 @@ type TxPool struct {
 //
 // Note, this method assumes the pool lock is held!
 func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.Transaction) bool {
-	// Try to insert the transaction into the pending queue
-	if pool.pending[addr] == nil {
-		pool.pending[addr] = newTxList(true)
-	}
-	list := pool.pending[addr]
+    // Try to insert the transaction into the pending queue
+    if pool.pending[addr] == nil {
+        pool.pending[addr] = newTxList(true)
+    }
+    list := pool.pending[addr]
 
-	inserted, old := list.Add(tx, pool.config.PriceBump)
-	if !inserted {
-		// An older transaction was better, discard this
-		pool.all.Remove(hash)
-		pool.priced.Removed(1)
-		pendingDiscardMeter.Mark(1)
-		return false
-	}
-	// Otherwise discard any previous transaction and mark this
-	if old != nil {
-		pool.all.Remove(old.Hash())
-		pool.priced.Removed(1)
-		pendingReplaceMeter.Mark(1)
-	} else {
-		// Nothing was replaced, bump the pending counter
-		pendingGauge.Inc(1)
-	}
-	// Set the potentially new pending nonce and notify any subsystems of the new tx
-	pool.pendingNonces.set(addr, tx.Nonce()+1)
+    inserted, old := list.Add(tx, pool.config.PriceBump)
+    if !inserted {
+        // An older transaction was better, discard this
+        pool.all.Remove(hash)
+        pool.priced.Removed(1)
+        pendingDiscardMeter.Mark(1)
+        return false
+    }
+    // Otherwise discard any previous transaction and mark this
+    if old != nil {
+        pool.all.Remove(old.Hash())
+        pool.priced.Removed(1)
+        pendingReplaceMeter.Mark(1)
+    } else {
+        // Nothing was replaced, bump the pending counter
+        pendingGauge.Inc(1)
+    }
+    // Set the potentially new pending nonce and notify any subsystems of the new tx
+    pool.pendingNonces.set(addr, tx.Nonce()+1)
 
-	// Successful promotion, bump the heartbeat
-	pool.beats[addr] = time.Now()
-	return true
+    // Successful promotion, bump the heartbeat
+    pool.beats[addr] = time.Now()
+    return true
 }
 ```
+
+方法解析：
+
+* reset - 初始化交易池后会调用 reset 方法，这个方法会检索区块链当前状态，确保交易池里的内容与区块链状态是匹配的。
+* NewTxPool - 在 NewTxPool 方法里，如果本地可以发起交易，并且配置的 Journal 目录不为空，那么从指定的目录加载交易日志。
+* loop - loop\(\) 用来接收区块链的事件，负责处理超时的交易和定时写交易日志。
+* addTx - addTx 将交易放入交易池中，pool.add\(tx, local\) 会返回一个 bool 类型，如果为 true，则表明这笔交易合法并且交易之前不存在于交易池，这时候调用 promoteExecutables，可以将可处理的交易变成待处理。
+* pool.add\(tx, local\) - 首先，根据交易哈希值，确定交易池中是否已经有这笔交易，如果有，则退出。接下来调用 validateTx 验证交易是否合法。
+* validateTx - validateTx 有很多使用 if 语句的条件判断
+* pool.promoteExecutables - 该方法的作用是将所有可以处理的交易放入 pending 区，并且移除所有非法交易。
+
+交易池的交易大致分为两种:
+
+* 一种是提交了但还不能执行的，放在 queue 里等待能够被执行（比如 nonce 太高）
+* 还有就是等待执行的，放在 pending 里面等待执行。
 
 
 
