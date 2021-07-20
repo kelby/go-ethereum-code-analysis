@@ -94,6 +94,7 @@ func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.T
 * validateTx - validateTx 有很多使用 if 语句的条件判断
 * enqueueTx - 将交易放入交易池
 * **pool.promoteExecutables** - 该方法的作用是将所有可以处理的交易放入 pending 区，并且移除所有非法交易。
+* enqueueTx - 把一个新的交易插入到future queue
 
 交易池的交易大致分为两种:
 
@@ -122,8 +123,4 @@ promoteExecutables
 reset
 
 ![](/assets/txpool-reset.png)
-
-
-
-
 
