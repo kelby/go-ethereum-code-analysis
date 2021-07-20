@@ -81,7 +81,7 @@
   * [StateProcessor](core/stateprocessor.md)
   * [StateTransition](core/statetransition.md)
   * [events](core/events.md)
-* [types](core/types.md)
+* [core types \*](core/types.md)
   * [LegacyTx](core/types/legacytx.md)
   * [access\_list\_tx](core/types/accesslist-tx.md)
   * [block \*](core/types/block.md)
