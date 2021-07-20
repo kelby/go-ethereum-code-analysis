@@ -111,17 +111,17 @@ func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.T
 * Miner取走交易是复制，交易池中的交易并不减少。直到交易被写进规范链后才从交易池删除；
 * 交易如果被写进分叉，交易池中的交易也不减少，等待重新打包。
 
-
-
 addTxs
 
 ![](/assets/txpool-addtxs.png)
 
 promoteExecutables
 
-
-
 ![](/assets/txpool-promote-executables.png)
+
+reset
+
+![](/assets/txpool-reset.png)
 
 
 
