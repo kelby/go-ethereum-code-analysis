@@ -98,8 +98,7 @@
   * sync
   * trie\_prefetcher
 * [core vm](core-vm.md)
-  * [evm 补充1](core-vm/evm-bu-chong.md)
-* [evm补充](core/evmbu-chong.md)
+  * [evm补充](core/evmbu-chong.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
   * [bls12381](crypto/bls12381.md)
