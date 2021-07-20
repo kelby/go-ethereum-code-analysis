@@ -100,5 +100,12 @@ func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.T
 * 一种是提交了但还不能执行的，放在 queue 里等待能够被执行（比如 nonce 太高）
 * 还有就是等待执行的，放在 pending 里面等待执行。
 
+交易池的数据来源主要来自：
+
+* 本地提交，也就是第三方应用通过调用本地以太坊节点的RPC服务所提交的交易；
+* 远程同步，是指通过广播同步的形式，将其他以太坊节点的交易数据同步至本地节点;
+
+
+
 
 
