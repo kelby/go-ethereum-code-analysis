@@ -92,6 +92,7 @@ func (pool *TxPool) promoteTx(addr common.Address, hash common.Hash, tx *types.T
 * addTx - addTx 将交易放入交易池中，pool.add\(tx, local\) 会返回一个 bool 类型，如果为 true，则表明这笔交易合法并且交易之前不存在于交易池，这时候调用 promoteExecutables，可以将可处理的交易变成待处理。
 * **pool.add\(tx, local\)** - 首先，根据交易哈希值，确定交易池中是否已经有这笔交易，如果有，则退出。接下来调用 validateTx 验证交易是否合法。
 * validateTx - validateTx 有很多使用 if 语句的条件判断
+* enqueueTx - 将交易放入交易池
 * **pool.promoteExecutables** - 该方法的作用是将所有可以处理的交易放入 pending 区，并且移除所有非法交易。
 
 交易池的交易大致分为两种:
