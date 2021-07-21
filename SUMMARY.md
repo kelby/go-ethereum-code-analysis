@@ -183,6 +183,7 @@
   * txrelay
   * ulc
 * [light](light.md)
+* [log](log.md)
 * [miner \*](miner.md)
   * [Miner](miner/miner.md)
   * [worker](miner/worker.md)
