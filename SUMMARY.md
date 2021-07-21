@@ -99,6 +99,8 @@
   * trie\_prefetcher
 * [core vm](core-vm.md)
   * [evm补充](core/evmbu-chong.md)
+* [core txpool](core-txpool.md)
+* [core genesis](core-genesis.md)
 * [core misc](core-misc.md)
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
