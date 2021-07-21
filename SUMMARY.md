@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [区块链要素](chapter1.md)
-* [abi \*](accounts/abi.md)
 * [accounts \*](accounts.md)
   * [external](accounts/external.md)
   * [keystore \*](accounts/keystore.md)
@@ -17,6 +16,7 @@
   * [Wallet](accounts/wallet.md)
   * [Backend](accounts/backend.md)
   * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
+* [accounts abi \*](accounts/abi.md)
 * [cmd](cmd.md)
   * [abidump](cmd/abidump.md)
   * [abigen \*](cmd/abigen.md)
