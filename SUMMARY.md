@@ -52,7 +52,6 @@
   * [types](core/types-file.md)
   * [Log](core/log.md)
   * [BlockValidator](core/blockvalidator.md)
-  * [BloomIndexer](core/bloomindexer.md)
   * [ChainIndexer](core/chainindexer.md)
   * [BlockGen](core/blockgen.md)
   * [transaction \*](core/types/transaction.md)
@@ -107,6 +106,7 @@
   * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
   * 1
+  * [BloomIndexer](core/bloomindexer.md)
   * [Bloom-Filter](bloom-filter.md)
   * [asm](core/asm.md)
   * 2
