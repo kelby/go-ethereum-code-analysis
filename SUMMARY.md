@@ -71,6 +71,7 @@
   * [statePrefetcher](core/stateprefetcher.md)
   * [StateProcessor \*](core/stateprocessor.md)
   * [StateTransition \*](core/statetransition.md)
+  * [StateDB](statedb.md)
   * [pruner](core/state/pruner.md)
   * snapshot
   * access\_list
@@ -82,12 +83,11 @@
   * [statedb \*](core/state/statedb.md)
   * sync
   * trie\_prefetcher
-* [StateDB](statedb.md)
 * [core vm](core-vm.md)
   * [evm补充](core/evmbu-chong.md)
-* [智能合约](zhi-neng-he-yue.md)
-* [EVM](evm.md)
-* [vm \*](core/vm-file.md)
+  * [EVM](evm.md)
+  * [vm \*](core/vm-file.md)
+  * [智能合约](zhi-neng-he-yue.md)
 * [core txpool \*](core-txpool.md)
   * 1
   * [TxPool](core/txpool.md)
