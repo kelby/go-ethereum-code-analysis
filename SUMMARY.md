@@ -28,12 +28,12 @@
   * [ethkey](cmd/ethkey.md)
   * [evm](cmd/evm.md)
   * [faucet](cmd/faucet.md)
-  * [geth \*](cmd/geth.md)
   * [p2psim](cmd/p2psim.md)
   * [puppeth](cmd/puppeth.md)
 * [cmd geth \*](cmd-geth.md)
-  * 1
-  * 2
+  * [1](cmd-geth/1.md)
+  * [geth \*](cmd/geth.md)
+  * [2](cmd-geth/2.md)
 * [common](common.md)
 * [consensus \*](consensus.md)
   * [clique](consensus/clique.md)
