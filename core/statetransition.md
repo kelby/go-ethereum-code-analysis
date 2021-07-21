@@ -33,5 +33,5 @@ type StateTransition struct {
 }
 ```
 
-
+**ApplyMessage** 通过应用给定的Message 和状态来生成新的状态
 
