@@ -48,7 +48,6 @@
   * [智能合约](zhi-neng-he-yue.md)
   * [BlockChain](core/blockchain.md)
   * [GasPool](core/gaspool.md)
-  * [Genesis](core/genesis.md)
   * [区块](core/qu-kuai.md)
   * [回执](core/hui-zhi.md)
   * [types](core/types-file.md)
@@ -92,6 +91,7 @@
   * 2
 * [core genesis](core-genesis.md)
   * 1
+  * [Genesis](core/genesis.md)
   * [GenesisAccount](core/genesisaccount.md)
   * 2
 * [core misc](core-misc.md)
