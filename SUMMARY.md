@@ -42,7 +42,6 @@
 * [console](console.md)
 * [contracts/checkpointoracle](contractscheckpointoracle.md)
 * [core \*](core.md)
-  * [asm](core/asm.md)
   * [bloombits](core/bloombits.md)
   * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
@@ -107,6 +106,7 @@
   * 2
 * [core misc](core-misc.md)
   * 1
+  * [asm](core/asm.md)
   * 2
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
