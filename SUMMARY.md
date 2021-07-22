@@ -88,16 +88,12 @@
   * [vm \*](core/vm-file.md)
   * [智能合约](zhi-neng-he-yue.md)
 * [core txpool \*](core-txpool.md)
-  * 1
   * [TxPool](core/txpool.md)
   * [交易池设计](jiao-yi-chi-she-ji.md)
-  * 2
 * [core genesis](core-genesis.md)
-  * 1
   * [Genesis](core/genesis.md)
   * [GenesisAccount](core/genesisaccount.md)
   * [创世区块](chuang-shi-qu-kuai.md)
-  * 2
 * [core misc](core-misc.md)
   * [bloom9](core/types/bloom9.md)
   * gen\_access\_tuple
@@ -107,11 +103,9 @@
   * [bloombits](core/bloombits.md)
   * [forkid](core/forkid.md)
   * [rawdb](core/rawdb.md)
-  * 1
   * [BloomIndexer](core/bloomindexer.md)
   * [Bloom-Filter](bloom-filter.md)
   * [asm](core/asm.md)
-  * 2
 * [crypto](crypto.md)
   * [blake2b](crypto/blake2b.md)
   * [bls12381](crypto/bls12381.md)
