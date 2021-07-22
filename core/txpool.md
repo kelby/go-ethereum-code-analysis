@@ -121,7 +121,7 @@ promoteExecutables
 
 ![](/assets/txpool-promote-executables.png)
 
-reset
+reset - 重置交易池
 
 ![](/assets/txpool-reset.png)
 
