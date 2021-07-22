@@ -10,3 +10,7 @@ EstimateGas采用二分查找法获取要评估交易的gas值。二分查找的
 
 最低到最高二分查找（测试运行），由低到高，返回等一次成功时的最高值。
 
+doCall 涉及：ToMessage、GetEVM、AddGas、ApplyMessage、Cancelled 等。
+
+
+
