@@ -94,6 +94,7 @@
   * [Genesis](core/genesis.md)
   * [GenesisAccount](core/genesisaccount.md)
   * [创世区块](chuang-shi-qu-kuai.md)
+  * [initGenesis](core/initgenesis.md)
 * [core misc](core-misc.md)
   * [bloom9](core/types/bloom9.md)
   * gen\_access\_tuple
