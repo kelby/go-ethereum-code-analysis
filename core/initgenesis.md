@@ -2,6 +2,8 @@ geth init
 
 initGenesis
 
+**genesis**
+
 SetupGenesisBlock
 
 SetupGenesisBlockWithOverride
@@ -12,7 +14,7 @@ genesis.ToBlock
 
 genesis.Commit
 
-newcfg
+**newcfg**
 
 rawdb.WriteChainConfig
 
