@@ -90,11 +90,13 @@
 * [core txpool \*](core-txpool.md)
   * 1
   * [TxPool](core/txpool.md)
+  * [交易池设计](jiao-yi-chi-she-ji.md)
   * 2
 * [core genesis](core-genesis.md)
   * 1
   * [Genesis](core/genesis.md)
   * [GenesisAccount](core/genesisaccount.md)
+  * [创世区块](chuang-shi-qu-kuai.md)
   * 2
 * [core misc](core-misc.md)
   * [bloom9](core/types/bloom9.md)
@@ -238,8 +240,6 @@
 * [trie](trie.md)
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
-* [创世区块](chuang-shi-qu-kuai.md)
-* [交易池设计](jiao-yi-chi-she-ji.md)
 * [交易的执行流程](jiao-yi-de-zhi-xing-liu-cheng.md)
 * [创建和执行合约流程](chuang-jian-he-zhi-xing-he-yue-liu-cheng.md)
 * [交易签名过程](jiao-yi-qian-ming-guo-cheng.md)
