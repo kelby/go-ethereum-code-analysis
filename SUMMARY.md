@@ -153,6 +153,7 @@
   * [utesting](internal/utesting.md)
   * [web3ext](internal/web3ext.md)
 * [internal ethapi \*](internal/ethapi.md)
+  * [Gas预估 - EstimateGas](internal/ethapi/gasyu-gu-estimategas.md)
 * [les LightEthereum \*](les.md)
   * [api](les/api.md)
   * [api\_backend](les/apibackend.md)
