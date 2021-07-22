@@ -18,5 +18,5 @@ genesis.Commit **得到区块**
 
 rawdb.WriteChainConfig
 
-最终希望得到：创世纪、创世区块、链配置
+最终希望得到：创世纪、创世区块、链配置，存储到数据库。
 
