@@ -58,7 +58,5 @@ readLoop是读取连接发送来的数据
 
 ![](/assets/geth-run-process.png)
 
-从 cmd 模块到其它 6 个模块。
-
-
+从 cmd 模块到其它 6 个模块，配置，并启动、运行。
 
