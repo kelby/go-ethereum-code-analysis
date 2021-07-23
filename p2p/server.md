@@ -148,7 +148,7 @@ start函数主要做了以下6件事：
 
 * 设置监听TCP连接请求setupListening
 
-* 设置节点发现（setupDiscovery）V4版本
+* 设置节点发现（setupDiscovery）
 
 * 设置最大可以主动发起的连接为50/3
 
