@@ -213,6 +213,7 @@
   * [Peer](p2p/peer.md)
   * [Msg](p2p/msg.md)
   * [dial](p2p/dial.md)
+  * [RLP](p2p/rlp.md)
 * [params \*](params.md)
   * [bootnodes \*](params/bootnodes.md)
   * [config \*](params/config.md)
