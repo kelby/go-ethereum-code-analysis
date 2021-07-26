@@ -117,7 +117,7 @@ web3.fromWei()
 web3.toWei()
 
 # 交易池的状态
-bxpool.status
+txpool.status
 ```
 
 
