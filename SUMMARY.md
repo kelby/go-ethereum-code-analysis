@@ -84,6 +84,7 @@
   * [statedb \*](core/state/statedb.md)
   * sync
   * trie\_prefetcher
+  * [交易执行](core/jiao-yi-zhi-xing.md)
 * [core vm](core-vm.md)
   * [evm补充](core/evmbu-chong.md)
   * [EVM](evm.md)
