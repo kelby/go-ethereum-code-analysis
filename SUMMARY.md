@@ -34,6 +34,7 @@
   * [geth \*](cmd/geth.md)
   * [启动流程](qi-dong-liu-cheng.md)
   * [geth启动流程（补充）](gethqi-dong-liu-cheng.md)
+  * [geth --help](cmd/geth-help.md)
 * [common](common.md)
 * [consensus \*](consensus.md)
   * [clique](consensus/clique.md)
