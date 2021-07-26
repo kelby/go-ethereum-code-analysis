@@ -35,3 +35,11 @@ type StateTransition struct {
 
 **ApplyMessage** 通过应用给定的Message 和状态来生成新的状态
 
+定义了接口 Message，说明：Message represents a message sent to a contract. 交易以“消息”的形式在虚拟机里执行。
+
+IntrinsicGas: The intrinsic gas for a transaction is the amount of gas that the transaction uses before any code runs. It is a constant “transaction fee” \(currently 21000 gas\) plus a fee for every byte of data supplied with the transaction \(4 gas for a zero byte, 68 gas for non-zeros\). These constants are all currently defined for geth in params/protocol\_params.go. Presumably they are also coded into the source for the other node/client implementations as well.
+
+
+
+
+
