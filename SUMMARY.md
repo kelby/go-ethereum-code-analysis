@@ -123,6 +123,7 @@
   * [signature\_nocgo](crypto/signaturenocgo.md)
   * [crypto functions](crypto/crypto-functions.md)
   * [Keccak SHA-3](crypto/keccak-sha-3.md)
+  * [ECDSA](crypto/ecdsa.md)
 * [eth Ethereum \*](eth.md)
   * [downloader](eth/downloader.md)
   * [fetcher](eth/fetcher.md)
