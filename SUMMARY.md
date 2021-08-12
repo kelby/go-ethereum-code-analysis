@@ -125,6 +125,7 @@
   * [Keccak SHA-3](crypto/keccak-sha-3.md)
   * [ECDSA](crypto/ecdsa.md)
   * [elliptic](crypto/elliptic.md)
+  * [btcec](crypto/btcec.md)
 * [eth Ethereum \*](eth.md)
   * [downloader](eth/downloader.md)
   * [fetcher](eth/fetcher.md)
