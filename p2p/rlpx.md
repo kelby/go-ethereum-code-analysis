@@ -10,21 +10,19 @@ Rlpx 协议详解
 
 rlpx 协议之中又可以分为3个层次：
 
-
-
 1. 首先是对上层协议的原始消息的编解码.编解码的协议是RLP。
 
 主要目的是使得数据类型在传输中编解码的结果与平台无关.
 
-2. 其次是针对RLP编解码的结果进行压缩或者解压缩。这里采用的是snappy压缩算
+1. 其次是针对RLP编解码的结果进行压缩或者解压缩。这里采用的是snappy压缩算
 
-3. ECIES\(Elliptic Curve Integrated Encryption Scheme\) 加/解密算法
-
-
+2. ECIES\(Elliptic Curve Integrated Encryption Scheme\) 加/解密算法
 
 对于压缩后的数据进行加密
 
 或者对于网络栈上传的数据进行解密而后解压缩。
+
+ECIES 算法是一种基于椭圆曲线的集成了密钥交换+对称加密+消息验证码的一套算法体系。
 
 
 
