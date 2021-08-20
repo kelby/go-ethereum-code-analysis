@@ -36,8 +36,6 @@ ECIES 算法是一种基于椭圆曲线的集成了密钥交换+对称加密+消
 
 RLPx连接基于TCP通信，并且每次通信都会生成随机的临时密钥用于加密和验证。生成临时密钥的过程被称作“握手” \(handshake\)，握手在发起端（initiator, 发起TCP连接请求的节点）和接收端（recipient, 接受连接的节点）之间进行。
 
-
-
 1. 发起端向接收端发起TCP连接，发送auth消息
 2. 接收端接受连接，解密、验证auth消息（检查recovery of signature == keccak256\(ephemeral-pubk\)）
 3. 接收端通过remote-ephemeral-pubk 和 nonce生成auth-ack消息
@@ -48,7 +46,5 @@ RLPx连接基于TCP通信，并且每次通信都会生成随机的临时密钥�
 8. 发起端接收并验证首个加密后的数据帧
 9. 如果两边的首个加密数据帧的MAC都验证通过，则加密握手完成
 
-如果首个数据帧的验证失败，则任意一方都可以断开连接。
-
-
+如果首个数据帧的验证失败，则任意一方都可以断开连接。主动握手部分源码initiatorEncHandshake
 
