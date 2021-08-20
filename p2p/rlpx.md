@@ -48,3 +48,7 @@ RLPx连接基于TCP通信，并且每次通信都会生成随机的临时密钥�
 
 如果首个数据帧的验证失败，则任意一方都可以断开连接。主动握手部分源码initiatorEncHandshake
 
+握手双方使用到的信息有:各自的公私钥地址对\(iPrv,iPub,rPrv,rPub\)、各自生成的随机公私钥对\(iRandPrv,iRandPub,rRandPrv,rRandPub\)、各自生成的临时随机数\(initNonce,respNonce\).
+
+其中i开头的表示发起方\(initiator\)信息,r开头的表示接收方\(receiver\)信息.
+
