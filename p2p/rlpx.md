@@ -52,3 +52,7 @@ RLPx连接基于TCP通信，并且每次通信都会生成随机的临时密钥�
 
 其中i开头的表示发起方\(initiator\)信息,r开头的表示接收方\(receiver\)信息.
 
+密钥的交换和共享密钥的生成 doEncHandshake\(\) 
+
+
+
