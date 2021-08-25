@@ -30,10 +30,6 @@ wallet、account、address这三者的区别和联系
 
 i：wallet中可能包含多个account，而每个account中包含一个address和账户所在路径（URL）。
 
-
-
-
-
 对账号的操作，实质是对 keystore, scwallet, usbwallet 等软硬件存储设备进行操作。
 
 当前支持三大类设备，除最见的文件存储外，用到第三方库驱动：
@@ -52,7 +48,7 @@ i：wallet中可能包含多个account，而每个account中包含一个address�
 >
 > 总体来说，也可以理解为它是区块链核心与钱包客户端的连接处。
 
-所谓账户，其实对外展现形式就是地址，它很简单。核心是钱包，而钱包与设备相关，可以有不同实现。
+所谓账户，其实对外展现形式就是地址Address，它很简单。核心是钱包Wallet，而钱包与设备相关，可以有不同实现。
 
 这里，关键是定义 Wallet 和 Backend 接口，当前共有 5 套实现！
 
