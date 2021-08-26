@@ -237,6 +237,7 @@
   * [denomination](params/denomination.md)
   * [network\_params](params/networkparams.md)
   * [protocol\_params](params/protocolparams.md)
+  * [configuration](params/configuration.md)
 * [rlp](rlp.md)
 * [rpc](rpc.md)
   * [client \*](rpc/client.md)
