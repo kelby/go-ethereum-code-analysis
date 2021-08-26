@@ -211,6 +211,7 @@
   * lifecycle
   * [node \*](node/node.md)
   * rpcstack
+  * [configuration](node/configuration.md)
 * [p2p](p2p.md)
   * [discover](p2p/discover.md)
   * [discv5](p2p/discv5.md)
