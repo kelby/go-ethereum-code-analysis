@@ -6,17 +6,15 @@ type Config struct {
 }
 ```
 
-
-
 ```go
+// httpConfig is the JSON-RPC/HTTP configuration.
 type httpConfig struct {
 }
 
+// wsConfig is the JSON-RPC/Websocket configuration
 type wsConfig struct {
 }
 ```
-
-
 
 
 
