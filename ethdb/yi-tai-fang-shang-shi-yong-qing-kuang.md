@@ -52,5 +52,11 @@ type TxPool
 
 **node:**
 
+func \(n \*Node\) OpenDatabase
+
+func \(n \*Node\) OpenDatabaseWithFreezer
+
 type closeTrackingDB
+
+
 
