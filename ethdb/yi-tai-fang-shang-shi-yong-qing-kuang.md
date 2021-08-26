@@ -46,3 +46,13 @@ type PublicFilterAPI
 
 type Filter
 
+light:
+
+type TxPool
+
+node:
+
+type closeTrackingDB
+
+
+
