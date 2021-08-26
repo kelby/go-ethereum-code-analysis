@@ -1,0 +1,7 @@
+```go
+type dialConfig struct {
+}
+```
+
+
+
