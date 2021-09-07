@@ -16,7 +16,7 @@
 * [accounts/keystore \*](accounts/keystore.md)
   * [accountCache](accounts/keystore/accountcache.md)
   * [Key](accounts/keystore/key.md)
-* [accounts abi](accounts/abi.md)
+* [accounts/abi](accounts/abi.md)
 * [cmd](cmd.md)
   * [abidump](cmd/abidump.md)
   * [abigen \*](cmd/abigen.md)
