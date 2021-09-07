@@ -148,6 +148,7 @@
   * [sync](eth/sync.md)
   * [catalyst](eth/catalyst.md)
 * [eth/ethconfig](ethethconfig.md)
+* [eth/gasprice](ethgasprice.md)
 * [ethclient \*](ethclient.md)
 * [ethdb](ethdb.md)
   * [leveldb](ethdb/leveldb.md)
