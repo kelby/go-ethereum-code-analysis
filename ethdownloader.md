@@ -5,7 +5,5 @@ downloader主要负责区块链最开始的同步工作，当前的同步有两�
 
 pivot 共同祖先，锚点？
 
-
-
-
+fetchHeaders
 
