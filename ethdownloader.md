@@ -7,12 +7,13 @@ pivot 共同祖先，锚点？
 
 fetchHeaders - fetchHeaders方法用来获取header。 然后根据获取的header去获取body和receipt等信息。fetchHeaders不断的重复这样的操作，发送header请求，等待所有的返回。直到完成所有的header请求。 为了提高并发性，同时仍然能够防止恶意节点发送错误的header，我们使用我们正在同步的“origin”peer构造一个头文件链骨架，并使用其他人填充缺失的header。 其他peer的header只有在干净地映射到骨架上时才被接受。 如果没有人能够填充骨架 - 甚至origin peer也不能填充 - 它被认为是无效的，并且origin peer也被丢弃。
 
-processFastSyncContent 
+processFastSyncContent
 
 同步模式：
 
 * full mode - 在数据库中保存所有区块数据，但在同步时，只从远程节点同步 header 和 body 数据，state 和 receipt 数据则是在本地计算出来的。
 * fast mode - recepit 不再由本地计算，而是和区块数据一样，直接由 downloader 从其它节点中同步；state 数据并不会全部计算和下载，而是选一个较新的区块（称之为 pivot，后面会有详细解释）的 state 进行下载，以这个区块为分界，之前的区块是没有 state 数据的，之后的区块会像 full 模式下一样在本地计算 state
+* ligth mode - 它只对区块头进行同步，而不同步其它的数据。
 
 
 
