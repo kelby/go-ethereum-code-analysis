@@ -15,5 +15,15 @@ processFastSyncContent
 * fast mode - recepit 不再由本地计算，而是和区块数据一样，直接由 downloader 从其它节点中同步；state 数据并不会全部计算和下载，而是选一个较新的区块（称之为 pivot，后面会有详细解释）的 state 进行下载，以这个区块为分界，之前的区块是没有 state 数据的，之后的区块会像 full 模式下一样在本地计算 state
 * ligth mode - 它只对区块头进行同步，而不同步其它的数据。
 
+通道：
+
+* headerCh : 传送header数据
+
+* bodyCh : 传送body数据
+
+* receiptCh: 传送receipt数据
+
+* stateCh : 传送state数据
+
 
 
