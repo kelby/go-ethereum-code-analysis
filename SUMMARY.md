@@ -149,6 +149,7 @@
   * [catalyst](eth/catalyst.md)
 * [eth/ethconfig](ethethconfig.md)
 * [eth/gasprice](ethgasprice.md)
+* [eth/downloader](ethdownloader.md)
 * [ethclient \*](ethclient.md)
 * [ethdb](ethdb.md)
   * [leveldb](ethdb/leveldb.md)
