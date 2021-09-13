@@ -5,9 +5,7 @@ downloader主要负责区块链最开始的同步工作，当前的同步有两�
 
 pivot 共同祖先，锚点？
 
-fetchHeaders - fetchHeaders方法用来获取header。 然后根据获取的header去获取body和receipt等信息。
-
-
+fetchHeaders - fetchHeaders方法用来获取header。 然后根据获取的header去获取body和receipt等信息。fetchHeaders不断的重复这样的操作，发送header请求，等待所有的返回。直到完成所有的header请求。 为了提高并发性，同时仍然能够防止恶意节点发送错误的header，我们使用我们正在同步的“origin”peer构造一个头文件链骨架，并使用其他人填充缺失的header。 其他peer的header只有在干净地映射到骨架上时才被接受。 如果没有人能够填充骨架 - 甚至origin peer也不能填充 - 它被认为是无效的，并且origin peer也被丢弃。
 
 
 
