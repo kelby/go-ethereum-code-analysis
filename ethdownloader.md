@@ -1,17 +1,17 @@
 ```go
-
 // SyncMode represents the synchronisation mode of the downloader.
 // It is a uint32 as it is used with atomic operations.
 type SyncMode uint32
 
 const (
-	FullSync  SyncMode = iota // Synchronise the entire blockchain history from full blocks
-	FastSync                  // Quickly download the headers, full sync only at the chain
-	SnapSync                  // Download the chain and the state via compact snapshots
-	LightSync                 // Download only the headers and terminate afterwards
+    FullSync  SyncMode = iota // Synchronise the entire blockchain history from full blocks
+    FastSync                  // Quickly download the headers, full sync only at the chain
+    SnapSync                  // Download the chain and the state via compact snapshots
+    LightSync                 // Download only the headers and terminate afterwards
 )
-
 ```
+
+区块头、区块体（原始数据），收据（处理结构），状态数据（处理过程）。
 
 downloader主要负责区块链最开始的同步工作，当前的同步有两种模式：
 
@@ -45,6 +45,4 @@ downloader 的工作流程：
 ![](/assets/eth-downloader-process.png)
 
 findAncestor - 区块同步的第一件重要的事情，就是确定需要同步哪些区块。
-
-
 
