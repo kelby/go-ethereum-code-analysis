@@ -1,3 +1,18 @@
+```go
+
+// SyncMode represents the synchronisation mode of the downloader.
+// It is a uint32 as it is used with atomic operations.
+type SyncMode uint32
+
+const (
+	FullSync  SyncMode = iota // Synchronise the entire blockchain history from full blocks
+	FastSync                  // Quickly download the headers, full sync only at the chain
+	SnapSync                  // Download the chain and the state via compact snapshots
+	LightSync                 // Download only the headers and terminate afterwards
+)
+
+```
+
 downloader主要负责区块链最开始的同步工作，当前的同步有两种模式：
 
 * 一种是传统的fullmode,这种模式通过下载区块头，和区块体来构建区块链，同步的过程就和普通的区块插入的过程一样，包括区块头的验证，交易的验证，交易执行，账户状态的改变等操作，这其实是一个比较消耗CPU和磁盘的一个过程。 
@@ -24,6 +39,12 @@ processFastSyncContent
 * receiptCh: 传送receipt数据
 
 * stateCh : 传送state数据
+
+downloader 的工作流程：
+
+![](/assets/eth-downloader-process.png)
+
+findAncestor - 区块同步的第一件重要的事情，就是确定需要同步哪些区块。
 
 
 
