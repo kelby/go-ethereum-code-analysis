@@ -8,9 +8,7 @@ type Peer 已连接的远程节点
 
 type PeerInfo 远程节点信息
 
-type Protocol 协议
+~~type Protocol 协议~~
 
 type Server 管理所有远程节点连接
-
-
 
