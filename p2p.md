@@ -29,5 +29,9 @@ true
 > admin.peers
 ```
 
+静态节点:
+
+static-nodes.json
+
 
 
