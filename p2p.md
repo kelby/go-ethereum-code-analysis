@@ -39,3 +39,13 @@ admin.addPeer()
 
 以太坊的节点发现基于类似的kademlia算法，源码中有两个版本，v4和v5。v4适用于全节点，通过discover.ListenUDP使用，v5适用于轻节点通过discv5.ListenUDP使用
 
+节点发现功能主要涉及 Server Table udp 这几个数据结构，它们有独自的事件响应循环，节点发现功能便是它们互相协作完成的。其中，每个以太坊客户端启动后都会在本地运行一个Server，并将网络拓扑中相邻的节点视为Node，而Table是Node的容器，udp则是负责维持底层的连接。这些结构的关系如下图：
+
+![](/assets/server-table-udp.png)p2p服务开启节点发现，在P2p的server.go 的start方法中.
+
+
+
+
+
+
+
