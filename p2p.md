@@ -34,7 +34,7 @@ true
 static-nodes.json
 
 ```go
-admin.addPeer
+admin.addPeer()
 ```
 
 
