@@ -43,6 +43,12 @@ admin.addPeer()
 
 ![](/assets/server-table-udp.png)p2p服务开启节点发现，在P2p的server.go 的start方法中.
 
+setupDiscovery
+
+ListenUDP
+
+节点第一次启动的时候，节点会与硬编码在以太坊源码中的bootnode进行连接，所有的节点加入几乎都先连接了它。连接上bootnode后，获取bootnode部分的邻居节点，然后进行节点发现，获取更多的活跃的邻居节点
+
 
 
 
