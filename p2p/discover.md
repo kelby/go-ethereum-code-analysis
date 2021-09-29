@@ -1,5 +1,13 @@
 基于UDP的p2p节点发现协议。
 
+type Config - 配置
+
+type Table - 表
+
+type UDPv4
+
+type UDPv5
+
 以太坊Kad网总共定义了4种消息类型:
 
 ```go
