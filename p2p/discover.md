@@ -57,15 +57,15 @@ e. 上述流程均是基于UDP的发现流程,p2p网络会定时随机取k桶中
 
 ```go
 const (
-	alpha           = 3  // Kademlia并发参数, 是系统内一个优化参数,控制每次从K桶最多取出节点个数,ethereum取值3
-  
-	bucketSize      = 16 // K桶大小(可容纳节点数)
-  
-	maxReplacements = 10 // 每桶更换列表的大小
-	hashBits          = len(common.Hash{}) * 8 //每个节点ID长度,32*8=256, 32位16进制
-	nBuckets          = hashBits / 15       //  K桶个数
+    alpha           = 3  // Kademlia并发参数, 是系统内一个优化参数,控制每次从K桶最多取出节点个数,ethereum取值3
+
+    bucketSize      = 16 // K桶大小(可容纳节点数)
+
+    maxReplacements = 10 // 每桶更换列表的大小
+    hashBits          = len(common.Hash{}) * 8 //每个节点ID长度,32*8=256, 32位16进制
+    nBuckets          = hashBits / 15       //  K桶个数
   ）
 ```
 
-
+多少个桶、每个桶放多少个，每次拿多少个。
 
