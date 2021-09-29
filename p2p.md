@@ -37,5 +37,5 @@ static-nodes.json
 admin.addPeer()
 ```
 
-
+以太坊的节点发现基于类似的kademlia算法，源码中有两个版本，v4和v5。v4适用于全节点，通过discover.ListenUDP使用，v5适用于轻节点通过discv5.ListenUDP使用
 
