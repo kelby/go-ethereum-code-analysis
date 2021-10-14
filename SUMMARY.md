@@ -217,7 +217,7 @@
   * rpcstack
   * [configuration](node/configuration.md)
 * [p2p](p2p.md)
-  * [discover - 发现](p2p/discover.md)
+  * [discover - 节点发现机制 \*](p2p/discover.md)
   * [代码解析](p2p/dai-ma-jie-xi.md)
   * [dnsdisc - DNS描述](p2p/dnsdisc.md)
   * [enode - 编码](p2p/enode.md)
@@ -228,7 +228,7 @@
   * [rlpx - 编码协议](p2p/rlpx.md)
   * [simulations - 仿真](p2p/simulations.md)
   * [Server \*](p2p/server.md)
-  * [Peer](p2p/peer.md)
+  * [Peer \*](p2p/peer.md)
   * [Msg](p2p/msg.md)
   * [dial](p2p/dial.md)
   * [RLP rlpxTransport](p2p/rlp.md)
