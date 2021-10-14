@@ -12,3 +12,13 @@ type PeerInfo 远程节点信息
 
 type Server 管理所有远程节点连接
 
+
+
+代码文件、目录可分为3类：
+
+* 网络基础库。如 nat、netutil
+* 业务基础库。如 dnsdisc、enode、enr、msgrate、nodestate、rlpx、simulations、tracker
+* 业务核心库。如 peer.go、server.go、discover
+
+
+
