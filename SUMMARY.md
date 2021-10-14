@@ -208,13 +208,13 @@
   * [挖矿流程](wa-kuang-liu-cheng.md)
 * [mobile](mobile.md)
 * [node](node.md)
-  * [api](node/api.md)
+  * [api \*](node/api.md)
   * [config](node/config.md)
   * [defaults](node/defaults.md)
   * endpoints
-  * lifecycle
+  * [lifecycle](node/lifecycle.md)
   * [node \*](node/node.md)
-  * rpcstack
+  * [rpcstack](node/rpcstack.md)
   * [configuration](node/configuration.md)
 * [p2p](p2p.md)
   * [discover - 节点发现机制 \*](p2p/discover.md)
