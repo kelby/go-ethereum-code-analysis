@@ -4,6 +4,12 @@ LES： Light Ethereum Subprotocol，以太坊客户端的轻量级的子协议�
 
 当配置文件中的SyncMode字段为downloader.LightSync时，会使用les目录下的代码；否则使用eth目录下的代码。
 
+和 light 的关联：
+
+* les 只是 light 同步模式下的实现
+* les 封装了 light
+* les 更复杂、更重要
+
 LES 协议处理流程：
 
 ![](/assets/les-protocol-process.png)
