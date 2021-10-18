@@ -8,7 +8,7 @@ LES： Light Ethereum Subprotocol，以太坊客户端的轻量级的子协议�
 
 * les 只是 light 同步模式下的实现
 * les 封装了 light
-* les 更复杂、更重要
+* light 是结果，les 是过程
 
 LES 协议处理流程：
 
