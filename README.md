@@ -1,4 +1,8 @@
 # 以太坊 Ethereum\(ETH\) 源码解读
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+使用以太坊 Ethereum\(ETH\) 源码，进行二次开发，在此过程中结合网上搜索到的资料，以及自己的理解，编写而成。
+
+部分内容为原创，部分内容为网上资料，参考来源众多，不一一列举。
+
+如有错误，敬请详解。
 
