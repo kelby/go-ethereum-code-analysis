@@ -49,7 +49,7 @@
   * [区块的校验](consensus/qu-kuai-de-xiao-yan.md)
 * [console - js 运行环境 & rpc 通信](console.md)
   * [js 运行环境 & rpc 通信](console/js.md)
-* [contracts/checkpointoracle](contractscheckpointoracle.md)
+* [contracts/checkpointoracle - 检查点合约，非强制](contractscheckpointoracle.md)
 * [core \*](core.md)
   * [BlockChain](core/blockchain.md)
   * [GasPool](core/gaspool.md)
