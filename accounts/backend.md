@@ -10,3 +10,5 @@ type Backend interface {
 
 当前共有 5 套实现。
 
+抽象的概念，和 Wallet 息息相关。
+
