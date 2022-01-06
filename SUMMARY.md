@@ -38,7 +38,7 @@
   * [geth启动流程（补充）](gethqi-dong-liu-cheng.md)
   * [geth --help](cmd/geth-help.md)
 * [common](common.md)
-* [consensus \*](consensus.md)
+* [consensus \* 共识 - 出块和验证](consensus.md)
   * [clique](consensus/clique.md)
   * [ethash](consensus/ethash.md)
   * [挖矿算法-共识](gong-shi.md)
