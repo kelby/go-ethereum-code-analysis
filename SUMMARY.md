@@ -74,6 +74,8 @@
   * [DynamicFeeTx 三种交易之一](core/types/dynamicfeetx.md)
   * [静态Gas的计算](core/jing-tai-gas-de-ji-suan.md)
 * [core/chain \* 链](corechain-lian.md)
+* [core/block \* 区块](coreblock-qu-kuai.md)
+* [core/tx \* 交易](coretx-jiao-yi.md)
 * [core/state \* 状态数据库](core/state.md)
   * [statePrefetcher](core/stateprefetcher.md)
   * [StateProcessor \*](core/stateprocessor.md)
