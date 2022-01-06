@@ -97,6 +97,7 @@
   * [智能合约](zhi-neng-he-yue.md)
   * [Create 创建合约](core/create-chuang-jian-he-yue.md)
 * [core/types](coretypes.md)
+* [core/rawdb 应用数据库](corerawdb.md)
 * [core/txpool \*](core-txpool.md)
   * [TxPool](core/txpool.md)
   * [交易池设计](jiao-yi-chi-she-ji.md)
