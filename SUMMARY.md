@@ -161,6 +161,7 @@
 * [eth/ethconfig](ethethconfig.md)
 * [eth/gasprice](ethgasprice.md)
 * [eth/downloader](ethdownloader.md)
+* [eth/api 服务节点对外提供API](ethapi.md)
 * [ethclient \*](ethclient.md)
 * [ethdb - Key-Value 数据库](ethdb.md)
   * [leveldb](ethdb/leveldb.md)
