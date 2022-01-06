@@ -207,7 +207,7 @@
   * ulc
 * [light - les 模式的一部分](light.md)
 * [log](log.md)
-* [miner \*](miner.md)
+* [miner \* 矿工服务](miner.md)
   * [Miner](miner/miner.md)
   * [worker](miner/worker.md)
   * [ethash POW](miner/ethash-pow.md)
