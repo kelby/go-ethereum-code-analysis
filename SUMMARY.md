@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [区块链要素](chapter1.md)
-* [accounts \*](accounts.md)
+* [accounts \* 钱包](accounts.md)
   * [external](accounts/external.md)
   * [scwallet](accounts/scwallet.md)
   * [usbwallet](accounts/usbwallet.md)
