@@ -205,7 +205,7 @@
   * sync
   * txrelay
   * ulc
-* [light](light.md)
+* [light - les 模式的一部分](light.md)
 * [log](log.md)
 * [miner \*](miner.md)
   * [Miner](miner/miner.md)
