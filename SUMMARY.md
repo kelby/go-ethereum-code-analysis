@@ -114,7 +114,6 @@
   * hashing
   * [bloombits](core/bloombits.md)
   * [forkid](core/forkid.md)
-  * [rawdb](core/rawdb.md)
   * [BloomIndexer](core/bloomindexer.md)
   * [Bloom-Filter](bloom-filter.md)
   * [asm](core/asm.md)
