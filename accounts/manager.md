@@ -19,7 +19,7 @@ type Manager struct {
 }
 ```
 
-重点：Backend 和 Wallet.
+重点：Backend 和 Wallet. 可以多钱包、多后端管理。
 
 
 
