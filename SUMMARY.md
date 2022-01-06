@@ -161,7 +161,8 @@
 * [eth/ethconfig](ethethconfig.md)
 * [eth/gasprice](ethgasprice.md)
 * [eth/downloader](ethdownloader.md)
-* [eth/api 服务节点对外提供API](ethapi.md)
+* [eth/backend \* 服务节点，提供节点服务](ethbackend-fu-wu-jie-dian-ff0c-ti-gong-jie-dian-fu-wu.md)
+* [eth/api \* 服务节点，提供API服务](ethapi.md)
 * [ethclient \*](ethclient.md)
 * [ethdb - Key-Value 数据库](ethdb.md)
   * [leveldb](ethdb/leveldb.md)
@@ -209,6 +210,8 @@
   * sync
   * txrelay
   * ulc
+* [les/server \* 服务节点，提供节点服务](lesserver-fu-wu-jie-dian-ff0c-ti-gong-jie-dian-fu-wu.md)
+* [les/api \* 服务节点，提供API服务](lesapi-fu-wu-jie-dian-ff0c-ti-gong-api-fu-wu.md)
 * [light - les 模式的一部分](light.md)
 * [log](log.md)
 * [miner \* 矿工服务](miner.md)
