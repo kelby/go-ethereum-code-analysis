@@ -47,7 +47,7 @@
   * [parlia](consensus/parlia.md)
   * [出块流程](consensus/chu-kuai-liu-cheng.md)
   * [区块的校验](consensus/qu-kuai-de-xiao-yan.md)
-* [console](console.md)
+* [console - js 运行环境 & rpc 通信](console.md)
   * [js 运行环境 & rpc 通信](console/js.md)
 * [contracts/checkpointoracle](contractscheckpointoracle.md)
 * [core \*](core.md)
