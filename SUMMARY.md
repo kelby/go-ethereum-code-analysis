@@ -13,7 +13,7 @@
   * [Wallet](accounts/wallet.md)
   * [Backend](accounts/backend.md)
   * [外部和内部地址](wai-bu-he-nei-bu-di-zhi.md)
-  * 钱包签名
+  * [钱包签名](accounts/qian-bao-qian-ming.md)
 * [accounts/keystore \*](accounts/keystore.md)
   * [accountCache](accounts/keystore/accountcache.md)
   * [Key](accounts/keystore/key.md)
@@ -45,6 +45,7 @@
   * [定制DPOS共识](consensus/ding-zhi-dpos-gong-shi.md)
   * [engine](consensus/engine.md)
   * [parlia](consensus/parlia.md)
+  * [区块的校验](consensus/qu-kuai-de-xiao-yan.md)
 * [console](console.md)
 * [contracts/checkpointoracle](contractscheckpointoracle.md)
 * [core \*](core.md)
