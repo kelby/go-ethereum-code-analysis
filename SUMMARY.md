@@ -90,13 +90,13 @@
   * sync
   * trie\_prefetcher
   * [交易执行](core/jiao-yi-zhi-xing.md)
-* [core/vm](core-vm.md)
+* [core/vm 虚拟机](core-vm.md)
   * [evm补充](core/evmbu-chong.md)
   * [EVM](evm.md)
   * [vm \*](core/vm-file.md)
   * [智能合约](zhi-neng-he-yue.md)
   * [Create 创建合约](core/create-chuang-jian-he-yue.md)
-* [core/types](coretypes.md)
+* [core/types 数据结构](coretypes.md)
 * [core/rawdb 应用数据库](corerawdb.md)
 * [core/txpool \* 交易池](core-txpool.md)
   * [TxPool](core/txpool.md)
