@@ -35,11 +35,13 @@ type Account struct {
 }
 ```
 
+关键概念：Account、Wallet、Backend，WalletEvent.![](/assets/accounts.png)
+
+![](/assets/accounts.png)
+
+![](/assets/accounts.png)
+
 ![](/assets/accounts.png)
 
 转移资产\(Transfer\)是在一个账户的Balance上计加，在另外一个账户计减。
-
-
-
-
 
