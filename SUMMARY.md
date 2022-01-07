@@ -163,6 +163,7 @@
 * [eth/downloader](ethdownloader.md)
 * [eth/backend \* 服务节点，提供节点服务](ethbackend-fu-wu-jie-dian-ff0c-ti-gong-jie-dian-fu-wu.md)
 * [eth/api \* 服务节点，提供API服务](ethapi.md)
+* [eth \* 同步、下载](eth-tong-bu-3001-xia-zai.md)
 * [ethclient \*](ethclient.md)
 * [ethdb - Key-Value 数据库](ethdb.md)
   * [leveldb](ethdb/leveldb.md)
@@ -212,6 +213,7 @@
   * ulc
 * [les/server \* 服务节点，提供节点服务](lesserver-fu-wu-jie-dian-ff0c-ti-gong-jie-dian-fu-wu.md)
 * [les/api \* 服务节点，提供API服务](lesapi-fu-wu-jie-dian-ff0c-ti-gong-api-fu-wu.md)
+* [les \* 同步、下载](les-tong-bu-3001-xia-zai.md)
 * [light \* - les 模式的一部分](light.md)
 * [log](log.md)
 * [miner \* 矿工服务](miner.md)

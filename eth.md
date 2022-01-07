@@ -2,6 +2,12 @@ ETH 全节点服务端。
 
 **按照区块链要素的划分，属于区块链核心，并非网络部分，但它与 p2p 直接相关，是 p2p 网络到达区块链系统后的第一道关口。**
 
+3 个角色：
+
+* 做为 P2P 网络中的一员，节点与节点之间下载、同步
+* 做为 HTTP, RPC 网络中的一员，做为服务端，接收客户端请求，响应数据给客户端
+* 做为服务节点，维持自身运转，协调各个模块
+
 命令行客户端、轻客户端与它交互
 
 * 过滤器 - implements a core.ChainIndexer, building up a rotated bloom bits index for the Ethereum header bloom filters, permitting blazing fast filtering.
