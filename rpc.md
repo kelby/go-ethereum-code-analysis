@@ -50,6 +50,24 @@ serveRequest, Server的主要处理流程。从codec读取请求，找到对应�
 
 > 属于API客户端连接库范畴。
 
+以太坊系统，想要提供 RPC 服务，不是直接使用像 net/rpc 这种官方库，而是自己搞了个和 rpc 有关的库，就是目前看到的这个。
+
+它是底层库，由它处理 RPC 相关操作，或提供服务。
+
+rpc.Server
+
+rpc.Client
+
+rpc.Subscription
+
+
+
+rpc.BlockNumber
+
+rpc.BlockNumberOrHash
+
+rpc.ID
+
 
 
 
