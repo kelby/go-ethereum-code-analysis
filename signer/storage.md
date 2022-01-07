@@ -2,7 +2,5 @@
 
 加密、解密。
 
-内部 core, rules 模块消化。
-
-
+内部 core, rules 模块调用。
 
