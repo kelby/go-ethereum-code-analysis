@@ -236,7 +236,7 @@
   * [dnsdisc - DNS描述](p2p/dnsdisc.md)
   * [enode - 编码](p2p/enode.md)
   * [enr - 编码](p2p/enr.md)
-  * [nat](p2p/nat.md)
+  * [nat 网络地址转换](p2p/nat.md)
   * [netutil](p2p/netutil.md)
   * [nodestate - 节点状态](p2p/nodestate.md)
   * [rlpx - 编码协议](p2p/rlpx.md)
