@@ -21,29 +21,13 @@ simplified mobile APIs
 
 > 属于API客户端连接库。
 
+## 区块链核心
+
 accounts.go
 
 > "github.com/ethereum/go-ethereum/accounts"
 >
 > "github.com/ethereum/go-ethereum/accounts/keystore"
-
-bind.go
-
-> "github.com/ethereum/go-ethereum/accounts/abi/bind"
->
-> "github.com/ethereum/go-ethereum/core/types"
-
-common.go
-
-> "github.com/ethereum/go-ethereum/common"
-
-discover.go
-
-> "github.com/ethereum/go-ethereum/p2p/enode"
-
-ethclient.go
-
-> "github.com/ethereum/go-ethereum/ethclient"
 
 ethereum.go
 
@@ -53,10 +37,6 @@ geth.go
 
 > "github.com/ethereum/go-ethereum/node"
 
-p2p.go
-
-> "github.com/ethereum/go-ethereum/p2p"
-
 params.go
 
 > "github.com/ethereum/go-ethereum/core"
@@ -65,9 +45,59 @@ types.go
 
 > "github.com/ethereum/go-ethereum/core/types"
 
+## 密码学
+
+## 钱包、API、客户端
+
+ethclient.go
+
+> "github.com/ethereum/go-ethereum/ethclient"
+
+## P2P 网络
+
+p2p.go
+
+> "github.com/ethereum/go-ethereum/p2p"
+
+discover.go
+
+> "github.com/ethereum/go-ethereum/p2p/enode"
+
+
+
+## Key-Value 存储
+
+## 行业标准库
+
+bind.go
+
+> "github.com/ethereum/go-ethereum/accounts/abi/bind"
+>
+> "github.com/ethereum/go-ethereum/core/types"
+
 vm.go
 
 > "github.com/ethereum/go-ethereum/core/types"
+
+
+
+## 工具库
+
+
+
+
+
+common.go
+
+> "github.com/ethereum/go-ethereum/common"
+
+
+
+
+
+
+
+
 
 
 
