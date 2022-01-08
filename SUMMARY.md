@@ -43,6 +43,7 @@
   * [启动流程](qi-dong-liu-cheng.md)
   * [geth启动流程（补充）](gethqi-dong-liu-cheng.md)
   * [geth --help](cmd/geth-help.md)
+  * [创世纪流程](cmd/chuang-shi-ji-liu-cheng.md)
 * [consensus \* 共识 - 出块和验证](consensus.md)
   * [clique](consensus/clique.md)
   * [ethash](consensus/ethash.md)
