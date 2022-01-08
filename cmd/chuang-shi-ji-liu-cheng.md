@@ -22,3 +22,11 @@ genesis = DefaultGenesisBlock\(\)
 
 genesis.Commit
 
+rawdb.ReadHeader
+
+DefaultGenesisBlock
+
+ToBlock
+
+genesis.Commit
+
