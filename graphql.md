@@ -9,5 +9,9 @@
 * 同步状态 SyncState
 * 交易 Transaction
 
+由“服务节点”提供。
+
+
+
 
 

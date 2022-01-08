@@ -247,7 +247,7 @@
 * [les 同步、下载](les-tong-bu-3001-xia-zai.md)
 * [light \* - les 模式的一部分](light.md)
 * [mobile - 钱包/客户端/API](mobile.md)
-* [graphql](graphql.md)
+* [graphql - 钱包/客户端/API](graphql.md)
 * [p2p - 行业标准库](p2p.md)
   * [discover - 节点发现机制 \*](p2p/discover.md)
   * [代码解析](p2p/dai-ma-jie-xi.md)
