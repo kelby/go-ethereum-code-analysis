@@ -32,3 +32,5 @@ genesis.Commit
 
 genesis.ToBlock
 
+configOrDefault
+
