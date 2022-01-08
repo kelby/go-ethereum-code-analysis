@@ -38,3 +38,5 @@ newcfg.CheckConfigForkOrder
 
 ReadChainConfig
 
+rawdb.WriteChainConfig
+
