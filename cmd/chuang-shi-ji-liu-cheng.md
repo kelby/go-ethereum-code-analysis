@@ -34,3 +34,7 @@ genesis.ToBlock
 
 configOrDefault
 
+newcfg.CheckConfigForkOrder
+
+ReadChainConfig
+
