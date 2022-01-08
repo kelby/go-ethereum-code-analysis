@@ -1,6 +1,6 @@
 simplified mobile APIs
 
-给移动端App使用的 API，可以通过 gomobile 编译。
+给移动端 App 使用的 API，可以通过 gomobile 编译。由于有数据类型，以及操作系统限制，功能比较简单。
 
 * 账号\(Account/Accounts\)和地址\(Address/Addresses\)
 * 区块（主要是获取区块数据）
@@ -23,15 +23,51 @@ simplified mobile APIs
 
 accounts.go
 
+> "github.com/ethereum/go-ethereum/accounts"
+>
+> "github.com/ethereum/go-ethereum/accounts/keystore"
+
 bind.go
+
+> "github.com/ethereum/go-ethereum/accounts/abi/bind"
+>
+> "github.com/ethereum/go-ethereum/core/types"
+
+common.go
+
+> "github.com/ethereum/go-ethereum/common"
 
 discover.go
 
+> "github.com/ethereum/go-ethereum/p2p/enode"
+
 ethclient.go
+
+> "github.com/ethereum/go-ethereum/ethclient"
 
 ethereum.go
 
+> "github.com/ethereum/go-ethereum"
+
 geth.go
 
+> "github.com/ethereum/go-ethereum/node"
+
 p2p.go
+
+> "github.com/ethereum/go-ethereum/p2p"
+
+params.go
+
+> "github.com/ethereum/go-ethereum/core"
+
+types.go
+
+> "github.com/ethereum/go-ethereum/core/types"
+
+vm.go
+
+> "github.com/ethereum/go-ethereum/core/types"
+
+
 
