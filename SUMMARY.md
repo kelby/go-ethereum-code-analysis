@@ -20,6 +20,7 @@
   * [KeyStore](accounts/keystore/keystore.md)
   * [passphrase.go](accounts/keystore/passphrasego.md)
   * [presale.go](accounts/keystore/presalego.md)
+  * [keystoreWallet](accounts/keystore/keystorewallet.md)
 * [accounts/abi - 行业标准库](accounts/abi.md)
   * [ABI](abi.md)
 * [cmd](cmd.md)
