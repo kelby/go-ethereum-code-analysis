@@ -14,3 +14,7 @@ chaindb.Close
 
 
 
+SetupGenesisBlock
+
+SetupGenesisBlockWithOverride
+
