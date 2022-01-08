@@ -112,7 +112,7 @@
   * [network\_params 网络参数配置](params/networkparams.md)
   * [protocol\_params 协议参数配置](params/protocolparams.md)
   * [configuration](params/configuration.md)
-* [crypto 数学、密码学](crypto.md)
+* [crypto 密码学 - 行业标准库](crypto.md)
   * [blake2b](crypto/blake2b.md)
   * [bls12381](crypto/bls12381.md)
   * [bn256](crypto/bn256.md)
