@@ -71,6 +71,8 @@ rpc.Client
 > p2p/simulations/adapters
 >
 > signer/core
+>
+> cmd/geth
 
 rpc.Subscription
 
