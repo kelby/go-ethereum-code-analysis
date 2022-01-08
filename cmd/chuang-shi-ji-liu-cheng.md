@@ -42,3 +42,5 @@ rawdb.WriteChainConfig
 
 rawdb.ReadHeaderNumber
 
+storedcfg.CheckCompatible
+
