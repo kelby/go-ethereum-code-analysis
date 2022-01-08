@@ -17,3 +17,15 @@ RLP是Recursive Length Prefix的简写。是以太坊中的序列化方法，以
 
 
 
+RLP实际只给以下两种类型数据编码：
+
+
+
+1.　byte数组
+
+
+
+2.　byte数组的数组，称之为列表
+
+
+
