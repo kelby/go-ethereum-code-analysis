@@ -26,11 +26,9 @@ rawdb.ReadHeader
 
 DefaultGenesisBlock
 
-ToBlock
+genesis.ToBlock
 
 genesis.Commit
 
 genesis.ToBlock
-
-
 
