@@ -58,17 +58,13 @@ rpc.Server
 
 rpc.Client
 
+> accounts/external
+
 rpc.Subscription
-
-
 
 rpc.BlockNumber
 
 rpc.BlockNumberOrHash
 
 rpc.ID
-
-
-
-
 
