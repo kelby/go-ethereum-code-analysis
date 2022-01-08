@@ -36,7 +36,7 @@ configOrDefault
 
 newcfg.CheckConfigForkOrder
 
-ReadChainConfig
+rawdb.ReadChainConfig
 
 rawdb.WriteChainConfig
 
