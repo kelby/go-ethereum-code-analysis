@@ -17,6 +17,8 @@
 * [accounts/keystore \*](accounts/keystore.md)
   * [accountCache](accounts/keystore/accountcache.md)
   * [Key](accounts/keystore/key.md)
+  * [KeyStore](accounts/keystore/keystore.md)
+  * [passphrase.go](accounts/keystore/passphrasego.md)
 * [accounts/abi - 行业标准库](accounts/abi.md)
   * [ABI](abi.md)
 * [cmd](cmd.md)
