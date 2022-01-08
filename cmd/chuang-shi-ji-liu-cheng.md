@@ -40,3 +40,5 @@ rawdb.ReadChainConfig
 
 rawdb.WriteChainConfig
 
+rawdb.ReadHeaderNumber
+
