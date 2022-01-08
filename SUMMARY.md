@@ -82,6 +82,8 @@
   * [Log](coretx-jiao-yi/log.md)
   * [收到交易后如何处理](shou-dao-jiao-yi-hou-ru-he-chu-li.md)
   * [交易签名](coretx-jiao-yi/jiao-yi-qian-ming.md)
+  * [交易的校验](coretx-jiao-yi/jiao-yi-de-xiao-yan.md)
+  * [交易的执行](coretx-jiao-yi/jiao-yi-de-zhi-xing.md)
 * [core/txpool \* 交易池](core-txpool.md)
   * [TxPool](core/txpool.md)
   * [交易池设计](jiao-yi-chi-she-ji.md)
