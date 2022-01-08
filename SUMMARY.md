@@ -76,6 +76,7 @@
 * [core/chain \* 链](corechain-lian.md)
 * [core/block \* 区块](coreblock-qu-kuai.md)
 * [core/tx \* 交易](coretx-jiao-yi.md)
+  * [AccessListTx](coretx-jiao-yi/accesslisttx.md)
 * [core/state 状态数据库](core/state.md)
   * [statePrefetcher](core/stateprefetcher.md)
   * [StateProcessor \*](core/stateprocessor.md)
