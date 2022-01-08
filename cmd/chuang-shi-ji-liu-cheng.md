@@ -16,3 +16,9 @@ chaindb.Close
 
 SetupGenesisBlockWithOverride
 
+stored := rawdb.ReadCanonicalHash
+
+genesis = DefaultGenesisBlock\(\)
+
+genesis.Commit
+
