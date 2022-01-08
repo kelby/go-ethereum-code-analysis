@@ -12,9 +12,7 @@ core.SetupGenesisBlock
 
 chaindb.Close
 
-
-
-SetupGenesisBlock
+方法：SetupGenesisBlock
 
 SetupGenesisBlockWithOverride
 
