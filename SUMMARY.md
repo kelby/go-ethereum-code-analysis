@@ -276,7 +276,7 @@
   * [fourbyte](signer/fourbyte.md)
   * [rules](signer/rules.md)
   * [storage](signer/storage.md)
-* [rlp 序列化 - 底层库](rlp.md)
+* [rlp 序列化 - 行业标准库](rlp.md)
 * [trie 树](trie.md)
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
