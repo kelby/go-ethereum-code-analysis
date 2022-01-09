@@ -18,5 +18,10 @@ fetcher 模块和 downloader 模块所承担的任务是不同的：
 * body 下载完成（Fetcher.queue）
 * 正式入库
 
+Fetcher 对象对外导出的方法中，能导致同步功能的只有两个方法：
+
+* Fetcher.Notify
+* Fetcher.Enqueue
+
 
 
