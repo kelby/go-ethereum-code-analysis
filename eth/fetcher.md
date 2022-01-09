@@ -23,5 +23,7 @@ Fetcher 对象对外导出的方法中，能导致同步功能的只有两个方
 * Fetcher.Notify
 * Fetcher.Enqueue
 
+这两个方法分别在 ProtocolManager.handleMsg 中处理 NewBlockHashesMsg 和 NewBlockMsg 两个消息时被调用。
 
+这两个消息又是分别由 peer.AsyncSendNewBlockHash 和 peer.AsyncSendNewBlock 两个方法发出的，这两个方法只有在矿工挖到新的区块时才会被调用。
 
