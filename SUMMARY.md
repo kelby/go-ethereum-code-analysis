@@ -155,6 +155,7 @@
 * [eth/backend 服务节点，提供节点服务](ethbackend-fu-wu-jie-dian-ff0c-ti-gong-jie-dian-fu-wu.md)
 * [eth/api 服务节点，提供API服务](ethapi.md)
 * [eth 同步、下载](eth-tong-bu-3001-xia-zai.md)
+* [Ethereum vs Les](ethereum-vs-les.md)
 * [ethclient](ethclient.md)
 * [ethdb - Key-Value 数据库](ethdb.md)
   * [leveldb](ethdb/leveldb.md)
@@ -216,10 +217,10 @@
 * [les LightEthereum \* 服务节点实例](les.md)
   * [api](les/api.md)
   * [api\_backend](les/apibackend.md)
-  * benchmark
-  * bloombits
+  * [benchmark](les/benchmark.md)
+  * [bloombits](les/bloombits.md)
   * [client](les/client.md)
-  * client\_handler
+  * [client\_handler](les/clienthandler.md)
   * commons
   * costTracker
   * distributor
@@ -232,7 +233,7 @@
   * protocol
   * pruner
   * retrieve
-  * server
+  * [server](les/server.md)
   * server\_handler
   * server\_requests
   * servingqueue
@@ -284,7 +285,7 @@
 * [event 发布、订阅 - 工具库](event.md)
 * [ethstats - 工具库](ethstats.md)
 * [log - 工具库](log.md)
-* [trie 树 - 工具库](trie.md)
+* [trie 树 - 底层库](trie.md)
   * [源码](trie/yuan-ma.md)
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
