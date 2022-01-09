@@ -69,5 +69,9 @@ p2p.Server
 
 > eth
 
+p2p.Peer
+
+> eth/protocols/eth
+
 
 
