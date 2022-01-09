@@ -10,7 +10,7 @@ fetcher 模块和 downloader 模块所承担的任务是不同的：
 
 一个区块的同步流程:
 
-* 发现区块
+* 发现区块 NewBlockHashesMsg 和 NewBlockMsg
 * 通知（Fetcher.announced）
 * 下载中（Fetcher.fetching）
 * header 下载完成（Fetcher.fetched）
