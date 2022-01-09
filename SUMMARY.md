@@ -188,6 +188,7 @@
   * [utesting](internal/utesting.md)
   * [web3ext](internal/web3ext.md)
   * [shutdowncheck](internal/shutdowncheck.md)
+  * [syncx](internal/syncx.md)
 * [internal/ethapi](internal/ethapi.md)
   * [Gas预估 - EstimateGas](internal/ethapi/gasyu-gu-estimategas.md)
 * [les LightEthereum \* 后端服务，服务节点实例](les.md)
