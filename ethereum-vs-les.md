@@ -18,6 +18,8 @@
 
 前面两种打交道的是 core.TxPool，最后一种打交道的是 light.TxPool.
 
+前面两种自身是 EthAPIBackend，最后种自身是 LesApiBackend.
+
 三大不同：
 
 * 不同的链
