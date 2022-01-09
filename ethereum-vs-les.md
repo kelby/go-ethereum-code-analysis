@@ -8,7 +8,9 @@
 
 前面两种由 Ethereum 处理，最后一种由 LightEthereum 处理。
 
-前面两种打交道的是 BlockChain，最后一种打交道的是 LightChain.
+前面两种打交道的是 core.BlockChain，最后一种打交道的是 light.LightChain.
+
+前面两种打交道的是 core.TxPool，最后一种打交道的是 light.TxPool.
 
 三大不同：
 
