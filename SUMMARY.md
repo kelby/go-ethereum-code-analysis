@@ -86,6 +86,7 @@
   * [收到交易后如何处理](shou-dao-jiao-yi-hou-ru-he-chu-li.md)
   * [交易签名](coretx-jiao-yi/jiao-yi-qian-ming.md)
   * [交易的校验](coretx-jiao-yi/jiao-yi-de-xiao-yan.md)
+  * [交易的执行流程](jiao-yi-de-zhi-xing-liu-cheng.md)
   * [交易的执行](coretx-jiao-yi/jiao-yi-de-zhi-xing.md)
 * [core/txpool \* 交易池](core-txpool.md)
   * [TxPool](core/txpool.md)
@@ -95,6 +96,7 @@
   * [EVM](evm.md)
   * [vm \*](core/vm-file.md)
   * [智能合约](zhi-neng-he-yue.md)
+  * [创建和执行合约流程](chuang-jian-he-zhi-xing-he-yue-liu-cheng.md)
   * [Create 创建合约](core/create-chuang-jian-he-yue.md)
   * Call 调用合约
 * [core/state 状态数据库 - 行业标准库](core/state.md)
@@ -291,8 +293,6 @@
   * [源码](trie/yuan-ma.md)
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
-* [交易的执行流程](jiao-yi-de-zhi-xing-liu-cheng.md)
-* [创建和执行合约流程](chuang-jian-he-zhi-xing-he-yue-liu-cheng.md)
 * [结构体（数据结构）](jie-gou-ti-ff08-shu-ju-jie-gou-ff09.md)
 * [服务 - 定义](fu-wu-ding-yi.md)
 
