@@ -178,8 +178,6 @@
   * sync
   * trie\_prefetcher
   * [交易执行](core/jiao-yi-zhi-xing.md)
-* [ethstats](ethstats.md)
-* [event](event.md)
 * [params \* 配置项](params.md)
   * [bootnodes \* 种子节点](params/bootnodes.md)
   * [config \* 链配置](params/config.md)
@@ -283,6 +281,8 @@
   * [fourbyte](signer/fourbyte.md)
   * [rules](signer/rules.md)
   * [storage](signer/storage.md)
+* [event 发布、订阅 - 工具库](event.md)
+* [ethstats - 工具库](ethstats.md)
 * [log - 工具库](log.md)
 * [trie 树 - 工具库](trie.md)
   * [源码](trie/yuan-ma.md)
