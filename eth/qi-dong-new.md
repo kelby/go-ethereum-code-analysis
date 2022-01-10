@@ -1,4 +1,4 @@
-config.SyncMode 检查同步模式
+config.SyncMode 检查同步模式 =&gt; downloader
 
 config.Miner.GasPrice 设置最小矿工费率
 
@@ -12,11 +12,11 @@ ethashConfig
 
 stack.OpenDatabaseWithFreezer
 
-core.SetupGenesisBlockWithOverride
+core.SetupGenesisBlockWithOverride =&gt; core
 
-recover state
+pruner.RecoverPruning recover state =&gt; pruner
 
-consensus.NewMerger
+consensus.NewMerger =&gt; consensus
 
 ```go
 eth := &Ethereum{
@@ -37,11 +37,17 @@ eth := &Ethereum{
     }
 ```
 
-rawdb.ReadDatabaseVersion
+ethconfig.CreateConsensusEngine =&gt; ethconfig
+
+core.NewBloomIndexer =&gt; core
+
+shutdowncheck.NewShutdownTracker =&gt; shutdowncheck
+
+rawdb.ReadDatabaseVersion =&gt; rawdb
 
 rawdb.WriteDatabaseVersion
 
-core.NewBlockChain
+core.NewBlockChain =&gt; core
 
 eth.blockchain.SetHead
 
@@ -49,19 +55,19 @@ rawdb.WriteChainConfig
 
 eth.bloomIndexer.Start
 
-core.NewTxPool
+core.NewTxPool =&gt; core
 
 newHandler
 
-miner.New
+miner.New =&gt; miner
 
-gasprice.NewOracle
+gasprice.NewOracle =&gt; gasprice
 
-dnsdisc.NewClient
+dnsdisc.NewClient =&gt; dnsdisc
 
-dnsclient.NewIterator
+dnsclient.NewIterator =&gt; dnsclient
 
-ethapi.NewPublicNetAPI
+ethapi.NewPublicNetAPI =&gt; ethapi
 
 stack.RegisterAPIs
 
@@ -77,26 +83,26 @@ eth.shutdownTracker.MarkStartup
 // Stop implements node.Lifecycle, terminating all internal goroutines used by the
 // Ethereum protocol.
 func (s *Ethereum) Stop() error {
-	// Stop all the peer-related stuff first.
-	s.ethDialCandidates.Close()
-	s.snapDialCandidates.Close()
-	s.handler.Stop()
+    // Stop all the peer-related stuff first.
+    s.ethDialCandidates.Close()
+    s.snapDialCandidates.Close()
+    s.handler.Stop()
 
-	// Then stop everything else.
-	s.bloomIndexer.Close()
-	close(s.closeBloomHandler)
-	s.txPool.Stop()
-	s.miner.Close()
-	s.blockchain.Stop()
-	s.engine.Close()
+    // Then stop everything else.
+    s.bloomIndexer.Close()
+    close(s.closeBloomHandler)
+    s.txPool.Stop()
+    s.miner.Close()
+    s.blockchain.Stop()
+    s.engine.Close()
 
-	// Clean shutdown marker as the last thing before closing db
-	s.shutdownTracker.Stop()
+    // Clean shutdown marker as the last thing before closing db
+    s.shutdownTracker.Stop()
 
-	s.chainDb.Close()
-	s.eventMux.Stop()
+    s.chainDb.Close()
+    s.eventMux.Stop()
 
-	return nil
+    return nil
 }
 ```
 
