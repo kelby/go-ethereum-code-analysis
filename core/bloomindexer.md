@@ -12,3 +12,11 @@ type BloomIndexer struct {
 
 实现了接口 core.ChainIndexerBackend，目的是更快的查询。
 
+NewBloomIndexer
+
+> 被 eth.New 构建 Ethereum 时调用
+>
+> 被 les.New 构建 LightEthereum 时调用
+
+
+
