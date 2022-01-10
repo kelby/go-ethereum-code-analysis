@@ -34,7 +34,11 @@ type HeaderChain struct {
 }
 ```
 
-HeaderChain和BlockChain
+NewHeaderChain
+
+> 被 core.NewBlockChain 调用
+>
+> 被 light.NewLightChain 调用
 
 
 

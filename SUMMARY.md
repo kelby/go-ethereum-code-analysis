@@ -133,6 +133,7 @@
   * [HeaderChain](core/headerchain.md)
   * [blockchain\_insert.go](core/blockchaininsert-go.md)
   * blockchain\_reader.go
+  * [ForkChoice](core/forkchoice.md)
 * [core/genesis \* 创世纪](core-genesis.md)
   * [Genesis](core/genesis.md)
   * [GenesisAccount](core/genesisaccount.md)
