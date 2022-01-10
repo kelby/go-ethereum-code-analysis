@@ -309,6 +309,7 @@
 * [ethstats - 工具库](ethstats.md)
 * [common - 工具库](common.md)
 * [log - 工具库](log.md)
+* [metrics - 工具库](metrics.md)
 * [trie 树 - 底层库](trie.md)
   * [源码](trie/yuan-ma.md)
 * [type Config struct 汇总](type-config-struct-hui-zong.md)
