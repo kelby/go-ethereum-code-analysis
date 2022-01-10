@@ -22,3 +22,19 @@ type Oracle struct {
 
 预言机，根据当前、历史区块情况，推荐 GasPrice.
 
+配置
+
+```go
+type Config struct {
+	Blocks           int
+	Percentile       int
+	MaxHeaderHistory int
+	MaxBlockHistory  int
+	Default          *big.Int `toml:",omitempty"`
+	MaxPrice         *big.Int `toml:",omitempty"`
+	IgnorePrice      *big.Int `toml:",omitempty"`
+}
+```
+
+
+
