@@ -154,7 +154,7 @@
   * [fetcher](eth/fetcher.md)
   * [eth/downloader](ethdownloader.md)
   * [downloader](eth/downloader.md)
-* [eth/protocols 两个同步模式](ethprotocols-liang-ge-tong-bu-mo-shi.md)
+* [eth/protocols 两个同步模式，按不同协议进行处理](ethprotocols-liang-ge-tong-bu-mo-shi.md)
 * [Ethereum vs Les 后端服务 - 核心](ethereum-vs-les.md)
 * [core/rawdb \* 应用数据库](corerawdb.md)
 * [params \* 配置项](params.md)
