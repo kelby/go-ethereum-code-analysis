@@ -21,3 +21,9 @@ type Miner struct {
 
 核心：coinbase 矿工收益地址
 
+miner.New
+
+> 被 eth.miner = miner.New 调用。
+
+
+

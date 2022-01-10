@@ -84,5 +84,9 @@ type worker struct {
 * taskLoop
 * resultLoop
 
+newWorker
+
+> 被 miner.New 调用。
+
 
 
