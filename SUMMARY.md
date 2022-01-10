@@ -144,6 +144,7 @@
   * [api\_backend \*](eth/apibackend.md)
 * [eth/handler](ethhandler.md)
   * [handler \*](eth/handler.md)
+  * [启动 newHandler](eth/qi-dong-newhandler.md)
   * [peer](eth/peer.md)
   * [peerset](eth/peerset.md)
   * [handler\_eth](eth/handlereth.md)
