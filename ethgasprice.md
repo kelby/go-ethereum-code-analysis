@@ -26,15 +26,21 @@ type Oracle struct {
 
 ```go
 type Config struct {
-	Blocks           int
-	Percentile       int
-	MaxHeaderHistory int
-	MaxBlockHistory  int
-	Default          *big.Int `toml:",omitempty"`
-	MaxPrice         *big.Int `toml:",omitempty"`
-	IgnorePrice      *big.Int `toml:",omitempty"`
+    Blocks           int
+    Percentile       int
+    MaxHeaderHistory int
+    MaxBlockHistory  int
+    Default          *big.Int `toml:",omitempty"`
+    MaxPrice         *big.Int `toml:",omitempty"`
+    IgnorePrice      *big.Int `toml:",omitempty"`
 }
 ```
+
+NewOracle
+
+> 在 eth.APIBackend.gpo = gasprice.NewOracle 被调用
+>
+> 在 leth.ApiBackend.gpo = gasprice.NewOracle 被调用
 
 
 
