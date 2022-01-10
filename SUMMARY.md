@@ -75,16 +75,16 @@
   * chain\_iterator.go
   * [schema.go](corerawdb/schemago.md)
 * [core misc](core-misc.md)
-    * [bloom9](core/types/bloom9.md)
-    * gen\_access\_tuple
-    * gen\_header\_json
-    * gen\_receipt\_json
-    * hashing
-    * [bloombits](core/bloombits.md)
-    * [forkid](core/forkid.md)
-    * [BloomIndexer](core/bloomindexer.md)
-    * [Bloom-Filter](bloom-filter.md)
-    * [asm](core/asm.md)
+  * [bloom9](core/types/bloom9.md)
+  * gen\_access\_tuple
+  * gen\_header\_json
+  * gen\_receipt\_json
+  * hashing
+  * [bloombits](core/bloombits.md)
+  * [forkid](core/forkid.md)
+  * [BloomIndexer](core/bloomindexer.md)
+  * [Bloom-Filter](bloom-filter.md)
+  * [asm](core/asm.md)
 * [params \* 配置项](params.md)
   * [bootnodes \* 种子节点](params/bootnodes.md)
   * [config \* 链配置](params/config.md)
@@ -151,7 +151,6 @@
 * [cmd/utils - 工具库](cmdutils.md)
   * [cmd.go](cmdutils/cmdgo.md)
   * [flags.go](cmdutils/flagsgo.md)
-* [cmd/utils](cmdutils.md)
 * [eth Ethereum \* 后端服务，服务节点实例](eth.md)
   * [filters](eth/filters.md)
   * [gasprice 预言机](eth/gasprice.md)
