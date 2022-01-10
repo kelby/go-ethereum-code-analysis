@@ -59,7 +59,7 @@
   * [geth启动流程（补充）](gethqi-dong-liu-cheng.md)
   * [geth --help](cmd/geth-help.md)
   * [创世纪流程](cmd/chuang-shi-ji-liu-cheng.md)
-* [cmd/utils](cmdutils.md)
+* [cmd/utils - 工具库](cmdutils.md)
   * [cmd.go](cmdutils/cmdgo.md)
   * [flags.go](cmdutils/flagsgo.md)
 * [consensus \* 共识 - 出块和验证](consensus.md)
