@@ -47,6 +47,7 @@
   * [puppeth](cmd/puppeth.md)
 * [cmd/geth \* - 命令行客户端](cmd-geth.md)
   * [geth \*](cmd/geth.md)
+    * [accountcmd.go](cmd/geth/accountcmdgo.md)
   * [启动流程](qi-dong-liu-cheng.md)
   * [geth启动流程（补充）](gethqi-dong-liu-cheng.md)
   * [geth --help](cmd/geth-help.md)
