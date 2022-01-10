@@ -132,6 +132,7 @@
 * [core/chain \* 链](corechain-lian.md)
   * [BlockChain](core/blockchain.md)
   * [HeaderChain](core/headerchain.md)
+  * [blockchain\_insert.go](core/blockchaininsert-go.md)
 * [core/genesis \* 创世纪](core-genesis.md)
   * [Genesis](core/genesis.md)
   * [GenesisAccount](core/genesisaccount.md)
