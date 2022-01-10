@@ -29,3 +29,13 @@ Fetcher 对象对外导出的方法中，能导致同步功能的只有两个方
 
 当某个矿工产生了新的区块、并将这个新区块广播给其它节点，而其它节点收到广播的消息时，才会用到 fetcher 模块去同步这些区块。
 
+NewBlockFetcher
+
+> 被 h.blockFetcher = fetcher.NewBlockFetcher 调用。
+
+NewTxFetcher
+
+> 被 h.txFetcher = fetcher.NewTxFetcher 调用。
+
+
+
