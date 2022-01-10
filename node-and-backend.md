@@ -4,7 +4,7 @@
 
 `les.LightEthereum` 实例对象，称之为 backend，通过 `les.New` 构建。
 
-backend 只是 stack 的一部分，通过 utils.RegisterEthService 注册，除此之外，还能注册 utils.RegisterGraphQLService 和 utils.RegisterEthStatsService.
+backend 是 stack 的一部分，最重要、最核心的一部分，通过 utils.RegisterEthService 注册。
 
-
+除此之外，stack 还能注册 utils.RegisterGraphQLService 和 utils.RegisterEthStatsService.
 
