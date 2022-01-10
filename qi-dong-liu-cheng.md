@@ -58,5 +58,47 @@ readLoop是读取连接发送来的数据
 
 ![](/assets/geth-run-process.png)
 
+cmd/geth 模块：
+
+main.go
+
+config.go
+
+cmd/utils 模块：
+
+cmd.go
+
+flag.go
+
+node 模块：
+
+node.go
+
+service.go
+
+eth 模块：
+
+backend.go
+
+handler.go
+
+p2p 模块：
+
+server.go
+
+core 模块：
+
+genesis.go
+
+blockchain.go
+
+tx\_pool.go
+
+miner 模块：
+
+miner.go
+
+
+
 从 cmd 模块到其它 6 个模块，配置，并启动、运行。
 
