@@ -30,7 +30,7 @@
   * [keystoreWallet 实现了 Wallet 接口](accounts/keystore/keystorewallet.md)
   * [accountCache](accounts/keystore/accountcache.md)
   * [Key](accounts/keystore/key.md)
-  * [passphrase.go](accounts/keystore/passphrasego.md)
+  * [passphrase.go 加密、解密](accounts/keystore/passphrasego.md)
   * [presale.go](accounts/keystore/presalego.md)
 * [cmd - 命令行客户端](cmd.md)
   * [abidump](cmd/abidump.md)
