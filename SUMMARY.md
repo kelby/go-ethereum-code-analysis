@@ -155,6 +155,13 @@
 * [eth/protocols 两个同步模式，按不同协议进行处理](ethprotocols-liang-ge-tong-bu-mo-shi.md)
 * [Ethereum vs Les 后端服务 - 核心](ethereum-vs-les.md)
 * [core/rawdb \* 应用数据库](corerawdb.md)
+  * accessors\_chain.go
+  * accessors\_indexes.go
+  * accessors\_metadata.go
+  * accessors\_snapshot.go
+  * accessors\_state.go
+  * chain\_iterator.go
+  * [schema.go](corerawdb/schemago.md)
 * [params \* 配置项](params.md)
   * [bootnodes \* 种子节点](params/bootnodes.md)
   * [config \* 链配置](params/config.md)
