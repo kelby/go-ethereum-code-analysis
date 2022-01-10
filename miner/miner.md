@@ -23,7 +23,7 @@ type Miner struct {
 
 miner.New
 
-> 被 eth.miner = miner.New 调用。
+> 在 eth.New 方法里的 eth.miner = miner.New 调用。
 
 
 
