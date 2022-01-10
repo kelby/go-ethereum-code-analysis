@@ -24,5 +24,9 @@ downloader 功能比较重，用来保证自己的区块链和其它节点之间
 
 ![](/assets/block-download-example.png)
 
+downloader.New
+
+> 被 h.downloader = downloader.New 调用
+
 
 
