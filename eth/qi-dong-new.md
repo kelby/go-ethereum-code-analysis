@@ -20,21 +20,21 @@ consensus.NewMerger
 
 ```go
 eth := &Ethereum{
-		config:            config,
-		merger:            merger,
-		chainDb:           chainDb,
-		eventMux:          stack.EventMux(),
-		accountManager:    stack.AccountManager(),
-		engine:            ethconfig.CreateConsensusEngine(stack, chainConfig, &ethashConfig, config.Miner.Notify, config.Miner.Noverify, chainDb),
-		closeBloomHandler: make(chan struct{}),
-		networkID:         config.NetworkId,
-		gasPrice:          config.Miner.GasPrice,
-		etherbase:         config.Miner.Etherbase,
-		bloomRequests:     make(chan chan *bloombits.Retrieval),
-		bloomIndexer:      core.NewBloomIndexer(chainDb, params.BloomBitsBlocks, params.BloomConfirms),
-		p2pServer:         stack.Server(),
-		shutdownTracker:   shutdowncheck.NewShutdownTracker(chainDb),
-	}
+        config:            config,
+        merger:            merger,
+        chainDb:           chainDb,
+        eventMux:          stack.EventMux(),
+        accountManager:    stack.AccountManager(),
+        engine:            ethconfig.CreateConsensusEngine(stack, chainConfig, &ethashConfig, config.Miner.Notify, config.Miner.Noverify, chainDb),
+        closeBloomHandler: make(chan struct{}),
+        networkID:         config.NetworkId,
+        gasPrice:          config.Miner.GasPrice,
+        etherbase:         config.Miner.Etherbase,
+        bloomRequests:     make(chan chan *bloombits.Retrieval),
+        bloomIndexer:      core.NewBloomIndexer(chainDb, params.BloomBitsBlocks, params.BloomConfirms),
+        p2pServer:         stack.Server(),
+        shutdownTracker:   shutdowncheck.NewShutdownTracker(chainDb),
+    }
 ```
 
 rawdb.ReadDatabaseVersion
@@ -71,7 +71,34 @@ stack.RegisterLifecycle
 
 eth.shutdownTracker.MarkStartup
 
+停止
 
+```go
+// Stop implements node.Lifecycle, terminating all internal goroutines used by the
+// Ethereum protocol.
+func (s *Ethereum) Stop() error {
+	// Stop all the peer-related stuff first.
+	s.ethDialCandidates.Close()
+	s.snapDialCandidates.Close()
+	s.handler.Stop()
+
+	// Then stop everything else.
+	s.bloomIndexer.Close()
+	close(s.closeBloomHandler)
+	s.txPool.Stop()
+	s.miner.Close()
+	s.blockchain.Stop()
+	s.engine.Close()
+
+	// Clean shutdown marker as the last thing before closing db
+	s.shutdownTracker.Stop()
+
+	s.chainDb.Close()
+	s.eventMux.Stop()
+
+	return nil
+}
+```
 
 
 
