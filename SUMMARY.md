@@ -59,6 +59,9 @@
   * [geth启动流程（补充）](gethqi-dong-liu-cheng.md)
   * [geth --help](cmd/geth-help.md)
   * [创世纪流程](cmd/chuang-shi-ji-liu-cheng.md)
+* [cmd/utils](cmdutils.md)
+  * [cmd.go](cmdutils/cmdgo.md)
+  * [flags.go](cmdutils/flagsgo.md)
 * [consensus \* 共识 - 出块和验证](consensus.md)
   * [clique](consensus/clique.md)
   * [ethash](consensus/ethash.md)
@@ -303,5 +306,5 @@
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
 * [结构体（数据结构）](jie-gou-ti-ff08-shu-ju-jie-gou-ff09.md)
-* [服务 - 定义](fu-wu-ding-yi.md)
+* [cmd/utils](cmdutils.md)
 
