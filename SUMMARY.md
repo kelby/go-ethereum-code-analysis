@@ -311,7 +311,7 @@
 * [log - 工具库](log.md)
 * [trie 树 - 底层库](trie.md)
   * [源码](trie/yuan-ma.md)
+* [type Config struct 汇总](type-config-struct-hui-zong.md)
 * [参考](can-kao.md)
 * [二次开发？](er-ci-kai-fa-ff1f.md)
-* [node and backend](node-and-backend.md)
 
