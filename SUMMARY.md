@@ -121,8 +121,6 @@
 * [les downloader/fetcher 同步、下载](les-tong-bu-3001-xia-zai.md)
 * [light protocol \* - les 模式的一部分](light.md)
 * [core - 区块链核心](core.md)
-  * [GasPool](core/gaspool.md)
-  * [types](core/types-file.md)
   * [Log](core/log.md)
   * [ChainIndexer](core/chainindexer.md)
   * [events](core/events.md)
@@ -198,6 +196,8 @@
   * [schema.go](corerawdb/schemago.md)
 * [core misc](core-misc.md)
   * [bloom9](core/types/bloom9.md)
+  * [GasPool](core/gaspool.md)
+  * [types](core/types-file.md)
   * gen\_access\_tuple
   * gen\_header\_json
   * gen\_receipt\_json
